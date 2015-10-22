@@ -16,7 +16,7 @@ output:
 
 ```{r knitrSetup, include=FALSE}
 library(knitr)
-opts_chunk$set(out.extra='style="display:block; margin: auto"', fig.align="center", tidy=TRUE)
+opts_chunk$set(out.extra='style="display:block; margin: auto"', fig.align="center", tidy=TRUE, eval=FALSE)
 ```
 
 # Overview
@@ -24,7 +24,7 @@ The NCI-60 cancer cell line panel has been used over the course of several decad
 
 # Data Sources 
 
-All data in the rcellminerData package has been retrieved directly from the CellMiner project (http://discover.nci.nih.gov/cellminer) website. Both the data downloaded and the scripts used to generate this data package are contained within the **inst/data-raw** folder of the package. 
+All data in the rcellminerData package has been retrieved directly from the CellMiner project (http://discover.nci.nih.gov/cellminer) website. Both the data downloaded and the scripts used to generate this data package are contained within the **inst/extdata** folder of the package. 
 
 # Basics 
 
@@ -130,7 +130,7 @@ identical(getSampleData(molData), getSampleData(drugData))
 
 # Session Information
 
-```{r sessionInfo}
+```{r sessionInfo, eval=TRUE}
 sessionInfo()
 ```
 
