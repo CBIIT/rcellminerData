@@ -1,1 +1,2 @@
 data
+inst/extdata/cellminer_1_6
