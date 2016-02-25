@@ -1,0 +1,139 @@
+---
+title: "Accessing CellMiner Data"
+output:
+  BiocStyle::html_document:
+    toc: true
+---
+
+<!--
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteIndexEntry{Accessing CellMiner Data}
+%\VignetteKeywords{rcellminerData}
+%\VignetteDepends{rcellminerData}
+%\VignettePackage{rcellminerData}
+-->
+
+
+```{r knitrSetup, include=FALSE}
+library(knitr)
+opts_chunk$set(out.extra='style="display:block; margin: auto"', fig.align="center", tidy=TRUE, eval=FALSE)
+```
+
+# Overview
+The NCI-60 cancer cell line panel has been used over the course of several decades as an anti-cancer drug screen. This panel was developed as part of the Developmental Therapeutics Program (DTP, http://dtp.nci.nih.gov/) of the U.S. National Cancer Institute (NCI). Thousands of compounds have been tested on the NCI-60, which have been extensively characterized by many platforms for gene and protein expression, copy number, mutation, and others (Reinhold, et al., 2012). The purpose of the CellMiner project (http://discover.nci.nih.gov/cellminer) has been to integrate data from multiple platforms used to analyze the NCI-60 and to provide a powerful suite of tools for exploration of NCI-60 data. 
+
+# Data Sources 
+
+All data in the rcellminerData package has been retrieved directly from the CellMiner project (http://discover.nci.nih.gov/cellminer) website. Both the data downloaded and the scripts used to generate this data package are contained within the **inst/extdata** folder of the package. 
+
+# Basics 
+
+## Installation 
+
+```{r install, eval=FALSE}
+source("http://bioconductor.org/biocLite.R")
+biocLite("rcellminer")
+biocLite("rcellminerData")
+```
+
+## Getting Started 
+
+Load **rcellminer** and **rcellminerData** packages: 
+
+```{r loadLibrary, message=FALSE, warning=FALSE}
+library(rcellminer)
+library(rcellminerData)
+```
+
+A list of all accessible vignettes and methods is available with the following command. 
+
+```{r searchHelp, eval=FALSE, tidy=FALSE}
+help.search("rcellminerData")
+```
+
+Specific information about the drug data or the molecular profiling data can also be retrieved   
+
+```{r getDataHelp, eval=FALSE, tidy=FALSE}
+help("drugData")
+help("molData")
+```
+
+# Data Structure
+
+Data **rcellminerData** exists as two S4 class objects: molData and drugData. molData contains results for molecular assays (e.g. genomics, proteomics, etc) that have been performed on the NCI-60 and drugData contains results for drug response assays (Reinhold, et al., 2012).
+
+## Molecular Data
+
+**molData** is an instance of the MolData S4 class composed of 2 slots: eSetList and sampleData. eSetList is a list of eSet objects that can be of different dimensions; **NOTE:** in concept this is similar to eSet objects, but differs in that the eSet assayData slot requires that matrices have equal dimensions. The second slot, sampleData, is a MIAxE class instance, but its accessor, getSampleData(), returns a data.frame containing information for each sample. Below are examples of possible operations that can be performed on the MolData object.
+
+```{r}
+# Get the types of feature data in a MolData object.
+names(getAllFeatureData(molData))
+```
+
+An eSetList list member within a MolData object can be referenced directly using the double square bracket operator, as with a normal list and the operation returns an eSet object. In the case of rcellminerData, an ExpressionSet is returned which is derived from eSet. Any eSet derived class can potentially be added to the eSetList; adding objects to the eSetList will be described in a later section.
+
+```{r}
+class(molData[["exp"]])
+
+geneExpMat <- exprs(molData[["exp"]])
+```
+
+### Accessing sampleData 
+
+Sample information about a MolData object can be accessed using getSampleData(), which returns a data.frame. For the NCI-60, we provide information the tissue of origin for each cell line. 
+
+```{r}
+getSampleData(molData)[1:10, "TissueType"]
+```
+
+### Adding additional data to a MolData object's eSetList
+
+It is possible to add additional datasets into MolData objects, as shown below, where the protein data provided in rcellminerData is copied as "test". This provides users flexibility for wider usage of the MolData class. 
+
+```{r}
+# Add data
+molData[["test"]] <- molData[["pro"]]
+
+names(getAllFeatureData(molData))
+```
+
+## Drug Data 
+
+Drug activity (response) data is provided in the **rcellminerData** package for the NCI-60. **drugData** is an instance of the DrugData S4 class that is composed of 3 slots: act, repeatAct, and sampleData. Both act (summarized data across multiple repeats) and repeatAct (row repeat data) are activity data slots are provided as ExpressionSet objects. In the example below, the drugActMat has fewer rows than drugRepeatActMat since the data across multiple repeats has been summarized, but the same number of columns (samples).
+
+```{r}
+drugActMat <- exprs(getAct(drugData))
+dim(drugActMat)
+
+drugRepeatActMat <- exprs(getRepeatAct(drugData))
+dim(drugRepeatActMat)
+```
+
+### featureData for Drug Activities
+
+**rcellminerData** provides a large amount of information on drugs tested on the NCI-60, including structure information, clinical testing status, etc. This data can be extracted using into a data.frame as shown below:
+
+```{r}
+drugAnnotDf <- as(featureData(getAct(drugData)), "data.frame")
+
+colnames(drugAnnotDf)
+```
+
+### sampleData for DrugData Objects
+
+DrugData objects can contain sample data in the same manner as with MolData objects. In the case of **rcellminerData**, the sample data provided for the the drugData object will be identical to that provided for the molData object. 
+
+```{r}
+identical(getSampleData(molData), getSampleData(drugData))
+```
+
+# Session Information
+
+```{r sessionInfo, eval=TRUE}
+sessionInfo()
+```
+
+# References
+
+* Reinhold, W.C., et al. (2012) CellMiner: a web-based suite of genomic and pharmacologic tools to explore transcript and drug patterns in the NCI-60 cell line set, Cancer research, 72, 3499-3511
