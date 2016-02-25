@@ -9,6 +9,9 @@ bioc_required: true
 # On CRAN all warnings are treated as errors; this is not true on Bioconductor.
 warnings_are_errors: false
 
+r_packages:
+  - rmarkdown
+
 # Need this if also using covr to get code coverage
 r_github_packages:
   - jimhester/covr
