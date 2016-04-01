@@ -178,9 +178,9 @@ stopifnot(identical(colnames(exprs(exoData)), cmNci60Names))
 # http://discovery.nci.nih.gov/cellminerint/loadDownload.do
 # Select: [Protein: Lysate Array, select: log2].
 
-filePath <- "inst/extdata/cellminer_1_6/nci60_Protein__Lysate_Array_log2.txt"
-proTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
-                         check.names = FALSE, comment.char="", quote="", na.strings="na")
+# filePath <- "inst/extdata/cellminer_1_6/nci60_Protein__Lysate_Array_log2.txt"
+# proTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+#                          check.names = FALSE, comment.char="", quote="", na.strings="na")
 
 #--------------------------------------------------------------------------------------------------
 # LOAD DATA: PROTEIN EXPRESSION (SWATH-MS)
