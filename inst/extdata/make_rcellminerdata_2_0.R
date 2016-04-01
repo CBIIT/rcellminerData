@@ -48,11 +48,18 @@ expTabOrig <- validateDataTab(expTabOrig, keyCol = "Gene name",
 expData <- ExpressionSet(as.matrix(expTabOrig[, -featureDataCols]))
 featureData(expData) <- new("AnnotatedDataFrame", data=expTabOrig[, featureDataCols])
 
-###############################################################################
+###################################################################################################
 # Set CellMiner NCI-60 Cell Line Names
 cmNci60Names <- colnames(exprs(expData))
 stopifnot(identical(cmNci60Names, stringr::str_trim(cmNci60Names)))
-###############################################################################
+
+# Make CellMiner 1.6, 2.0 cell line name match tab.
+cmNci60Names_1_6 <- colnames(rcellminer::getAllFeatureData(rcellminerData::molData)[["exp"]])
+CellMinerNci60LineTab <- data.frame(CellMiner_1_6 = cmNci60Names_1_6,
+                                    CellMiner_2_0 = cmNci60Names,
+                                    stringsAsFactors = FALSE)
+save(CellMinerNci60LineTab, file = "inst/extdata/CellMinerNci60LineTab.Rdata")
+###################################################################################################
 
 #----[average log2 intensity data]---------------------------------------------
 # http://discovery.nci.nih.gov/cellminerint/loadDownload.do
@@ -178,12 +185,75 @@ stopifnot(identical(colnames(exprs(exoData)), cmNci60Names))
 # http://discovery.nci.nih.gov/cellminerint/loadDownload.do
 # Select: [Protein: Lysate Array, select: log2].
 
-# filePath <- "inst/extdata/cellminer_1_6/nci60_Protein__Lysate_Array_log2.txt"
-# proTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
-#                          check.names = FALSE, comment.char="", quote="", na.strings="na")
+filePath <- "inst/extdata/cellminer_2_0/"
+proTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                         check.names = FALSE, comment.char="", quote="", na.strings="-")
 
 #--------------------------------------------------------------------------------------------------
 # LOAD DATA: PROTEIN EXPRESSION (SWATH-MS)
 #--------------------------------------------------------------------------------------------------
+
+filePath <- "inst/extdata/cellminer_2_0/"
+swaTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                         check.names = FALSE, comment.char="", quote="", na.strings="-")
+
+#--------------------------------------------------------------------------------------------------
+# LOAD DATA: MICRORNA EXPRESSION.
+#--------------------------------------------------------------------------------------------------
+
+filePath <- "inst/extdata/cellminer_2_0/"
+mirTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                         check.names = FALSE, comment.char="", quote="", na.strings="-")
+
+#--------------------------------------------------------------------------------------------------
+# LOAD DATA: CELL LINE  METADATA.
+#--------------------------------------------------------------------------------------------------
+
+filePath <- "inst/extdata/cellminer_2_0/"
+mdaTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                         check.names = FALSE, comment.char="", quote="", na.strings="-")
+
+#--------------------------------------------------------------------------------------------------
+# LOAD DATA: DRUG ACTIVITY.
+#--------------------------------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------------------------------
+# Make NCI-60 sample info (shared by molData and drugData objects to be constructed).
+#--------------------------------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------------------------------
+# Make NCI-60 MolData object.
+#--------------------------------------------------------------------------------------------------
+
+nci60ESetList <- list()
+
+nci60ESetList[["exp"]] <- expData
+nci60ESetList[["xai"]] <- xaiData
+
+nci60ESetList[["cop"]] <- copData
+nci60ESetList[["met"]] <- metData
+
+nci60ESetList[["mut"]] <- mutData
+nci60ESetList[["exo"]] <- exoData
+
+nci60ESetList[["pro"]] <- proData
+nci60ESetList[["swa"]] <- swaData
+
+nci60ESetList[["mir"]] <- mirData
+nci60ESetList[["mda"]] <- mdaData
+
+molData <- new("MolData", eSetList = nci60ESetList, sampleData = nci60Miame)
+
+save(molData, file = "data/molData.RData")
+
+#--------------------------------------------------------------------------------------------------
+# Make NCI-60 DrugData object.
+#--------------------------------------------------------------------------------------------------
+
+drugData <- new("DrugData", act = actData, repeatAct = repeatActData, sampleData = nci60Miame)
+
+save(drugData, file = "data/drugData.RData")
 
 #--------------------------------------------------------------------------------------------------
