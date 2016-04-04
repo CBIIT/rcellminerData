@@ -8,6 +8,7 @@ library(stringr)
 validateDataTab <- function(dataTab, keyCol = "Gene name", featureDataColNums = 1:9){
   stopifnot(keyCol %in% colnames(dataTab))
 
+  # Remove any whitespace in feature data columns.
   for (j in featureDataColNums){
     dataTab[, j] <- stringr::str_trim(dataTab[, j])
   }
@@ -185,43 +186,148 @@ stopifnot(identical(colnames(exprs(exoData)), cmNci60Names))
 # http://discovery.nci.nih.gov/cellminerint/loadDownload.do
 # Select: [Protein: Lysate Array, select: log2].
 
-filePath <- "inst/extdata/cellminer_2_0/"
+filePath <- "inst/extdata/cellminer_2_0/Protein__Lysate_Array_log2.txt"
 proTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
                          check.names = FALSE, comment.char="", quote="", na.strings="-")
+
+featureDataCols <- 1:9
+proTabOrig <- validateDataTab(proTabOrig, keyCol = "Probe id",
+                              featureDataColNums = featureDataCols)
+
+proData <- ExpressionSet(as.matrix(proTabOrig[, -featureDataCols]))
+featureData(proData) <- new("AnnotatedDataFrame", data=proTabOrig[, featureDataCols])
+
+# Column (NCI-60 cell line) consistency check.
+stopifnot(identical(colnames(exprs(proData)), cmNci60Names))
 
 #--------------------------------------------------------------------------------------------------
 # LOAD DATA: PROTEIN EXPRESSION (SWATH-MS)
 #--------------------------------------------------------------------------------------------------
 
-filePath <- "inst/extdata/cellminer_2_0/"
-swaTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
-                         check.names = FALSE, comment.char="", quote="", na.strings="-")
+# filePath <- "inst/extdata/cellminer_2_0/"
+# swaTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+#                          check.names = FALSE, comment.char="", quote="", na.strings="-")
+
+swaExpMat <- rcellminer::getAllFeatureData(nci60imsb::molData)[["swathms_avg"]]
+stopifnot(identical(colnames(swaExpMat), CellMinerNci60LineTab$CellMiner_1_6))
+colnames(swaExpMat) <- CellMinerNci60LineTab$CellMiner_2_0
+
+swaAnnot <- rcellminer::getFeatureAnnot(nci60imsb::molData)[["swathms_avg"]]
+stopifnot(identical(rownames(swaAnnot), rownames(swaExpMat)))
+
+swaData <- ExpressionSet(swaExpMat)
+featureData(swaData) <- new("AnnotatedDataFrame", data=swaAnnot)
+
+# Column (NCI-60 cell line) consistency check.
+stopifnot(identical(colnames(exprs(swaData)), cmNci60Names))
 
 #--------------------------------------------------------------------------------------------------
 # LOAD DATA: MICRORNA EXPRESSION.
 #--------------------------------------------------------------------------------------------------
+# http://discovery.nci.nih.gov/cellminerint/loadDownload.do
+# Select: [RNA: Agilent Human microRNA (V2)].
 
-filePath <- "inst/extdata/cellminer_2_0/"
+filePath <- "inst/extdata/cellminer_2_0/RNA__Agilent_Human_microRNA_(V2)_GeneSpringGX.txt"
 mirTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
                          check.names = FALSE, comment.char="", quote="", na.strings="-")
+
+featureDataCols <- 1:11
+mirTabOrig <- validateDataTab(mirTabOrig, keyCol = "Probe id",
+                              featureDataColNums = featureDataCols)
+
+mirData <- ExpressionSet(as.matrix(mirTabOrig[, -featureDataCols]))
+featureData(mirData) <- new("AnnotatedDataFrame", data=mirTabOrig[, featureDataCols])
+
+# Column (NCI-60 cell line) consistency check.
+stopifnot(identical(colnames(exprs(mirData)), cmNci60Names))
 
 #--------------------------------------------------------------------------------------------------
 # LOAD DATA: CELL LINE  METADATA.
 #--------------------------------------------------------------------------------------------------
 
-filePath <- "inst/extdata/cellminer_2_0/"
+filePath <- "inst/extdata/cellminer_2_0/CELLMINER_CELL_LINE_METADATA.txt"
 mdaTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
-                         check.names = FALSE, comment.char="", quote="", na.strings="-")
+                         check.names = FALSE, comment.char="", quote="", na.strings=c("", "NA", "?"))
+
+if (identical(mdaTabOrig$`Cell Line Name`, CellMinerNci60LineTab$CellMiner_1_6)){
+  mdaTabOrig$`Cell Line Name` <- CellMinerNci60LineTab$CellMiner_2_0
+}
+rownames(mdaTabOrig) <- mdaTabOrig$`Cell Line Name`
+
+quantFeatures <- c("age", "Epithelial", "p53", "mdr", "doubling time")
+mdaQuantTab <- mdaTabOrig[, quantFeatures]
+colnames(mdaQuantTab) <- c("AGE", "IS_EPITHELIAL", "IS_P53_MUT", "MDR", "DOUBLING_TIME")
+
+mdaQuantTab$AGE <- as.integer(mdaQuantTab$AGE)
+
+mdaQuantTab$IS_EPITHELIAL[str_trim(mdaQuantTab$IS_EPITHELIAL) == "yes"] <- 1
+mdaQuantTab$IS_EPITHELIAL[str_trim(mdaQuantTab$IS_EPITHELIAL) == "no"] <- 0
+mdaQuantTab$IS_EPITHELIAL <- as.integer(mdaQuantTab$IS_EPITHELIAL)
+
+mdaQuantTab$IS_P53_MUT[str_trim(mdaQuantTab$IS_P53_MUT) == "MT"] <- 1
+mdaQuantTab$IS_P53_MUT[str_trim(mdaQuantTab$IS_P53_MUT) == "WT"] <- 0
+mdaQuantTab$IS_P53_MUT <- as.integer(mdaQuantTab$IS_P53_MUT)
+
+mdaQuantTab$MDR <- as.numeric(mdaQuantTab$MDR)
+
+mdaQuantTab$DOUBLING_TIME <- as.numeric(mdaQuantTab$DOUBLING_TIME)
+
+mdaTabSampleInfo <- mdaTabOrig[, setdiff(colnames(mdaTabOrig), quantFeatures)]
+
+stopifnot(all(c(lapply(mdaQuantTab, is.numeric), recursive = TRUE)))
+mdaData <- ExpressionSet(t(mdaQuantTab))
+stopifnot(is.numeric(exprs(mdaData)))
+
+# Column (NCI-60 cell line) consistency check.
+stopifnot(identical(colnames(exprs(mdaData)), cmNci60Names))
 
 #--------------------------------------------------------------------------------------------------
 # LOAD DATA: DRUG ACTIVITY.
 #--------------------------------------------------------------------------------------------------
 
+# activity data -------------------------------------------------------------------------
+
+# repeat activity data ------------------------------------------------------------------
 
 #--------------------------------------------------------------------------------------------------
 # Make NCI-60 sample info (shared by molData and drugData objects to be constructed).
 #--------------------------------------------------------------------------------------------------
+cellLineInfo <- loadNciColorSet(returnDf = TRUE)
+if (identical(cellLineInfo$abbrCellLines, CellMinerNci60LineTab$CellMiner_1_6)){
+  cellLineInfo$abbrCellLines <- CellMinerNci60LineTab$CellMiner_2_0
+}
+stopifnot(identical(cellLineInfo$abbrCellLines, cmNci60Names))
 
+cellLineOncoTreeTab <- read.table(file="inst/extdata/CellLineToOncoTree.txt",
+                                  header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                                  check.names = FALSE, comment.char="", quote="",
+                                  na.strings=c("", "NA"))
+# update "inst/extdata/CellLineToOncoTree.txt" if necessary -----------------------------
+if (identical(cellLineOncoTreeTab[1:60, "Name"], CellMinerNci60LineTab$CellMiner_1_6)){
+  cellLineOncoTreeTab[1:60, "Name"] <- CellMinerNci60LineTab$CellMiner_2_0
+  write.table(cellLineOncoTreeTab, file="inst/extdata/CellLineToOncoTree.txt",
+              quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE, na="NA")
+
+}
+# ---------------------------------------------------------------------------------------
+cellLineOncoTreeTab <- cellLineOncoTreeTab[(cellLineOncoTreeTab$DataSource == "NCI-60"), ]
+stopifnot(identical(cellLineOncoTreeTab$Name, cmNci60Names))
+
+nci60Miame <- new("MIAME", name="CellMiner 2.0", lab="NCI/DTB",
+                  samples=list(Name = cmNci60Names,
+                               TissueType = cellLineInfo$tissues,
+                               OncoTree1 = cellLineOncoTreeTab$OncoTree1,
+                               OncoTree2 = cellLineOncoTreeTab$OncoTree2,
+                               OncoTree3 = cellLineOncoTreeTab$OncoTree3,
+                               OncoTree4 = cellLineOncoTreeTab$OncoTree4,
+                               Gender = mdaTabSampleInfo[, "sex"],
+                               PriorTreatment = mdaTabSampleInfo[, "prior treatment"],
+                               Histology = mdaTabSampleInfo[, "histology"],
+                               Source = mdaTabSampleInfo[, "source"],
+                               Ploidy = mdaTabSampleInfo[, "ploidy"],
+                               Institute = mdaTabSampleInfo[, "Institute"],
+                               Contributor = mdaTabSampleInfo[, "Contributor"],
+                               Reference = mdaTabSampleInfo[, "Reference"]))
 
 #--------------------------------------------------------------------------------------------------
 # Make NCI-60 MolData object.
@@ -234,6 +340,7 @@ nci60ESetList[["xai"]] <- xaiData
 
 nci60ESetList[["cop"]] <- copData
 nci60ESetList[["met"]] <- metData
+nci60ESetList[["mir"]] <- mirData
 
 nci60ESetList[["mut"]] <- mutData
 nci60ESetList[["exo"]] <- exoData
@@ -241,7 +348,6 @@ nci60ESetList[["exo"]] <- exoData
 nci60ESetList[["pro"]] <- proData
 nci60ESetList[["swa"]] <- swaData
 
-nci60ESetList[["mir"]] <- mirData
 nci60ESetList[["mda"]] <- mdaData
 
 molData <- new("MolData", eSetList = nci60ESetList, sampleData = nci60Miame)
