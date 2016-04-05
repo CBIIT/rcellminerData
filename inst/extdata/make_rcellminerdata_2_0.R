@@ -10,7 +10,9 @@ validateDataTab <- function(dataTab, keyCol = "Gene name", featureDataColNums = 
 
   # Remove any whitespace in feature data columns.
   for (j in featureDataColNums){
-    dataTab[, j] <- stringr::str_trim(dataTab[, j])
+    if (is.character(dataTab[, j])){
+      dataTab[, j] <- stringr::str_trim(dataTab[, j])
+    }
   }
 
   # Make sure expected numeric data is numeric (symbols to be read in as NAs are
@@ -286,8 +288,83 @@ stopifnot(identical(colnames(exprs(mdaData)), cmNci60Names))
 #--------------------------------------------------------------------------------------------------
 
 # activity data -------------------------------------------------------------------------
+filePath <- "inst/extdata/cellminer_2_0/DTP_NCI60_ZSCORE.txt"
+actTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                         check.names = FALSE, comment.char="", quote="",
+                         na.strings=c("", "na", "-"))
+actTabOrig <- actTabOrig[, c(1:6, 67, 68, 7:66)]
+
+featureDataCols <- 1:8
+actTabOrig <- validateDataTab(actTabOrig, keyCol = "NSC #",
+                              featureDataColNums = featureDataCols)
+
+drugInfoTab <- actTabOrig[, featureDataCols]
+colnames(drugInfoTab) <- c("NSC", "NAME", "FDA_STATUS", "MOA",
+                           "PUBCHEM_ID", "SMILES", "TOTAL_EXPS", "TOTAL_EXPS_AFTER_QC")
+stopifnot(is.character(drugInfoTab$NSC))
+drugInfoTab$PUBCHEM_ID <- as.integer(drugInfoTab$PUBCHEM_ID)
+drugInfoTab$TOTAL_EXPS <- as.integer(drugInfoTab$TOTAL_EXPS)
+drugInfoTab$TOTAL_EXPS_AFTER_QC <- as.integer(drugInfoTab$TOTAL_EXPS_AFTER_QC)
+
+actData <- ExpressionSet(as.matrix(actTabOrig[, -featureDataCols]))
+stopifnot(identical(rownames(exprs(actData)), rownames(drugInfoTab)))
+featureData(actData) <- new("AnnotatedDataFrame", data=drugInfoTab)
+
+# Column (NCI-60 cell line) consistency check.
+stopifnot(identical(colnames(exprs(actData)), cmNci60Names))
 
 # repeat activity data ------------------------------------------------------------------
+filePath <- "inst/extdata/cellminer_2_0/DTP_NCI60_EXPS_USED_FOR_ZSCORE_ACT.txt"
+usedInZscoreAct <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                              check.names = FALSE, comment.char="", quote="",
+                              na.strings=c("", "na", "-"))
+usedInZscoreAct$NSC_EXP_NAME <- paste0(usedInZscoreAct[, "NSC #"], "_",
+                                       usedInZscoreAct[, "Experiment name"])
+
+filePath <- "inst/extdata/cellminer_2_0/DTP_NCI60_RAW.txt"
+rawActTabOrig <- read.table(file=filePath, header=TRUE, sep="\t", stringsAsFactors=FALSE,
+                            check.names = FALSE, comment.char="", quote="",
+                            na.strings=c("", "na", "-"))
+rawActTabOrig[, "NSC #"] <- as.character(rawActTabOrig[, "NSC #"])
+rawActTabOrig$NSC_EXP_NAME <- paste0(rawActTabOrig[, "NSC #"], "_",
+                                     rawActTabOrig[, "Experiment name"])
+rawActTabOrig$used_in_zscore <- FALSE
+rawActTabOrig <- rawActTabOrig[, c(70, 71, 1:9, 10:69)]
+
+
+featureDataCols <- 1:11
+rawActTabOrig <- validateDataTab(rawActTabOrig, keyCol = "NSC_EXP_NAME",
+                                 featureDataColNums = featureDataCols)
+
+for (i in seq_len(nrow(rawActTabOrig))){
+  nscExpId <- rawActTabOrig[i, "NSC_EXP_NAME"]
+  if (nscExpId %in% usedInZscoreAct$NSC_EXP_NAME){
+    rawActTabOrig[i, "used_in_zscore"] <- TRUE
+  }
+  cat(i, "\n")
+}
+
+nscSet <- unique(rawActTabOrig[, "NSC #"])
+i <- 0
+for (nscStr in nscSet){
+  i <- i + 1
+  nscRawActData <- rawActTabOrig[(rawActTabOrig[, "NSC #"] == nscStr), ]
+  expectedNumUsedInZscore <- unique(nscRawActData[, "Total after quality control"])
+  stopifnot(sum(nscRawActData$used_in_zscore) == expectedNumUsedInZscore)
+  cat(i, "\n")
+}
+
+drugRepeatInfoTab <- rawActTabOrig[, c("NSC_EXP_NAME", "NSC #", "Experiment name",
+                                       "used_in_zscore")]
+colnames(drugRepeatInfoTab) <- c("NSC_EXP_NAME", "nsc", "experiment", "used_in_zscore")
+stopifnot(is.character(drugRepeatInfoTab$nsc))
+
+repeatActData <- ExpressionSet(as.matrix(rawActTabOrig[, -featureDataCols]))
+stopifnot(identical(rownames(exprs(repeatActData)), rownames(drugRepeatInfoTab)))
+featureData(repeatActData) <- new("AnnotatedDataFrame", data=drugRepeatInfoTab)
+
+# Column (NCI-60 cell line) consistency check.
+stopifnot(identical(colnames(exprs(repeatActData)), cmNci60Names))
 
 #--------------------------------------------------------------------------------------------------
 # Make NCI-60 sample info (shared by molData and drugData objects to be constructed).
