@@ -301,7 +301,7 @@ actTabOrig <- validateDataTab(actTabOrig, keyCol = "NSC #",
 drugInfoTab <- actTabOrig[, featureDataCols]
 colnames(drugInfoTab) <- c("NSC", "NAME", "FDA_STATUS", "MOA",
                            "PUBCHEM_ID", "SMILES", "TOTAL_EXPS", "TOTAL_EXPS_AFTER_QC")
-stopifnot(is.character(drugInfoTab$NSC))
+drugInfoTab$NSC <- as.character(drugInfoTab$NSC)
 drugInfoTab$PUBCHEM_ID <- as.integer(drugInfoTab$PUBCHEM_ID)
 drugInfoTab$TOTAL_EXPS <- as.integer(drugInfoTab$TOTAL_EXPS)
 drugInfoTab$TOTAL_EXPS_AFTER_QC <- as.integer(drugInfoTab$TOTAL_EXPS_AFTER_QC)
@@ -389,6 +389,8 @@ if (identical(cellLineOncoTreeTab[1:60, "Name"], CellMinerNci60LineTab$CellMiner
 # ---------------------------------------------------------------------------------------
 cellLineOncoTreeTab <- cellLineOncoTreeTab[(cellLineOncoTreeTab$DataSource == "NCI-60"), ]
 stopifnot(identical(cellLineOncoTreeTab$Name, cmNci60Names))
+
+stopifnot(identical(mdaTabSampleInfo$`Cell Line Name`, cmNci60Names))
 
 nci60Miame <- new("MIAME", name="CellMiner 2.0", lab="NCI/DTB",
                   samples=list(Name = cmNci60Names,
