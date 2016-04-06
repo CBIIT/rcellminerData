@@ -57,11 +57,13 @@ cmNci60Names <- colnames(exprs(expData))
 stopifnot(identical(cmNci60Names, stringr::str_trim(cmNci60Names)))
 
 # Make CellMiner 1.6, 2.0 cell line name match tab.
-cmNci60Names_1_6 <- colnames(rcellminer::getAllFeatureData(rcellminerData::molData)[["exp"]])
-CellMinerNci60LineTab <- data.frame(CellMiner_1_6 = cmNci60Names_1_6,
-                                    CellMiner_2_0 = cmNci60Names,
-                                    stringsAsFactors = FALSE)
-save(CellMinerNci60LineTab, file = "inst/extdata/CellMinerNci60LineTab.Rdata")
+# cmNci60Names_1_6 <- colnames(rcellminer::getAllFeatureData(rcellminerData::molData)[["exp"]])
+# CellMinerNci60LineTab <- data.frame(CellMiner_1_6 = cmNci60Names_1_6,
+#                                     CellMiner_2_0 = cmNci60Names,
+#                                     stringsAsFactors = FALSE)
+# save(CellMinerNci60LineTab, file = "inst/extdata/CellMinerNci60LineTab.Rdata")
+load("inst/extdata/CellMinerNci60LineTab.Rdata")
+stopifnot(identical(cmNci60Names, CellMinerNci60LineTab$CellMiner_2_0))
 ###################################################################################################
 
 #----[average log2 intensity data]---------------------------------------------
@@ -279,6 +281,16 @@ mdaTabSampleInfo <- mdaTabOrig[, setdiff(colnames(mdaTabOrig), quantFeatures)]
 stopifnot(all(c(lapply(mdaQuantTab, is.numeric), recursive = TRUE)))
 mdaData <- ExpressionSet(t(mdaQuantTab))
 stopifnot(is.numeric(exprs(mdaData)))
+
+mdaAnnot <- data.frame(Name = rownames(exprs(mdaData)), Footnote = NA, stringsAsFactors = FALSE)
+rownames(mdaAnnot) <- mdaAnnot$Name
+mdaAnnot["AGE", "Footnote"] <- "Information from Stinson, et al., (Anticancer Res. 1992 Jul-Aug;12(4):1035-53), DTP, ATCC, and other sources."
+mdaAnnot["IS_EPITHELIAL", "Footnote"] <- ""
+mdaAnnot["IS_P53_MUT", "Footnote"] <- "p53 status as determined by yeast growth functional assay: PM O'Conner, et al. (Cancer Res. 1997 Oct 1;57(19):4285-300)."
+mdaAnnot["MDR", "Footnote"] <- "MDR Function: from DTP site (Lee JS etal., Mol Pharmacol. 1994 Oct;46(4):627-38)."
+mdaAnnot["DOUBLING_TIME", "Footnote"] <- "Doubling times described at NCI/DTP site."
+
+featureData(mdaData) <- new("AnnotatedDataFrame", data=mdaAnnot)
 
 # Column (NCI-60 cell line) consistency check.
 stopifnot(identical(colnames(exprs(mdaData)), cmNci60Names))
