@@ -24,7 +24,7 @@ Suggests:
     knitr,
     testthat,
     BiocStyle,
-    rcellminer (>= 2.0)
+    rcellminer (>= 2.0.0)
 LazyData: true
 VignetteBuilder: knitr
 biocViews: CancerData, CopyNumberVariationData, ExpressionData, SNPData, NCI,
