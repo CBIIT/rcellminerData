@@ -454,3 +454,59 @@ drugData <- new("DrugData", act = actData, repeatAct = repeatActData, sampleData
 save(drugData, file = "data/drugData.RData")
 
 #--------------------------------------------------------------------------------------------------
+# UPDATE DRUG DATA TO EXCLUDE ERRONEOUSLY ADDED COMPOUNDS
+#--------------------------------------------------------------------------------------------------
+library(rcellminer)
+library(stringr)
+excludedNscSet <- as.character(read.table("~/TMP/excludedNscSet.txt", header = FALSE)[, 1])
+excludedNscSet <- stringr::str_trim(excludedNscSet)
+
+# load original data ----------------------------------------------------------
+nci60Miame <- rcellminerData::drugData@sampleData
+
+actDataOrigMat   <- exprs(getAct(rcellminerData::drugData))
+actDataOrigAnnot <- rcellminer::getFeatureAnnot(rcellminerData::drugData)[["drug"]]
+stopifnot(identical(rownames(actDataOrigMat), rownames(actDataOrigAnnot)))
+
+repActDataOrigMat   <- exprs(getRepeatAct(rcellminerData::drugData))
+repActDataOrigAnnot <- rcellminer::getFeatureAnnot(rcellminerData::drugData)[["drugRepeat"]]
+stopifnot(identical(rownames(repActDataOrigMat), rownames(repActDataOrigAnnot)))
+# -----------------------------------------------------------------------------
+
+# determine proper compound set -----------------------------------------------
+# length(excludedNscSet)
+# dim(actDataOrigMat)
+# length(intersect(excludedNscSet, rownames(actDataOrigMat)))
+properNscSet <- setdiff(rownames(actDataOrigMat), excludedNscSet)
+# -----------------------------------------------------------------------------
+
+# make actData ----------------------------------------------------------------
+actDataMat   <- actDataOrigMat[properNscSet, ]
+actDataAnnot <- actDataOrigAnnot[properNscSet, ]
+
+stopifnot(identical(rownames(actDataMat), rownames(actDataAnnot)))
+
+####################################
+actData <- ExpressionSet(actDataMat)
+featureData(actData) <- new("AnnotatedDataFrame", data=actDataAnnot)
+# -----------------------------------------------------------------------------
+
+# make repeatActData ----------------------------------------------------------
+stopifnot(is.character(repActDataOrigAnnot$nsc))
+properNscIndexSet <- which(repActDataOrigAnnot$nsc %in% properNscSet)
+
+repActDataMat   <- repActDataOrigMat[properNscIndexSet, ]
+repActDataAnnot <- repActDataOrigAnnot[properNscIndexSet, ]
+
+stopifnot(identical(rownames(repActDataMat), rownames(repActDataAnnot)))
+stopifnot(all(repActDataAnnot$nsc %in% rownames(exprs(actData))))
+
+#############################################
+repeatActData <- ExpressionSet(repActDataMat)
+featureData(repeatActData) <- new("AnnotatedDataFrame", data=repActDataAnnot)
+#------------------------------------------------------------------------------
+
+drugData <- new("DrugData", act = actData, repeatAct = repeatActData, sampleData = nci60Miame)
+
+save(drugData, file = "data/drugData.RData")
+#--------------------------------------------------------------------------------------------------
