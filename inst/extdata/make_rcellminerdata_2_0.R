@@ -510,3 +510,80 @@ drugData <- new("DrugData", act = actData, repeatAct = repeatActData, sampleData
 
 save(drugData, file = "data/drugData.RData")
 #--------------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------------
+# UPDATE DRUG DATA TO EXCLUDE ERRONEOUSLY ADDED COMPOUNDS (2)
+#--------------------------------------------------------------------------------------------------
+library(rcellminer)
+library(stringr)
+
+# load and check updated NSC set ----------------------------------------------
+properNscSet<- as.character(read.table(
+  "inst/extdata/cellminer_2_0/DTP_NCI60_CORRECTED_NSC_SET.txt", header = TRUE)[, 1])
+properNscSet <- stringr::str_trim(properNscSet)
+stopifnot(all(!duplicated(properNscSet)))
+
+excludedNscSet <- as.character(read.table("~/TMP/excludedNscSet.txt", header = FALSE)[, 1])
+excludedNscSet <- stringr::str_trim(excludedNscSet)
+stopifnot(length(intersect(properNscSet, excludedNscSet)) == 0)
+
+# load original data ----------------------------------------------------------
+nci60Miame <- rcellminerData::drugData@sampleData
+
+actDataOrigMat   <- exprs(getAct(rcellminerData::drugData))
+actDataOrigAnnot <- rcellminer::getFeatureAnnot(rcellminerData::drugData)[["drug"]]
+stopifnot(identical(rownames(actDataOrigMat), rownames(actDataOrigAnnot)))
+stopifnot(all(properNscSet %in% rownames(actDataOrigMat)))
+
+repActDataOrigMat   <- exprs(getRepeatAct(rcellminerData::drugData))
+repActDataOrigAnnot <- rcellminer::getFeatureAnnot(rcellminerData::drugData)[["drugRepeat"]]
+stopifnot(identical(rownames(repActDataOrigMat), rownames(repActDataOrigAnnot)))
+# -----------------------------------------------------------------------------
+
+# make actData ----------------------------------------------------------------
+actDataMat   <- actDataOrigMat[properNscSet, ]
+actDataAnnot <- actDataOrigAnnot[properNscSet, ]
+
+stopifnot(identical(rownames(actDataMat), rownames(actDataAnnot)))
+
+####################################
+actData <- ExpressionSet(actDataMat)
+featureData(actData) <- new("AnnotatedDataFrame", data=actDataAnnot)
+# -----------------------------------------------------------------------------
+
+# make repeatActData ----------------------------------------------------------
+stopifnot(is.character(repActDataOrigAnnot$nsc))
+properNscIndexSet <- which(repActDataOrigAnnot$nsc %in% properNscSet)
+
+repActDataMat   <- repActDataOrigMat[properNscIndexSet, ]
+repActDataAnnot <- repActDataOrigAnnot[properNscIndexSet, ]
+
+stopifnot(identical(rownames(repActDataMat), rownames(repActDataAnnot)))
+stopifnot(all(repActDataAnnot$nsc %in% rownames(exprs(actData))))
+
+#############################################
+repeatActData <- ExpressionSet(repActDataMat)
+featureData(repeatActData) <- new("AnnotatedDataFrame", data=repActDataAnnot)
+#------------------------------------------------------------------------------
+
+drugData <- new("DrugData", act = actData, repeatAct = repeatActData, sampleData = nci60Miame)
+
+save(drugData, file = "data/drugData.RData")
+#--------------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------------
+# library(rcellminer)
+# library(stringr)
+#
+# cm20PubNscSet <- as.character(read.table(
+#   "inst/extdata/cellminer_2_0/DTP_NCI60_CORRECTED_NSC_SET.txt", header = FALSE)[, 1])
+# cm20PubNscSet <- stringr::str_trim(cm20PubNscSet)
+#
+# excludedNscSet <- as.character(read.table("~/TMP/excludedNscSet.txt", header = FALSE)[, 1])
+# excludedNscSet <- stringr::str_trim(excludedNscSet)
+#
+# tmp <- intersect(cm20PubNscSet, excludedNscSet)
+#
+# write.table(tmp, file="~/TMP/nonpub_nsc_in_cm20.txt", quote=FALSE, sep="\t",
+#             row.names=FALSE, col.names=TRUE, na="NA")
+
