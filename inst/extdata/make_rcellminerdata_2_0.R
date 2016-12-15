@@ -587,3 +587,27 @@ save(drugData, file = "data/drugData.RData")
 # write.table(tmp, file="~/TMP/nonpub_nsc_in_cm20.txt", quote=FALSE, sep="\t",
 #             row.names=FALSE, col.names=TRUE, na="NA")
 
+#--------------------------------------------------------------------------------------------------
+# UPDATE LOG2 EXPRESSION DATA (EXCLUDE CNS:SF-539 CELL LINE)
+#--------------------------------------------------------------------------------------------------
+# log2 expression data values for this cell line are not consistent with the z-score
+# (5-platform-summary) expression data; setting values to NA to avoid misinterpretation.
+
+library(rcellminer)
+
+xaiAnnot <- rcellminer::getFeatureAnnot(rcellminerData::molData)[["xai"]]
+xaiDat   <- rcellminer::getAllFeatureData(rcellminerData::molData)[["xai"]]
+
+xaiDat[, "CNS:SF-539"] <- NA
+
+xaiESet <- ExpressionSet(xaiDat)
+featureData(xaiESet) <- new("AnnotatedDataFrame", data=xaiAnnot)
+
+rcmESets <- rcellminerData::molData@eSetList
+rcmESets[["xai"]] <- xaiESet
+
+molData <- new("MolData", eSetList = rcmESets, sampleData = rcellminerData::molData@sampleData)
+
+save(molData, file = "data/molData.RData")
+
+#--------------------------------------------------------------------------------------------------
