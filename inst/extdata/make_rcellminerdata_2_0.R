@@ -611,3 +611,31 @@ molData <- new("MolData", eSetList = rcmESets, sampleData = rcellminerData::molD
 save(molData, file = "data/molData.RData")
 
 #--------------------------------------------------------------------------------------------------
+# UPDATING ONCOTREE TISSUE TYPE ANNOTATIONS (FROM MATCHED CELL LINE ANNOTATIONS IN OTHER SOURCES)
+#--------------------------------------------------------------------------------------------------
+updatedLineAnnot <- readRDS("~/lmpNci/rcellminerUtils/inst/crossDbAnnotChecking/updatedLineAnnot.rds")
+nci60AnnotUpdate <- updatedLineAnnot[["nci60"]]
+nci60Annot <- rcellminer::getSampleData(rcellminerData::molData)
+stopifnot(identical(colnames(nci60AnnotUpdate), colnames(nci60Annot)))
+stopifnot(identical(nci60AnnotUpdate$Name, nci60Annot$Name))
+
+nci60Miame <- new("MIAME", name="CellMiner 2.0", lab="NCI/DTB",
+                  samples=list(Name = nci60Annot$Name,
+                               TissueType = nci60Annot$TissueType,
+                               OncoTree1 = nci60AnnotUpdate$OncoTree1,
+                               OncoTree2 = nci60AnnotUpdate$OncoTree2,
+                               OncoTree3 = nci60AnnotUpdate$OncoTree3,
+                               OncoTree4 = nci60AnnotUpdate$OncoTree4,
+                               Gender = nci60Annot$Gender,
+                               PriorTreatment = nci60Annot$PriorTreatment,
+                               Histology = nci60Annot$Histology,
+                               Source = nci60Annot$Source,
+                               Ploidy = nci60Annot$Ploidy,
+                               Institute = nci60Annot$Institute,
+                               Contributor = nci60Annot$Contributor,
+                               Reference = nci60Annot$Reference))
+
+molData <- new("MolData", eSetList = rcellminerData::molData@eSetList, sampleData = nci60Miame)
+
+save(molData, file = "data/molData.RData")
+#--------------------------------------------------------------------------------------------------
