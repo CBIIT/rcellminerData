@@ -663,4 +663,31 @@ drugData <- new("DrugData", act = correctedActEset,
                 sampleData = rcmDrugData@sampleData)   # keep existing object
 
 save(drugData, file = "data/drugData.RData")
+
+#--------------------------------------------------------------------------------------------------
+# UPDATE SAMPLE DATA FOR DRUG DATA OBJECT
+#--------------------------------------------------------------------------------------------------
+library(rcellminer)
+# OncoTree annotations were updated for the MolData object sample data (see above),
+# but (mistakenly) not for the drug data object sample data.
+
+rcmMolData  <- rcellminerData::molData  # rcellminer MolData object
+rcmDrugData <- rcellminerData::drugData # rcellminer DrugData object
+
+stopifnot(identical(rcellminer::getSampleData(rcmMolData)[["Name"]],
+                    rcellminer::getSampleData(rcmDrugData)[["Name"]]))
+
+stopifnot(identical(rcellminer::getSampleData(rcmMolData)[["OncoTree1"]],
+                    rcellminer::getSampleData(rcmDrugData)[["OncoTree1"]]))
+
+# This check fails, because more detailed tissue type annotations were added to the
+# molData object sample data,  but not the drug data object's sample data.
+# stopifnot(identical(rcellminer::getSampleData(rcmMolData)[["OncoTree2"]],
+#                     rcellminer::getSampleData(rcmDrugData)[["OncoTree2"]]))
+
+drugData <- new("DrugData", act = rcmDrugData@act,     # keep existing object
+                repeatAct = rcmDrugData@repeatAct,     # keep existing object
+                sampleData = rcmMolData@sampleData)    # take correct molData object version
+
+save(drugData, file = "data/drugData.RData")
 #--------------------------------------------------------------------------------------------------
