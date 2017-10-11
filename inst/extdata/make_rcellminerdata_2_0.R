@@ -638,4 +638,29 @@ nci60Miame <- new("MIAME", name="CellMiner 2.0", lab="NCI/DTB",
 molData <- new("MolData", eSetList = rcellminerData::molData@eSetList, sampleData = nci60Miame)
 
 save(molData, file = "data/molData.RData")
+
+#--------------------------------------------------------------------------------------------------
+# CORRECTING MIS-SPECIFIED DRUG NAMES
+#--------------------------------------------------------------------------------------------------
+library(rcellminer)
+
+rcmDrugData <- rcellminerData::drugData # rcellminer DrugData object
+
+# Get activity data matrix and matched drug annotation data frame.
+drugAct <- exprs(rcellminer::getAct(rcmDrugData))
+drugAnnot <- rcellminer::getFeatureAnnot(rcmDrugData)[["drug"]]
+stopifnot(identical(rownames(drugAct), rownames(drugAnnot)))
+
+# ----[corrections]--------------------------------------------
+drugAnnot["614826", "NAME"] <- "Bisacodyl"
+# -------------------------------------------------------------
+
+correctedActEset <- ExpressionSet(drugAct) # keep existing object
+featureData(correctedActEset) <- new("AnnotatedDataFrame", data=drugAnnot)
+
+drugData <- new("DrugData", act = correctedActEset,
+                repeatAct = rcmDrugData@repeatAct,     # keep existing object
+                sampleData = rcmDrugData@sampleData)   # keep existing object
+
+save(drugData, file = "data/drugData.RData")
 #--------------------------------------------------------------------------------------------------
