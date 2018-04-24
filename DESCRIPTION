@@ -29,4 +29,4 @@ LazyData: true
 VignetteBuilder: knitr
 biocViews: CancerData, CopyNumberVariationData, ExpressionData, SNPData, NCI,
     MicroarrayData, miRNAData
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
