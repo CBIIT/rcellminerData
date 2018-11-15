@@ -1,0 +1,3 @@
+nsc	name	fda_status	moa	pubchem_id	smiles	total_probes	total_good_probes
+765396	BMN-673	Clinical trial	PARP1	NA	Cn1ncnc1C2C(Nc3cc(F)cc4C(=O)NN=C2c34)c5ccc(F)cc5	2	2
+767125	BMN-673	Clinical trial	PARP1	NA	Cn1ncnc1[C@@H]2[C@H](Nc3cc(F)cc4C(=O)NN=C2c34)c5ccc(F)cc5	3	3
