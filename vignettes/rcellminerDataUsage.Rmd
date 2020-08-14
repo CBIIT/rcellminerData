@@ -24,7 +24,7 @@ The NCI-60 cancer cell line panel has been used over the course of several decad
 
 # Data Sources 
 
-All data in the rcellminerData package has been retrieved directly from the CellMiner project (http://discover.nci.nih.gov/cellminer) website. Both the data downloaded and the scripts used to generate this data package are contained within the **inst/extdata** folder of the package. 
+All data in the rcellminerData package has been retrieved directly from the CellMiner project (http://discover.nci.nih.gov/cellminer) website. CellMiner uses the public drugs from the Developmental Therapeutics Program (DTP, https://dtp.nci.nih.gov), who generates the data. For those who wish to access activity data that has failed our quality control, it is available at the  CellMiner Download Data Sets page (https://discover.nci.nih.gov/cellminer/loadDownload.do) by  downloading the **Raw Data Set: Compound activity:DTP NCI-60**. Activities quality control fails if there is minimal range across cell lines, or the experiments are irreproducible. Both the data downloaded and the scripts used to generate this data package are contained within the **inst/extdata** folder of the package. 
 
 # Basics 
 

@@ -1,0 +1,1076 @@
+"nsc","prefix","pubchem_id","total_probes","total_good_probes","name","testing_status","smiles","confidential_flag","mechanism"
+17647,"S",-1,1,1,"",NA,"CC(CCC1=C(C)CCCC1(C)C)NCc2ccc(OCCCN3CCCCC3)cc2",0,NA
+17652,"S",-1,1,1,"N-methyl-N-(4-(3-(pyrrolidin-1-yl)propoxy)benzyl)-4-(2,6...",NA,"CC(CCC1=C(C)CCCC1(C)C)N(C)Cc2ccc(OCCCN3CCCC3)cc2",0,NA
+19502,"S",-1,1,1,"",NA,"CC(=O)OCc1oc([Hg]Cl)cc1",0,NA
+19646,"S",-1,2,2,"WLN: T66 BNJ BO C1 ENW",NA,"Cc1cc(c2ccccc2[n+]1[O-])[N+](=O)[O-]",0,NA
+20535,"S",-1,1,1,"",NA,"CCN(CC)CCCNc1ccc(C)c2Sc3ccccc3C(=O)c12",0,NA
+21531,"S",-1,1,1,"",NA,"COc1ccc(cc1)C2(Cl)c3ccccc3N(c4ccccc4)c5ccccc25",0,NA
+22227,"S",-1,2,2,"",NA,"ClC1=C(Cl)C2(Cl)C3C(C(=O)N([Hg]c4cccs4)C3=O)C1(Cl)C2(Cl)Cl",0,NA
+22600,"S",-1,1,1,"",NA,"COc1cc(\C=C/[N+](=O)[O-])ccc1OCc2ccccc2",0,NA
+23676,"S",-1,1,1,"",NA,"CC(C)N(Cc1ccc(CN(C(C)C)C(=O)CCl)cc1)C(=O)CCl",0,NA
+24799,"S",-1,1,1,"",NA,"ClC(C(Cl)c1ccccc1)C(=O)c2ccccc2",0,NA
+25434,"S",-1,2,2,"",NA,"COc1ccc2N(C(C=Cc2c1)C#N)C(=O)c3ccccc3",0,NA
+25463,"S",-1,1,1,"Rubremetinium chloride",NA,"CCC1C[N+]2=C(c3cc(OC)c(OC)cc3CC2)c4c1cc5c6cc(OC)c(OC)cc6CCn45",0,NA
+27102,"S",-1,1,1,"Usaf bv-11",NA,"Oc1c(cccc1[N+](=O)[O-])C(=O)Nc2ccc(I)cc2",0,NA
+27103,"S",-1,1,1,"",NA,"Oc1ccc(cc1C(=O)Nc2ccc(I)cc2)[N+](=O)[O-]",0,NA
+28430,"S",-1,2,2,"",NA,"Brc1ccc(cc1)N=NC(C#N)C#N",0,NA
+28566,"S",-1,1,1,"",NA,"COc1ccc2nc3cc(Cl)ccc3c(NCCCNCCC(C)O)c2c1",0,NA
+28567,"S",-1,1,1,"",NA,"COc1cc2nc3cc(ccc3c(NCCNCC(C)O)c2cc1OC)[N+](=O)[O-]",0,NA
+28568,"S",-1,1,1,"",NA,"COc1cc2nc3cc(ccc3c(NCCNCC(C)(C)O)c2cc1OC)[N+](=O)[O-]",0,NA
+28569,"S",-1,1,1,"",NA,"COc1cc2nc3cc(ccc3c(NCCCNCCO)c2cc1OC)[N+](=O)[O-]",0,NA
+30083,"S",-1,2,2,"",NA,"CCCCCCCCCCN=C(c1ccc(cc1)N(C)C)c2ccc(cc2)N(C)C",0,NA
+30417,"S",-1,1,1,"",NA,"C(CCOc1ccccc1C2CCCCC2)CCN3CCNCC3",0,NA
+30659,"S",-1,1,1,"",NA,"CCCCCCCCCCCCc1ccc(cc1)C(=O)\C=C\C(=O)O",0,NA
+31692,"S",-1,2,2,"",NA,"CC(=O)\C(=C/c1ccc(Cl)cc1)\c2ccccc2",0,NA
+31711,"S",-1,1,1,"2-Allyl-4-(6-chloro-2-methoxyacridin-9-ylamino)-6-((diet...",NA,"CCN(CC)Cc1cc(Nc2c3ccc(Cl)cc3nc4ccc(OC)cc24)cc(CC=C)c1O",0,NA
+31778,"S",-1,2,2,"",NA,"[Cl-].[Cl-].CCN(CC)c1ccc(\C=C\C2=[N+](C)c3ccccc3C2(C)C)c(C)c1",0,NA
+31779,"S",-1,2,2,"",NA,"CN1\C(=C/C(I)C(I)C2=[N+](C)c3ccccc3C2(C)C)\C(C)(C)c4ccccc14",0,NA
+32149,"S",-1,1,1,"",NA,"C(c1c2ccccc2cc3c1ccc4ccccc34)[n+]5ccccc5",0,NA
+32927,"S",-1,1,1,"n-Hexadecyltrimethylammonium bromide",NA,"CCCCCCCCCCCCCCCC[N+](C)(C)C",0,NA
+33413,"S",-1,1,1,"",NA,"CCCCC(CC)COC(=O)C[N+](C)(C)CCOC(c1ccccc1)c2ccccc2",0,NA
+33423,"S",-1,1,1,";ANTINEOPLASTIC-33423",NA,"COc1ccc(cc1NCS(=O)(=O)O)\[As]=[As]\c2ccc(OC)c(NCS(=O)(=O)O)c2",0,NA
+33467,"S",-1,2,2,"",NA,"CCN(CC)c1ccc(\C=C\c2ccc3cc(C)ccc3[n+]2CC)cc1",0,NA
+33553,"S",-1,1,1,"",NA,"CN(C)CC(C(=O)c1ccccc1)c2ccc(C)cc2",0,NA
+33690,"S",-1,2,2,"Benzo[a]heptalen-9(5H)-one, 7-acetamido-10-(diethylamino...",NA,"CCN(CC)C1=CC=C2C(=CC1=O)[C@H](CCc3cc(OC)c(OC)c(OC)c23)NC(=O)C",0,NA
+33759,"S",-1,1,1,"",NA,"Oc1ccc(Br)cc1\C=N\NC(=O)c2ccncc2",0,NA
+35027,"S",-1,1,1,"n-Laurylpyridinium chloride",NA,"CCCCCCCCCCCC[n+]1ccccc1",0,NA
+35563,"S",-1,1,1,"2,5-Bis(chloromercuri)furan",NA,"Cl[Hg]c1oc([Hg]Cl)cc1",0,NA
+35855,"S",-1,1,1,"",NA,"ClC1=C(Nc2ccc3C(=O)c4ccccc4C(=O)c3c2NC5=C(Cl)C(=O)c6ccccc6C5=O)C(=O)c7ccccc7C1=O",0,NA
+36359,"S",-1,1,1,"",NA,"Clc1ccc2c(ccc[n+]2CC(=O)c3ccc4CCCCc4c3)c1",0,NA
+36408,"S",-1,1,1,"Podophyllotoxin acetate",NA,"COc1cc(cc(OC)c1OC)[C@H]2[C@@H]3[C@H](COC3=O)[C@@H](OC(=O)C)c4cc5OCOc5cc24",0,NA
+36755,"S",-1,1,1,".alpha.,.alpha.',.alpha.''-Tripyridyl",NA,"c1ccc(nc1)c2cccc(n2)c3ccccn3",0,NA
+37248,"S",-1,1,1,"",NA,"CC(C)CCN(CCC(C)C)CC(=O)Nc1ccc(cc1)S(=O)(=O)c2ccc(NC(=O)CN(CCC(C)C)CCC(C)C)cc2",0,NA
+37249,"S",-1,2,2,"",NA,"O=C(CN(C1CCCCC1)C2CCCCC2)Nc3ccc(cc3)S(=O)(=O)c4ccc(NC(=O)CN(C5CCCCC5)C6CCCCC6)cc4",0,NA
+37261,"S",-1,2,2,"",NA,"ClCC(=O)Nc1ccc(Cc2ccc(NC(=O)CCl)cc2)cc1",0,NA
+37600,"S",-1,1,1,"",NA,"[O-][N+](=O)c1c(ccc2C(=O)c3ccccc3C(=O)c12)C(Br)Br",0,NA
+37876,"S",-1,1,1,"",NA,"CN(C)CCCOc1ccc(OCCCN(C)C)c2C(=O)c3ccccc3C(=O)c12",0,NA
+37888,"S",-1,2,1,"",NA,"CN(C)CCCOc1ccc(NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3ccc(OCCCN(C)C)cc3)cc1",0,NA
+37889,"S",-1,2,2,"",NA,"CN(C)CCCOc1ccccc1NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3ccccc3OCCCN(C)C",0,NA
+37895,"S",-1,2,2,"",NA,"CN(C)CCOc1ccccc1NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3ccccc3OCCN(C)C",0,NA
+37898,"S",-1,2,2,"",NA,"CN(C)CCOc1cccc(NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3cccc(OCCN(C)C)c3)c1",0,NA
+37900,"S",-1,1,1,"",NA,"CN(C)CCCSc1ccccc1NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3ccccc3SCCCN(C)C",0,NA
+37901,"S",-1,2,2,"",NA,"CN(C)CCCOc1cccc(NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3cccc(OCCCN(C)C)c3)c1",0,NA
+39356,"S",-1,1,1,"",NA,"ClC1=C(NCCCN(CCCNC2=C(Cl)C(=O)c3ccccc3C2=O)C4=C(Cl)C(=O)c5ccccc5C4=O)C(=O)c6ccccc6C1=O",0,NA
+39575,"S",-1,1,1,"",NA,"CCCCOC(=O)c1ccc(NC(=O)CCl)cc1",0,NA
+41140,"S",-1,1,1,"",NA,"CCN(CC)CCNc1ccc(c2Sc3cc(Cl)ccc3C(=O)c12)[N+](=O)[O-]",0,NA
+41880,"S",-1,2,1,"Bi-2,4-cyclopentadien-1-yl, decachloro-",NA,"ClC1=C(Cl)C(Cl)(C(=C1Cl)Cl)C2(Cl)C(=C(Cl)C(=C2Cl)Cl)Cl",0,NA
+43223,"S",-1,1,1,"",NA,"Cl[Hg]c1cc(Br)cc(Br)c1",0,NA
+45565,"S",-1,1,1,"p-Hydroxy-p-bis azobenzene",NA,"Oc1ccc(cc1)N=Nc2ccc(cc2)N=Nc3ccccc3",0,NA
+45831,"S",-1,1,1,"N-benzyl-N,N-dimethyl-2-(2-(4-(2,2,4,4-tetramethylpentyl...",NA,"CC(C)(C)CC(C)(C)Cc1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1",0,NA
+48269,"S",-1,1,1,"",NA,"COc1cccc2C(=O)c3ccccc3c12",0,NA
+48888,"S",-1,2,2,"",NA,"Sc1cccc2cccnc12",0,NA
+76885,"S",-1,1,1,"",NA,"NC1=CC(=O)c2cccnc2C1=O",0,NA
+148596,"S",-1,1,1,"1,4-Naphthalenedione, 2-[(2-hydroxyethyl)thio]-",NA,"OCCSC1=CC(=O)c2ccccc2C1=O",0,NA
+291094,"S",-1,1,1,"Streptonigrin analog (EtNH)",NA,"CCNC1=CC(=O)c2ncccc2C1=O",0,NA
+603072,"S",-1,1,1,"12-nitro-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5cccc(c5nc34)[N+](=O)[O-])C2=O",0,""
+603073,"S",-1,1,1,"12-amino-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5cccc(N)c5nc34)C2=O",0,""
+603074,"S",-1,2,2,"9-nitro-10-methoxy-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(c(OC)ccc5nc34)[N+](=O)[O-])C2=O",0,""
+603075,"S",-1,2,2,"9-amino-10-methoxy-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(N)c(OC)ccc5nc34)C2=O",0,""
+603076,"S",-1,2,2,"9-nitro-10-hydroxy-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(c(O)ccc5nc34)[N+](=O)[O-])C2=O",0,""
+603077,"S",-1,2,2,"9-acetamido-10-hydroxy-20-(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(NC(=O)C)c(O)ccc5nc34)C2=O",0,""
+616241,"S",-1,2,2,"antineoplastic-616241","","CCC1(OC(=O)CN)C(=O)OCC2=C1C=C3N(Cc4cc5cc6OCOc6cc5nc34)C2=O",0,""
+619230,"S",-1,2,2,"20-amino-20-deoxy-20(rs)-camptothecin","","CCC1(N)C(=O)OCC2=C1C=C3N(Cc4cc5ccccc5nc34)C2=O",0,""
+619232,"S",-1,4,4,"9-glycinamido-20(rs)-camptothecin hydrochloride","","CCC1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(NC(=O)CN)cccc5nc34)C2=O",0,""
+620258,"S",-1,3,3,"9-succinamido-20(rs)-camptothecin, sodium salt","","[Na+].CCC1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(NC(=O)CCC(=O)O)cccc5nc34)C2=O",0,""
+621686,"S",-1,3,3,"9-diethylaminoethoxy-20(rs)-camptothecin hydrochloride","","CCN(CC)CCOc1cccc2nc3C4=CC5=C(COC(=O)C5(O)CC)C(=O)N4Cc3cc12",0,""
+652524,"S",-1,6,5,"antineoplastic-652524","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5cc(N)ccc5nc34)C2=O",0,""
+652525,"S",-1,3,3,"antineoplastic-652525","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5cc(Cl)ccc5nc34)C2=O",0,""
+659548,"S",-1,2,2,"calycopterone","","CO[C@H]1C[C@@H](Oc2c(OC)c(O)c3c(O[C@]45O[C@H](CC=C4C(=O)C(=C(OC)[C@]35OC)OC)c6ccccc6)c12)c7ccccc7",0,""
+659549,"S",-1,1,1,"calycopterin","","COC1=C(Oc2cc(OC)c(OC)c(O)c2C1=O)c3ccc(O)cc3",0,""
+661254,"S",-1,1,1,"",NA,"",0,NA
+665529,"S",-1,2,1,"4-demethylcalycopterone","","COC1=C(OC)[C@]2(OC)c3c(O)c(OC)c4O[C@H](C[C@H](O)c4c3O[C@@]25O[C@H](CC=C5C1=O)c6ccccc6)c7ccccc7",0,""
+671899,"S",-1,2,2,"9-amino-20(s)-glycinyl camptothecin hydrochloride","","CC[C@@]1(OC(=O)CN)C(=O)OCC2=C1C=C3N(Cc4cc5c(N)cccc5nc34)C2=O",0,""
+671900,"S",-1,2,2,"10,11-Methylenedioxy-20(S)-glycinyl camptothecin hydroch...",NA,"CC[C@@]1(OC(=O)CN)C(=O)OCC2=C1C=C3N(Cc4cc5cc6OCOc6cc5nc34)C2=O",0,NA
+671901,"S",-1,2,2,"7-chloromethyl-10,11-methylenedioxy-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4c(CCl)c5cc6OCOc6cc5nc34)C2=O",0,""
+672552,"S",-1,2,2,"antineoplastic-672552","","CC[C@@]1(OC(=O)CN)C(=O)OCC2=C1C=C3N(Cc4cc5c(N)c6OCOc6cc5nc34)C2=O",0,""
+672553,"S",-1,2,2,"antineoplastic-672553","","CC[C@@]1(OC(=O)CN)C(=O)OCC2=C1C=C3N(Cc4cc5cc(N)ccc5nc34)C2=O",0,""
+673591,"S",-1,2,2,"9-chloro-10,11-methylenedioxy-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4cc5c(Cl)c6OCOc6cc5nc34)C2=O",0,""
+673592,"S",-1,2,2,"7-ethyl-10,11-methylenedioxy-20(s)-camptothecin","","CCc1c2CN3C(=O)C4=C(C=C3c2nc5cc6OCOc6cc15)[C@@](O)(CC)C(=O)OC4",0,""
+673593,"S",-1,2,2,"7-ethyl-9-amino-10,11-methylenedioxy-20(s)-camptothecin","","CCc1c2CN3C(=O)C4=C(C=C3c2nc5cc6OCOc6c(N)c15)[C@@](O)(CC)C(=O)OC4",0,""
+673594,"S",-1,2,2,"7-methyl-10,11-methylenedioxy-20(s)-camptothecin","","CC[C@@]1(O)C(=O)OCC2=C1C=C3N(Cc4c(C)c5cc6OCOc6cc5nc34)C2=O",0,""
+673595,"S",-1,2,2,"7-ethyl-9-amino-20(s)-camptothecin","","CCc1c2CN3C(=O)C4=C(C=C3c2nc5cccc(N)c15)[C@@](O)(CC)C(=O)OC4",0,""
+676194,"S",-1,2,2,"7-Ethyl-10,11-methylenedioxy-20(S)-camptothecin-20-glyci...",NA,"CCc1c2CN3C(=O)C4=C(C=C3c2nc5cc6OCOc6cc15)[C@](CC)(OC(=O)CN)C(=O)OC4",0,NA
+688687,"S",-1,2,2,"7-Chloromethyl-10,11-methylenedioxy-20(S)-camptothecin-2...",NA,"CC[C@@]1(OC(=O)CN)C(=O)OCC2=C1C=C3N(Cc4c(CCl)c5cc6OCOc6cc5nc34)C2=O",0,NA
+722134,"S",-1,1,1,"Sonolisib","Clinical trial","COC[C@H]1OC(=O)\C(=C/N(CC=C)CC=C)\C2=C(O)C(=O)C3=C([C@@H](C[C@@]4(C)[C@H]3CCC4=O)OC(=O)C)[C@@]12C",0,"PK:PIK3"
+748403,"S",-1,2,2,";N-(4-methoxyphenyl)-N,5-dimethylfuro[2,3-d]pyrimidin-4-...",NA,"COc1ccc(cc1)N(C)c2ncnc3occ(C)c23",0,NA
+751297,"S",-1,1,1,"Y-27632","Clinical trial","C[C@@H](N)[C@@H]1CC[C@H](CC1)C(=O)Nc2ccncc2",0,"RHO"
+754344,"S",-1,2,2,"Rigosertib","Clinical trial","COc1cc(OC)c(\C=C\S(=O)(=O)Cc2ccc(OC)c(NCC(=O)O)c2)c(OC)c1",0,"RAS|PK:STK,PLK1"
+754345,"S",-1,2,2,"JNJ-28312141","Clinical trial","CN(C)CC(=O)N1CCC(CC1)c2ccc(NC(=O)c3ncc(C#N)[nH]3)c(c2)C4=CCCCC4",0,"PK:YK,CSF1R"
+754346,"S",-1,2,2,"AMG-458","Clinical trial","COc1ccc2c(Oc3ccc(NC(=O)C4=C(C)N(CC(C)(C)O)N(C4=O)c5ccccc5)nc3)ccnc2c1",0,"PK:YK,MET"
+754348,"S",-1,1,1,"PF-03084014 diastereomer 1","Clinical trial","CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)Nc3cn(cn3)C(C)(C)CNCC(C)(C)C",0,"PSM|APH1|Gamma secretase"
+754352,"S",-1,2,2,"CT-MK1775","Clinical trial","CN1CCN(CC1)c2ccc(Nc3ncc4C(=O)N(CC=C)N(c5cccc(n5)C(C)(C)O)c4n3)cc2",0,"PK:STK,YK,WEE1"
+754353,"S",-1,2,2,"Buparlisib","Clinical trial","Nc1cc(c(cn1)c2cc(nc(n2)N3CCOCC3)N4CCOCC4)C(F)(F)F",0,"PK:PIK3"
+754354,"S",-1,2,2,"GSK-461364","Clinical trial","C[C@@H](Oc1cc(sc1C(=O)N)n2cnc3ccc(CN4CCN(C)CC4)cc23)c5ccccc5C(F)(F)F",0,"PK:STK,PLK1"
+754359,"S",-1,2,2,"AEG-40730","Clinical trial","CN[C@@H](C)C(=O)N[C@@H]([C@@H](C)OCC#CC#CCO[C@@H](C)[C@H](NC(=O)C(C)NC)C(=O)N1CCC[C@@H]1CN(CCc2ccccc2)C(=O)C(F)(F)F)C(=O)N3CCC[C@H]3CN(CCc4ccccc4)C(=O)C(F)(F)F",0,"Apo|IAP"
+754360,"S",-1,2,2,"MI-219","Clinical trial","CC(C)(C)C[C@H]1NC([C@H](c2cccc(Cl)c2)[C@@]13C(=O)Nc4cc(Cl)c(F)cc34)C(=O)NCC[C@H](O)CO",0,"Apo|MDM2"
+754361,"S",-1,2,2,"Astex FGF inhibitor","Clinical trial","Fc1ccc(cc1)c2ccn3c(cnc3c2)c4cccc(NC(=O)NCC(F)(F)F)c4",0,"PK:YK,FGFR"
+754365,"S",-1,2,2,"XR-11576","Clinical trial","COc1cccc2c1ccc3nc4cccc(C(=O)N[C@H](C)CN(C)C)c4nc23",0,"T2|T1"
+754366,"S",-1,2,2,"XR-5944","Clinical trial","Cc1cccc2nc3cccc(C(=O)NCCNCCNCCNC(=O)c4cccc5nc6cccc(C)c6nc45)c3nc12",0,"T2|T1"
+755384,"S",-1,2,2,"Pemetrexed","FDA approved","NC1=NC(=O)c2c(CCc3ccc(cc3)C(=O)N[C@@H](CCC(=O)O)C(=O)O)c[nH]c2N1",0,"Df|AM|GARTF|DHFR"
+755385,"S",-1,2,2,"Pictilisib","Clinical trial","CS(=O)(=O)N1CCN(Cc2cc3nc(nc(N4CCOCC4)c3s2)c5cccc6[nH]ncc56)CC1",0,"PK:PIK3"
+755389,"S",-1,2,2,"Bosutinib","FDA approved","COc1cc2c(Nc3cc(Cl)c(OC)c(Cl)c3)c(cnc2cc1OCCCN4CCN(C)CC4)C#N",0,"STAT|BCR-ABL|STAT5A/B|PK:YK,LYN,SRC,HCK"
+755606,"S",-1,4,4,"Cediranib","Clinical trial","COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN5CCCC5",0,"PK:YK,VEGF,VEGFR"
+755763,"S",-1,2,2,"Pimasertib","Clinical trial","OC[C@@H](O)CNC(=O)c1ccncc1Nc2ccc(I)cc2F",0,"PK:STK,YK,MAP2K,MAP2K1,MAP2K2"
+755769,"S",-1,1,1,"LY-294002","Clinical trial","O=C1C=C(Oc2c1cccc2c3ccccc3)N4CCOCC4",0,"PK:PIK3"
+755773,"S",-1,1,1,"1,9-Pyrazoleanthrone","Clinical trial","O=C1c2ccccc2c3n[nH]c4cccc1c34",0,"PK:STK,MAPK14,MAPK8"
+755926,"S",-1,1,1,"PF-03084014 diastereomer 1","Clinical trial","CCC[C@H](N[C@@H]1CCc2cc(F)cc(F)c2C1)C(=O)Nc3cn(cn3)C(C)(C)CNCC(C)(C)C",0,"PSM|APH1|Gamma secretase"
+755980,"S",-1,1,1,"Lenvatinib","FDA approved","COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(=O)N",0,"PK:YK,PDGFR,FGFR,VEGFR,RET"
+756083,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3cccc(Cl)c3)c4cc5OCOc5cc14)C(=O)OC2",0,NA
+756084,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3cccc(Br)c3)c4cc5CCCc5cc14)C(=O)OC2",0,NA
+756085,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3cccc(Cl)c3)c4cc5CCCc5cc14)C(=O)OC2",0,NA
+756086,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3ccc(Cl)c(Cl)c3)c4cc5CCCc5cc14)C(=O)OC2",0,NA
+756087,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3cccc(Br)c3)c4cc5OCCOc5cc14)C(=O)OC2",0,NA
+756088,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3cccc(Cl)c3)c4cc5OCCOc5cc14)C(=O)OC2",0,NA
+756089,"S",-1,2,2,"",NA,"OCCN1C2=C(C(c3ccc(Cl)c(Cl)c3)c4cc5OCCOc5cc14)C(=O)OC2",0,NA
+756090,"S",-1,2,2,"",NA,"COc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4cc(OC)c(OC)c(OC)c4",0,NA
+756091,"S",-1,1,1,"",NA,"COc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4ccc(OC)c(OC)c4",0,NA
+756093,"S",-1,1,1,"",NA,"COc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4ccccc4",0,NA
+756095,"S",-1,2,2,"",NA,"COc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4cccc(Br)c4",0,NA
+756106,"S",-1,2,1,"",NA,"CCc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4cc(OC)c(OC)c(OC)c4",0,NA
+756110,"S",-1,2,2,"",NA,"CCc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4cccc(Br)c4",0,NA
+756111,"S",-1,2,2,"",NA,"CCc1ccc2C(C3=C(COC3=O)N(CCO)c2c1)c4cccc(Cl)c4",0,NA
+756641,"S",-1,2,2,"ICG-001","Clinical trial","Oc1ccc(C[C@@H]2N3[C@H](CN(Cc4cccc5ccccc45)C2=O)N(CCC3=O)C(=O)NCc6ccccc6)cc1",0,"Apo|Wnt|CTNNB1"
+756642,"S",-1,2,2,"Entinostat","Clinical trial","Nc1ccccc1NC(=O)c2ccc(CNC(=O)OCc3cccnc3)cc2",0,"HDAC"
+756643,"S",-1,2,2,"KX-01","Clinical trial","O=C(Cc1ccc(cn1)c2ccc(OCCN3CCOCC3)cc2)NCc4ccccc4",0,"PK:YK,SRC"
+756646,"S",-1,1,1,"IWR-1","Clinical trial","O=C(Nc1cccc2cccnc12)c3ccc(cc3)N4C(=O)[C@H]5[C@@H]6C[C@@H](C=C6)[C@H]5C4=O",0,"Wnt|CTNNB1"
+756648,"S",-1,2,2,"AZD-1480","Clinical trial","C[C@H](Nc1ncc(Cl)c(Nc2cc(C)[nH]n2)n1)c3ncc(F)cn3",0,"PK:YK,JAK,JAK2"
+756654,"S",-1,1,1,"ZM-336372","Clinical trial","CN(C)c1cccc(c1)C(=O)Nc2ccc(C)c(NC(=O)c3ccc(O)cc3)c2",0,"GTPase|PK:RAF,RAF1"
+756659,"S",-1,2,2,"Intedanib","Clinical trial","COC(=O)c1ccc2\C(=C(\Nc3ccc(cc3)N(C)C(=O)CN4CCN(C)CC4)/c5ccccc5)\C(=O)Nc2c1",0,"PK:YK,PDGFR,FGFR,VEGFR,FLT3"
+756660,"S",-1,1,1,"Quercetin","Clinical trial","OC1=C(Oc2cc(O)cc(O)c2C1=O)c3ccc(O)c(O)c3",0,"T2|AO"
+756662,"S",-1,4,4,"SR-13654","Clinical trial","CCOC(=O)c1ccc2[nH]c(Cc3[nH]c4ccc(cc4c3C)C(=O)OCC)c(C)c2c1",0,"BIRC5|PK:YK"
+756663,"S",-1,2,2,"Obatoclax","Clinical trial","COC1=CC(=N/C/1=C/c2[nH]c(C)cc2C)c3cc4ccccc4[nH]3",0,"Apo|BCL2"
+756876,"S",-1,1,1,"(-)-Nutlin-3","Clinical trial","COc1ccc(C2=N[C@H]([C@H](N2C(=O)N3CCNC(=O)C3)c4ccc(Cl)cc4)c5ccc(Cl)cc5)c(OC(C)C)c1",0,"Apo|MDM2"
+756877,"S",-1,1,1,"1st Precursor Intermediate to TDP 665759","Clinical trial","C[C@@H](N1[C@@H](C(=O)Nc2ccc(I)cc2C1=O)c3ccc(Cl)cc3)c4ccc(Cl)cc4[N+](=O)[O-]",0,"Apo|MDM2"
+756879,"S",-1,2,2,"Lificguat","Clinical trial","OCc1oc(cc1)c2nn(Cc3ccccc3)c4ccccc24",0,"HYP|HIF1|EPAS1"
+757149,"S",-1,2,2,"Volasertib","Clinical trial","CC[C@H]1N(C(C)C)c2nc(Nc3ccc(cc3OC)C(=O)N[C@@H]4CC[C@H](CC4)N5CCN(CC6CC6)CC5)ncc2N(C)C1=O",0,"PK:STK,PLK1"
+757334,"S",-1,4,4,"Cpd-401","Clinical trial","CN(C(=O)c1ccc(cc1)C(F)(F)F)c2ccc(Oc3ccc4c(c3)cc(C(=O)N5CCN(Cc6ccc(OC(F)F)cc6)CC5)n4C)nc2",0,"STAT|STAT3"
+757437,"S",-1,2,2,"Salinomycin","Clinical trial","CC[C@H]([C@H]1CC[C@H](C)[C@@H](O1)[C@@H](C)[C@H](O)[C@H](C)C(=O)[C@H](CC)[C@H]2O[C@@]3(O[C@@]4(CC[C@](C)(O4)[C@H]5CC[C@](O)(CC)[C@H](C)O5)[C@H](O)C=C3)[C@H](C)C[C@@H]2C)C(=O)O",0,"Apo|Ab|CD133"
+757439,"S",-1,2,2,"Neratinib","FDA approved","CCOc1cc2ncc(C#N)c(Nc3ccc(OCc4ccccn4)c(Cl)c3)c2cc1NC(=O)\C=C\CN(C)C",0,"PK:YK,EGFR,ERBB2"
+757440,"S",-1,2,2,"Deforolimius","Clinical trial","CO[C@@H]1C[C@H](C[C@@H](C)[C@@H]2CC(=O)[C@H](C)\C=C(/C)\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\C=C\C=C\C=C(/C)\[C@H](C[C@@H]3CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N4CCCC[C@H]4C(=O)O2)OC)CC[C@H]1OP(=O)(C)C",0,"PK:STK,MTOR"
+757444,"S",-1,1,1,"Barasertib","Clinical trial","CCN(CCO)CCCOc1ccc2c(Nc3cc(CC(=O)Nc4cccc(F)c4)n[nH]3)ncnc2c1",0,"PK:STK,AURK"
+758005,"S",-1,2,2,"Sapitinib","Clinical trial","CNC(=O)CN1CCC(CC1)Oc2cc3c(Nc4cccc(Cl)c4F)ncnc3cc2OC",0,"PK:YK,EGFR,ERBB2"
+758242,"S",-1,4,2,"Tivantinib","Clinical trial","O=C1NC(=O)[C@H]([C@@H]1c2c[nH]c3ccccc23)c4cn5CCCc6cccc4c56",0,"PK:YK,MET"
+758244,"S",-1,3,2,"EMD-1214063","Clinical trial","CN1CCC(COc2cnc(nc2)c3cccc(CN4N=C(C=CC4=O)c5cccc(c5)C#N)c3)CC1",0,"PK:YK,MET"
+758245,"S",-1,2,2,"ENMD-2076","Clinical trial","CN1CCN(CC1)c2cc(Nc3cc(C)[nH]n3)nc(\C=C\c4ccccc4)n2.O[C@H]([C@@H](O)C(=O)O)C(=O)O",0,"PK:STK,AURK"
+758248,"S",-1,2,2,"RO-5126766","Clinical trial","CNS(=O)(=O)Nc1nccc(CC2=C(C)c3ccc(Oc4ncccn4)cc3OC2=O)c1F",0,"GTPase|PK:STK,YK,MAP2K,RAF,MAP2K1,MAP2K2"
+758249,"S",-1,2,2,"Pracinostat","Clinical trial","CCCCc1nc2cc(\C=C\C(=O)NO)ccc2n1CCN(CC)CC",0,"HDAC"
+758250,"S",-1,2,2,"SNS-314","Clinical trial","Clc1cccc(NC(=O)Nc2ncc(CCNc3ncnc4ccsc34)s2)c1",0,"PK:STK,AURK"
+758251,"S",-1,1,1,"Amonafide","Clinical trial","CN(C)CCN1C(=O)c2cccc3cc(N)cc(C1=O)c23",0,"T2"
+758254,"S",-1,2,2,"Ixazomib citrate","FDA approved","CC(C)C[C@H](NC(=O)CNC(=O)c1cc(Cl)ccc1Cl)B2OC(=O)CC(CC(=O)O)(O2)C(=O)O",0,"PSM"
+758256,"S",-1,2,2,"PKI-587","Clinical trial","CN(C)C1CCN(CC1)C(=O)c2ccc(NC(=O)Nc3ccc(cc3)c4nc(nc(n4)N5CCOCC5)N6CCOCC6)cc2",0,"PK:STK,PIK3,MTOR"
+758257,"S",-1,3,3,"LY-2606368","Clinical trial","COc1cccc(OCCCN)c1c2cc(Nc3cnc(cn3)C#N)n[nH]2",0,"PK:STK,CHEK,CHEK1"
+758484,"S",-1,1,1,"Ezatiostat","Clinical trial","CCOC(=O)[C@@H](N)CCC(=O)N[C@@H](CSCc1ccccc1)C(=O)N[C@@H](C(=O)OCC)c2ccccc2",0,"GSTP1|PK:STK,ROS1"
+758486,"S",-1,1,1,"HPI-1","Clinical trial","COCCOC(=O)C1=C(C)NC2=C(C1c3cccc(O)c3)C(=O)CC(C2)c4ccccc4OC",0,"SMO|Hg-Smo"
+758488,"S",-1,2,2,"Lexibulin","Clinical trial","CCC[C@H](Nc1nc(ncc1C)c2ccc(NC(=O)NCC)c(OC)c2)c3cccnc3",0,"Tu|Tu-frag"
+758489,"S",-1,2,2,"Indibulin","Clinical trial","Clc1ccc(Cn2cc(C(=O)C(=O)Nc3ccncc3)c4ccccc24)cc1",0,"Tu|Tu-frag|PK:PTK"
+758591,"S",-1,2,2,"SGX-523","Clinical trial","Cn1cc(cn1)c2ccc3nnc(Sc4ccc5ncccc5c4)n3n2",0,"PK:YK,MET"
+758773,"S",-1,2,2,"Varbulin","Clinical trial","COc1ccc(cc1)N(C)c2nc(C)nc3ccccc23",0,"Tu|Tu-frag"
+758873,"S",-1,2,2,"ABT-737","Clinical trial","CN(C)CC[C@H](CSc1ccccc1)Nc2ccc(cc2[N+](=O)[O-])S(=O)(=O)NC(=O)c3ccc(cc3)N4CCN(Cc5ccccc5c6ccc(Cl)cc6)CC4",0,"Apo|BCL2"
+759094,"S",-1,2,2,"ENMD-2076 Precursor","Clinical trial","CN1CCN(CC1)c2cc(Nc3cc(C)[nH]n3)nc(n2)C#Cc4ccccc4",0,"PK:STK,AURK"
+759095,"S",-1,2,2,"JNJ-38877605","Clinical trial","Cn1cc(cn1)c2ccc3nnc(n3n2)C(F)(F)c4ccc5ncccc5c4",0,"PK:YK,MET"
+759096,"S",-1,1,1,"Triapine","Clinical trial","NC(=S)N\N=C\c1ncccc1N",0,"Dr|CC"
+759498,"S",-1,1,1,"CYC-116","Clinical trial","Cc1nc(N)sc1c2ccnc(Nc3ccc(cc3)N4CCOCC4)n2",0,"PK:STK,AURK"
+759657,"S",-1,2,2,"Quisinostat","Clinical trial","Cn1cc(CNCC2CCN(CC2)c3ncc(cn3)C(=O)NO)c4ccccc14",0,"HDAC"
+759658,"S",-1,1,1,"6-(4-pyrimidinyl)-1H-indazole derivative","Clinical trial","CNc1nc(cc(n1)c2ccc3c(N)n[nH]c3c2)N4C[C@H](CC[C@H]4C)C(=O)NC5CCCCC5",0,"PK:STK,PDK1"
+759675,"S",-1,1,1,"KW-2449","Clinical trial","O=C(N1CCNCC1)c2ccc(\C=C\c3n[nH]c4ccccc34)cc2",0,"BCR-ABL|PK:STK,AURK,FLT,FLT3"
+759677,"S",-1,2,2,"Alisertib","Clinical trial","COc1cccc(F)c1C2=NCc3cnc(Nc4ccc(C(=O)O)c(OC)c4)nc3c5ccc(Cl)cc25",0,"PK:STK,AURK"
+759905,"S",-1,2,2,"4SC-202","Clinical trial","Cc1ccc(cc1)S(=O)(=O)O.Cn2cc(cn2)c3ccc(cc3)S(=O)(=O)n4ccc(\C=C\C(=O)Nc5ccccc5N)c4",0,"HDAC"
+760143,"S",-1,2,2,"Mocetinostat","Clinical trial","Nc1ccccc1NC(=O)c2ccc(CNc3nccc(n3)c4cccnc4)cc2",0,"HDAC"
+760144,"S",-1,2,2,"AT-9283","Clinical trial","O=C(NC1CC1)Nc2c[nH]nc2c3nc4cc(CN5CCOCC5)ccc4[nH]3",0,"PK:STK,AURK"
+760442,"S",-1,2,2,"Daporinad","Clinical trial","O=C(NCCCCC1CCN(CC1)C(=O)c2ccccc2)\C=C\c3cccnc3",0,"NAMPT|PK:YK"
+760443,"S",-1,2,2,"Copanlisib","FDA approved","COc1c(OCCCN2CCOCC2)ccc3C4=NCCN4C(=Nc13)NC(=O)c5cnc(N)nc5",0,"PK:PIK3"
+760536,"S",-1,2,2,"PF-04691502","Clinical trial","COc1ccc(cn1)C2=Cc3c(C)nc(N)nc3N([C@@H]4CC[C@H](CC4)OCCO)C2=O",0,"PK:PIK3"
+760764,"S",-1,2,2,"Voreloxin","Clinical trial","CN[C@H]1CN(C[C@@H]1OC)c2ccc3C(=O)C(=CN(c4nccs4)c3n2)C(=O)O",0,"T2"
+760765,"S",-1,2,2,"BMS-690514","Clinical trial","COc1cccc(Nc2ncnn3ccc(CN4CC[C@@H](N)[C@H](O)C4)c23)c1",0,"PK:YK,EGFR,ERBB2,VEGFR"
+760841,"S",-1,1,1,"Tandutinib","Clinical trial","COc1cc2c(ncnc2cc1OCCCN3CCCCC3)N4CCN(CC4)C(=O)Nc5ccc(OC(C)C)cc5",0,"PK:YK,PDGFR,FLT,KIT,FLT3"
+761069,"S",-1,1,1,"AMG-900","Clinical trial","Cc1csc(c1)c2nnc(Nc3ccc(Oc4ncccc4c5ccnc(N)n5)cc3)c6ccccc26",0,"PK:STK,AURK"
+761070,"S",-1,1,1,"VE-821","Clinical trial","CS(=O)(=O)c1ccc(cc1)c2cnc(N)c(n2)C(=O)Nc3ccccc3",0,"PK:STK,ATR"
+761188,"S",-1,2,2,"Rabusertib","Clinical trial","Cc1cnc(NC(=O)Nc2cc(Br)c(C)cc2OC[C@@H]3CNCCO3)cn1",0,"PK:STK,CHEK,CHEK1"
+761189,"S",-1,2,2,"Teglarinad","Clinical trial","COCCOCCOCCOCCOC(=O)OC[n+]1ccc(N\C(=N\C#N)\NCCCCCCOc2ccc(Cl)cc2)cc1",0,"Apo|NAMPT"
+761191,"S",-1,2,2,"AP-26113","FDA approved","COc1cc(OCCCN2CCCC2)ccc1Nc3ncc(Cl)c(Nc4ccccc4P(=O)(C)C)n3",0,"PK:YK,ALK,EGFR"
+761193,"S",-1,2,2,"Silmitasertib","Clinical trial","OC(=O)c1ccc2c(c1)nc(Nc3cccc(Cl)c3)c4ccncc24",0,"CK2|PK:STK"
+761194,"S",-1,2,2,"CUDC-305","Clinical trial","CN(C)c1cc2OCOc2cc1Sc3nc4c(N)nccc4n3CCNCC(C)(C)C",0,"HSP90"
+761215,"S",-1,2,2,"TAK-733","Clinical trial","CN1C(=O)C(=C(Nc2ccc(I)cc2F)C3=C1N=CN(C[C@@H](O)CO)C3=O)F",0,"PK:STK,MAP2K,MAP2K1,MAP2K2"
+761385,"S",-1,1,1,"Sonidegib","FDA approved","C[C@@H]1CN(C[C@H](C)O1)c2ccc(NC(=O)c3cccc(c3C)c4ccc(OC(F)(F)F)cc4)cn2",0,"SMO|Hg-Smo"
+761387,"S",-1,1,1,"CCT-128930","Clinical trial","NC1(Cc2ccc(Cl)cc2)CCN(CC1)c3ncnc4[nH]ccc34",0,"PK:STK,AKT,AKT2"
+761390,"S",-1,1,1,"By-Product of CUDC-305","Clinical trial","CC(C)(C)CN1CCn2c(S1)nc3c(N)nccc23",0,"HSP90"
+761691,"S",-1,2,2,"SCH-1473759","Clinical trial","CCN(Cc1cc(Nc2nc(C)cn3c(cnc23)c4cn[nH]c4)sn1)C(C)(C)CO",0,"PK:STK,AURK"
+761692,"S",-1,1,1,"MK-8033","Clinical trial","Cn1cc(cn1)c2cnc3C=Cc4ccc(CS(=O)(=O)NCc5ccccn5)cc4C(=O)c3c2",0,"PK:YK,MET"
+761693,"S",-1,1,1,"Vertex ATR inhibitor Cpd 45","Clinical trial","CC(CN(C)C)S(=O)(=O)c1ccc(cc1)c2cnc(N)c(n2)C(=O)Nc3ccccc3",0,"PK:STK,ATR"
+761759,"S",-1,2,2,"TAK-960 analog","Clinical trial","COc1cc(ccc1Nc2ncc3N(C)C(=O)C(C)(C)CN(C4CCCC4)c3n2)C(=O)N[C@@H]5CCCN(C)C5",0,"PK:STK,PLK1"
+761879,"S",-1,1,1,"ITRI-260","Clinical trial","CN1CCN(CC1)c2ccc3[nH]c(nc3c2)C4=C5C=CC=CC=C5NC4=O",0,"PK:YK,FLT,FLT3"
+761931,"S",-1,2,2,"KHK-Indazole","Clinical trial","O=C(Nc1ccccc1\C=C\c2n[nH]c3ccccc23)c4ccccc4",0,"PK:YK,IGF1R"
+762151,"S",-1,2,2,"TAK-901","Clinical trial","CCS(=O)(=O)c1cccc(c1)c2cc(C(=O)NC3CCN(C)CC3)c(C)c4[nH]c5ncc(C)cc5c24",0,"PK:STK,AURK"
+762152,"S",-1,2,2,"ONX-0914","Clinical trial","COc1ccc(CC(NC(=O)[C@H](C)NC(=O)CN2CCOCC2)C(=O)N[C@@H](Cc3ccccc3)C(=O)[C@@]4(C)CO4)cc1",0,"PSM"
+762153,"S",-1,2,2,"ST-3595","Clinical trial","COc1ccc(cc1)c2ccc(\C=C\C(=O)NO)cc2",0,"HDAC"
+762154,"S",-1,2,2,"Des-fluoro-TAK-960","Clinical trial","COc1cc(ccc1Nc2ncc3N(C)C(=O)C(F)(F)CN(C4CCCC4)c3n2)C(=O)NC5CCN(C)CC5",0,"PK:STK,PLK1"
+762382,"S",-1,2,2,"CH-5132799","Clinical trial","CS(=O)(=O)N1CCc2c1nc(nc2c3cnc(N)nc3)N4CCOCC4",0,"PK:PIK3"
+762418,"S",-1,2,2,"TAK Plk inhibitor","Clinical trial","CC[C@H]1N(C2CCCC2)c3nc(Nc4ccc(cc4OC)C(=O)NC5CCN(CC5)C6CCN(CC7CC7)CC6)ncc3n8cnc(C#N)c18",0,"PK:STK,PLK1"
+762419,"S",-1,2,2,"CT-32228","Clinical trial","Cc1ccc(Cl)cc1c2nc(N)nc(Nc3ccc(Br)cc3)n2",0,"AGPAT2|PK:YK,VEGFR"
+762521,"S",-1,2,2,"RO-4987655","Clinical trial","OCCONC(=O)c1cc(CN2OCCCC2=O)c(F)c(F)c1Nc3ccc(I)cc3F",0,"PK:STK,MAP2K"
+762673,"S",-1,2,1,"SB-1317","Clinical trial","CN1C\C=C\CCOc2cccc(c2)c3ccnc(Nc4cccc(C1)c4)n3",0,"PK:STK,CDK,ERK,FLT,JAK,FLT3"
+763444,"S",-1,2,2,"PF-477736","Clinical trial","Cn1cc(cn1)c2[nH]c3cc(NC(=O)[C@H](N)C4CCCCC4)cc5C(=O)NN=Cc2c35",0,"PK:STK,CHEK,CHEK1"
+763525,"S",-1,3,3,"Pluripotin","Clinical trial","CN1C(=O)N(Cc2cnc(Nc3cc(C)nn3C)nc12)c4cc(NC(=O)c5cccc(c5)C(F)(F)F)ccc4C",0,"GTPase|RAS|RASA1|PK:STK,MAP3K"
+763526,"S",-1,2,2,"Crenolanib","Clinical trial","CC1(COc2ccc3c(c2)ncn3c4ccc5cccc(N6CCC(N)CC6)c5n4)COC1",0,"PK:YK,PDGFR,KIT,VEGFR,TEK,FLT3"
+763527,"S",-1,1,1,"JZL-195","Clinical trial","[O-][N+](=O)c1ccc(OC(=O)N2CCN(Cc3cccc(Oc4ccccc4)c3)CC2)cc1",0,"MGLL"
+763564,"S",-1,2,2,"EMD-534085","Clinical trial","CN(C)CCNC(=O)NC[C@H]1CC[C@H]2[C@@H](Nc3ccc(cc3[C@H]2O1)C(F)(F)F)c4ccccc4",0,"CDH16|Kinesin|PK:YK"
+763579,"S",-1,2,2,"AT-13387","Clinical trial","CC(C)c1cc(C(=O)N2Cc3ccc(CN4CCN(C)CC4)cc3C2)c(O)cc1O",0,"HSP90"
+763832,"S",-1,2,2,"LOR-253","Clinical trial","Cc1[nH]c2cc(F)ccc2c1c3nc4c5cccnc5c6ncccc6c4[nH]3",0,"KLF4|MTF1"
+763930,"S",-1,2,2,"AS-703569","Clinical trial","CN1CCN(CC1)c2ccc(Nc3ncc(F)c(N[C@@H]4[C@@H]5C[C@@H](C=C5)[C@@H]4C(=O)N)n3)cc2C",0,"PK:AURK"
+763931,"S",-1,2,1,"PF-04217903","Clinical trial","OCCn1cc(cn1)c2cnc3nnn(Cc4ccc5ncccc5c4)c3n2",0,"PK:MET"
+764036,"S",-1,2,1,"Dinaciclib","Clinical trial","CCc1cnn2c(NCc3ccc[n+]([O-])c3)cc(nc12)N4CCCC[C@H]4CCO",0,"PK:STK,CDK,CDK1,CDK2,CDK5,CDK9"
+764037,"S",-1,1,1,"BP-1-102","Clinical trial","CN(CC(=O)N(Cc1ccc(cc1)C2CCCCC2)c3ccc(C(=O)O)c(O)c3)S(=O)(=O)c4c(F)c(F)c(F)c(F)c4F",0,"STAT|IL6|STAT3"
+764039,"S",-1,2,2,"AZD-5363","Clinical trial","NC1(CCN(CC1)c2ncnc3[nH]ccc23)C(=O)N[C@@H](CCO)c4ccc(Cl)cc4",0,"PK:STK,AKT,AKT1,AKT2,AKT3"
+764042,"S",-1,2,2,"ARRY-162","FDA approved","Cn1cnc2c(F)c(Nc3ccc(Br)cc3F)c(cc12)C(=O)NOCCO",0,"PK:STK,MAP2K,MAP2K1,MAP2K2"
+764090,"S",-1,2,2,"BMS-777607","Clinical trial","CCOC1=C(C(=O)Nc2ccc(Oc3ccnc(N)c3Cl)c(F)c2)C(=O)N(C=C1)c4ccc(F)cc4",0,"PK:MET,RON"
+764135,"S",-1,2,2,"BMS-599626","Clinical trial","Cc1c(NC(=O)OC[C@@H]2COCCN2)cn3ncnc(Nc4ccc5c(cnn5Cc6cccc(F)c6)c4)c13",0,"PK:YK,EGFR,ERBB2"
+764136,"S",-1,2,2,"Abexinostat","Clinical trial","CN(C)Cc1c(oc2ccccc12)C(=O)NCCOc3ccc(cc3)C(=O)NO",0,"HDAC"
+764238,"S",-1,1,1,"6-Bromoindirubin-3'-Acetoxime","Clinical trial","CC(=O)O\N=C/1\C(=C/2\C(=O)Nc3cc(Br)ccc23)\Nc4ccccc14",0,"PK:GSK3A"
+764239,"S",-1,2,2,"AZD-4547","Clinical trial","COc1cc(CCc2cc(NC(=O)c3ccc(cc3)N4C[C@@H](C)N[C@@H](C)C4)n[nH]2)cc(OC)c1",0,"PK:YK,FGFR,FGFR1,FGFR2,FGFR3"
+764334,"S",-1,4,4,"delanzomib","Clinical trial","CC(C)C[C@H](NC(=O)[C@@H](NC(=O)c1cccc(n1)c2ccccc2)[C@@H](C)O)B(O)O",0,"PSM"
+764481,"S",-1,1,1,"Brivanib","Clinical trial","C[C@H](COc1cn2ncnc(Oc3ccc4[nH]c(C)cc4c3F)c2c1C)OC(=O)[C@H](C)N",0,"PK:YK,FGFR,VEGFR"
+764487,"S",-1,2,2,"NVP-BGJ398","Clinical trial","CCN1CCN(CC1)c2ccc(Nc3cc(ncn3)N(C)C(=O)Nc4c(Cl)c(OC)cc(OC)c4Cl)cc2",0,"PK:FGFR,FGFR1,FGFR2,FGFR3,FGFR4"
+764515,"S",-1,2,2,"PP-242","Clinical trial","CC(C)n1nc(c2cc3cc(O)ccc3[nH]2)c4c(N)ncnc14",0,"PK:MTOR"
+764580,"S",-1,1,1,"MK-2461","Clinical trial","CN(C[C@@H]1COCCO1)S(=O)(=O)Nc2ccc3C=Cc4ncc(cc4C(=O)c3c2)c5cnn(C)c5",0,"PK:MET,FGFR"
+764581,"S",-1,2,2,"ARRY-380","Clinical trial","Cc1cc(Nc2ncnc3ccc(NC4=NC(C)(C)CO4)cc23)ccc1Oc5ccn6ncnc6c5",0,"PK:ERBB2"
+764582,"S",-1,1,1,"10058-F4","Clinical trial","CCc1ccc(\C=C/2\SC(=S)NC2=O)cc1",0,"MYC"
+764608,"S",-1,2,2,"BAL-101553","Clinical trial","NCCCC[C@H](N)C(=O)Nc1ccc(cc1)C(=O)Cn2c(nc3ccccc23)c4nonc4NCCC#N",0,"Tu-frag"
+764658,"S",-1,2,1,"INK-128","Clinical trial","CC(C)n1nc(c2ccc3oc(N)nc3c2)c4c(N)ncnc14",0,"PK:MTOR"
+764659,"S",-1,1,1,"SCH-900776","Clinical trial","Cn1cc(cn1)c2cnn3c(N)c(Br)c(nc23)C4CCCNC4",0,"PK:STK,CHEK,CHEK1"
+764757,"S",-1,1,1,"SM-406","Clinical trial","CN[C@@H](C)C(=O)N[C@H]1CN(CC[C@H]2CC[C@H](N2C1=O)C(=O)NC(c3ccccc3)c4ccccc4)C(=O)CC(C)C",0,"IAP"
+764764,"S",-1,1,1,"ONX-0801","Clinical trial","OCC1=Nc2cc3CCC(N(CC#C)c4ccc(cc4)C(=O)N[C@@H](CCC(=O)N[C@H](CCC(=O)O)C(=O)O)C(=O)O)c3cc2C(=O)N1",0,""
+764765,"S",-1,2,2,"ARQ-680","Clinical trial","Cn1ccc(n1)S(=O)(=O)N2CCC[C@@H](C2)Nc3nccc(n3)c4c(nc5occn45)c6cccc(O)c6",0,"PK:BRAF"
+764820,"S",-1,2,2,"Gandotinib","Clinical trial","Cc1cc(Nc2cc(CN3CCOCC3)c4nc(C)c(Cc5ccc(Cl)cc5F)n4n2)[nH]n1",0,"PK:JAK,JAK2,JAK3"
+764823,"S",-1,2,2,"Varlitinib","Clinical trial","C[C@@H]1COC(=N1)Nc2ccc3ncnc(Nc4ccc(OCc5nccs5)c(Cl)c4)c3c2",0,"PK:YK,EGFR,ERBB2"
+765395,"S",-1,1,1,"MPC-3100","Clinical trial","C[C@H](O)C(=O)N1CCC(CCn2c(Sc3cc4OCOc4cc3Br)nc5c(N)ncnc25)CC1",0,"HSP90"
+765435,"S",-1,2,2,"Ganetespib","Clinical trial","CC(C)c1cc(C2=NNC(=O)N2c3ccc4c(ccn4C)c3)c(O)cc1O",0,"HSP90"
+765436,"S",-1,2,2,"YK-4-279","Clinical trial","COc1ccc(cc1)C(=O)CC2(O)C(=O)Nc3c(Cl)ccc(Cl)c23",0,"ERG|ETV"
+765672,"S",-1,1,1,"S-49076","Clinical trial","O=C1OCCN1Cc2ccc3NC(=O)\C(=C/c4cc(CN5CCOCC5)c[nH]4)\c3c2",0,"PK:MET,AXL,FGFR,MERTK"
+765775,"S",-1,2,2,"Gemcitabine elaidate","Clinical trial","CCCCCCCC\C=C\CCCCCCCC(=O)OC[C@H]1O[C@@H](N2C=CC(=NC2=O)N)C(F)(F)[C@@H]1O",0,"Ds"
+765776,"S",-1,1,1,"AZD-3514","Clinical trial","CC(=O)N1CCN(CCOc2ccc(cc2)C3CCN(CC3)C4=Nn5c(CC4)nnc5C(F)(F)F)CC1",0,"AR"
+765865,"S",-1,2,2,"ASP-3026","Clinical trial","COc1cc(ccc1Nc2ncnc(Nc3ccccc3S(=O)(=O)C(C)C)n2)N4CCC(CC4)N5CCN(C)CC5",0,"PK:ALK"
+765888,"S",-1,2,2,"Dacomitinib","FDA approved","COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)\C=C\CN4CCCCC4",0,"PK:EGFR,ERBB2"
+765889,"S",-1,2,2,"ABT-348","Clinical trial","Nc1ncc(c2cnn(CCO)c2)c3scc(c4ccc(NC(=O)Nc5cccc(F)c5)cc4)c13",0,"PK:AURK,VEGFR"
+765898,"S",-1,2,2,"GDC-0152","Clinical trial","CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N2CCC[C@H]2C(=O)Nc3snnc3c4ccccc4",0,"IAP"
+765949,"S",-1,2,2,"AEE-788","Clinical trial","CCN1CCN(Cc2ccc(cc2)c3cc4c(N[C@H](C)c5ccccc5)ncnc4[nH]3)CC1",0,"PK:EGFR,ERBB2,VEGF,VEGFR"
+765974,"S",-1,2,2,"BYL-719","Clinical trial","Cc1nc(NC(=O)N2CCC[C@H]2C(=O)N)sc1c3ccnc(c3)C(C)(C)C(F)(F)F",0,"PK:PIK3"
+766255,"S",-1,2,2,"CT-GSK183","Clinical trial","CNC(=O)c1c(F)cccc1Nc2nc(Nc3cc4N(CCc4cc3OC)C(=O)CN(C)C)nc5[nH]ccc25",0,"PK:IGF1R,ALK"
+766270,"S",-1,2,2,"ABT-199","FDA approved","CC1(C)CCC(=C(C1)c2ccc(Cl)cc2)CN3CCN(CC3)c4ccc(C(=O)NS(=O)(=O)c5ccc(NCC6CCOCC6)c(c5)[N+](=O)[O-])c(Oc7cnc8[nH]ccc8c7)c4",0,"BCL2"
+766820,"S",-1,1,1,"LY-2228820","Clinical trial","CC(C)(C)Cn1c(N)nc2ccc(nc12)c3nc([nH]c3c4ccc(F)cc4)C(C)(C)C",0,"PK:MAPK14"
+766821,"S",-1,1,1,"BMS-911543","Clinical trial","CCn1c(cc2c1nc(Nc3cc(C)n(C)n3)c4ncn(C)c24)C(=O)N(C5CC5)C6CC6",0,"PK:JAK,JAK1,JAK2,JAK3"
+766824,"S",-1,2,2,"CEP-14083","Clinical trial","CCN1C(=O)CCCc2c(OC)c(Nc3ncc(Cl)c(NC4[C@@H]5C[C@@H](C=C5)[C@@H]4C(=O)N)n3)ccc12",0,"PK:ALK"
+766906,"S",-1,2,2,"MLN-2480","Clinical trial","C[C@@H](NC(=O)c1ncnc(N)c1Cl)c2ncc(s2)C(=O)Nc3cc(c(Cl)cn3)C(F)(F)F",0,"PK:RAF"
+766907,"S",-1,2,2,"Ixazomib","Clinical trial","CC(C)C[C@H](NC(=O)CNC(=O)c1cc(Cl)ccc1Cl)B(O)O",0,"PSM"
+767048,"S",-1,2,2,"BMS-387032","Clinical trial","CC(C)(C)c1oc(CSc2cnc(NC(=O)C3CCNCC3)s2)nc1",0,"PK:CDK,CDK2,CDK7,CDK9"
+767123,"S",-1,2,1,"Saridegib","Clinical trial","C[C@@H]1CN[C@@H]2[C@@H](C1)O[C@]3(CC[C@H]4[C@@H]5CC[C@@H]6CC(CC[C@]6(C)[C@H]5CC4=C(C)C3)NS(=O)(=O)C)[C@@H]2C",0,"SMO"
+767128,"S",-1,2,2,"Birinapant","Clinical trial","CC[C@H](NC(=O)[C@H](C)NC)C(=O)N1C[C@@H](O)C[C@H]1Cc2c([nH]c3cc(F)ccc23)c4[nH]c5cc(F)ccc5c4C[C@@H]6C[C@H](O)CN6C(=O)[C@H](CC)NC(=O)[C@H](C)NC",0,"IAP"
+767189,"S",-1,2,2,"AZD-2014","Clinical trial","CNC(=O)c1cccc(c1)c2ccc3c(nc(nc3n2)N4CCOC[C@@H]4C)N5CCOC[C@@H]5C",0,"PK:MTOR"
+767191,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34)c5ccccc15",0,""
+767193,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3ccc4ccccc4c3)c5ccccc15",0,""
+767194,"S",-1,2,1,"roche kinase set","","COc1ccc(cc1)C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34",0,""
+767195,"S",-1,2,2,"roche kinase set","","COc1ccc2c(cn(C)c2c1)C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45",0,""
+767196,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3ccsc3)c4ccccc14",0,""
+767197,"S",-1,2,2,"roche kinase set","","CSc1c(C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34)c5ccccc5n1C",0,""
+767199,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4ccc(N)cc34)c5ccccc15",0,""
+767200,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3ccc(N)cc3)c4ccccc14",0,""
+767202,"S",-1,2,1,"roche kinase set","","CS(=O)c1c(C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34)c5ccccc5n1C",0,""
+767203,"S",-1,2,2,"roche kinase set","","CC(=O)Nc1ccc2c(c1)c(cn2C)C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45",0,""
+767206,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cccc(N)c3)c4ccccc14",0,""
+767207,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cccc(c3)[N+](=O)[O-])c4ccccc14",0,""
+767211,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4c(N)cccc34)c5ccccc15",0,""
+767213,"S",-1,2,2,"roche kinase set","","Cc1ccc2c(c1)c(cn2C)C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45",0,""
+767214,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4cc(N)ccc34)c5ccccc15",0,""
+767215,"S",-1,2,2,"roche kinase set","","Cc1cccc2c(cn(C)c12)C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45",0,""
+767217,"S",-1,2,2,"roche kinase set","","CC(=O)Nc1ccc2c(cn(C)c2c1)C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45",0,""
+767218,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4cc(Cl)ccc34)c5ccccc15",0,""
+767219,"S",-1,2,2,"roche kinase set","","Cc1ccccc1C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34",0,""
+767220,"S",-1,2,1,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4ccc(Cl)cc34)c5ccccc15",0,""
+767221,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cccc(Br)c3)c4ccccc14",0,""
+767222,"S",-1,2,2,"roche kinase set","","Cc1ccc(C)c(c1)C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34",0,""
+767224,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3ccccc3[N+](=O)[O-])c4ccccc14",0,""
+767225,"S",-1,2,2,"roche kinase set","","Cc1c(C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34)c5ccccc5n1C",0,""
+767226,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCCCCN)c4ccccc34)c5ccccc15",0,""
+767227,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c[nH]c4ccccc34)c5ccccc15",0,""
+767228,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cccnc3)c4ccccc14",0,""
+767229,"S",-1,2,1,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCCCN)c4ccccc34)c5ccccc15",0,""
+767230,"S",-1,2,1,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCO)c4ccccc34)c5ccccc15",0,""
+767231,"S",-1,2,2,"roche kinase set","","CNCCCn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34)c5ccccc15",0,""
+767232,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCN)c4ccccc34)c5ccccc15",0,""
+767236,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCCN\C(=N/[N+](=O)[O-])\N)c4ccccc34)c5ccccc15",0,""
+767237,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCCSC(=N)N)c4ccccc34)c5ccccc15",0,""
+767238,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CCCCn4c5ccccc35)c6ccccc16",0,""
+767239,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCCNC(=N)N)c4ccccc34)c5ccccc15",0,""
+767240,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CNCCn4c5ccccc35)c6ccccc16",0,""
+767242,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CC(CN)CCn4c5ccccc35)c6ccccc16",0,""
+767243,"S",-1,2,1,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCSC(=N)N)c4ccccc34)c5ccccc15",0,""
+767244,"S",-1,2,2,"roche kinase set","","CCCn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34)c5ccccc15",0,""
+767246,"S",-1,2,1,"roche kinase set","","COc1cccc(c1)C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34",0,""
+767247,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CC(CN)Cn4c5ccccc35)c6ccccc16",0,""
+767248,"S",-1,2,1,"roche kinase set","","CNCC1CCn2c(C1)c(C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45)c6ccccc26",0,""
+767249,"S",-1,2,1,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(CCCCC(=N)N)c4ccccc34)c5ccccc15",0,""
+767250,"S",-1,2,2,"roche kinase set","","[O-][N+](=O)c1ccc2Nc3n[nH]cc3N=C(c4ccccc4Cl)c2c1",0,""
+767252,"S",-1,2,2,"roche kinase set","","Fc1ccc2NC(=O)\C(=C/c3ccc[nH]3)\c2c1",0,""
+767253,"S",-1,2,2,"roche kinase set","","COc1cc[nH]c1\C=C\2/C(=O)Nc3ccccc23",0,""
+767254,"S",-1,2,2,"roche kinase set","","Cc1[nH]nc2Nc3ccc(cc3C(=Nc12)c4ccccc4Cl)[N+](=O)[O-]",0,""
+767255,"S",-1,2,2,"roche kinase set","","CC(C)c1[nH]nc2Nc3ccc(cc3C(=Nc12)c4ccccc4Cl)[N+](=O)[O-]",0,""
+767256,"S",-1,2,2,"roche kinase set","","Cc1[nH]nc2Nc3ccc(cc3C(=Nc12)c4ccccc4F)C#N",0,""
+767257,"S",-1,2,2,"roche kinase set","","COc1ccc2Nc3n[nH]c(C)c3N=C(c4ccccc4Cl)c2c1",0,""
+767258,"S",-1,2,1,"roche kinase set","","COc1cc[nH]c1\C=C\2/C(=O)Nc3ccc(F)c(I)c23",0,""
+767259,"S",-1,2,2,"roche kinase set","","CNCC#Cc1c(F)ccc2NC(=O)\C(=C/c3[nH]ccc3OC)\c12",0,""
+767260,"S",-1,2,2,"roche kinase set","","CC(=O)Nc1ccc2Nc3n[nH]c(C)c3N=C(c4ccccc4Cl)c2c1",0,""
+767261,"S",-1,2,2,"roche kinase set","","COc1cc[nH]c1\C=C\2/C(=O)Nc3ccc(F)c(C#CC4(O)CCOCC4)c23",0,""
+767262,"S",-1,2,2,"roche kinase set","","Cc1[nH]nc2Nc3ccc(cc3C(=Nc12)c4ccccc4F)C(=O)N",0,""
+767263,"S",-1,2,2,"roche kinase set","","COc1cc[nH]c1\C=C\2/C(=O)Nc3ccc(F)c(C#CC4(O)CCNCC4)c23",0,""
+767264,"S",-1,2,2,"roche kinase set","","CN[C@@H](CO)C#Cc1c(F)ccc2NC(=O)\C(=C/c3[nH]ccc3OC)\c12",0,""
+767265,"S",-1,2,2,"roche kinase set","","COc1cc[nH]c1\C=C\2/C(=O)Nc3ccc(F)c(C#C[C@@H](O)[C@@H](N)[C@@H](C)O)c23",0,""
+767268,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4ncccc34)c5ccccc15",0,""
+767271,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CCCCCn4c5ccccc35)c6ccccc16",0,""
+767272,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cn(C)c4cc(ccc34)C(=O)N)c5ccccc15",0,""
+767274,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CCC(CN)CCn4c5ccccc35)c6ccccc16",0,""
+767275,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3c4CN(CCn4c5ccccc35)C(=S)N)c6ccccc16",0,""
+767276,"S",-1,2,1,"roche kinase set","","CN1C[C@@H]2Cc3c(C4=C(C(=O)NC4=O)c5cn(C)c6ccccc56)c7ccccc7n3C[C@H]2C1",0,""
+767287,"S",-1,2,2,"roche kinase set","","COc1ccc(O)c(C(=O)c2ccc(cc2)C(=O)O[C@@H]3CCCNC[C@H]3NC(=O)c4ccncc4)c1F",0,""
+767288,"S",-1,2,1,"roche kinase set","","CN(C)C[C@H]1CCn2c(C1)c(C3=C(C(=O)NC3=O)c4cn(C)c5ccccc45)c6ccccc26",0,""
+767289,"S",-1,2,2,"roche kinase set","","CN1C[C@@H]2Cc3c(C4=C(C(=O)NC4=O)c5cn(C)c6ccccc56)c7ccccc7n3C[C@H]2C1",0,""
+767290,"S",-1,2,2,"roche kinase set","","OCCOc1cc(c2ccc[nH]2)c3C(=O)Nc4ccc(F)c1c34",0,""
+767291,"S",-1,2,1,"roche kinase set","","COc1cc[nH]c1\C=C\2/C(=O)Nc3ccc(c(N4CC[C@@H](O)C4)c23)[N+](=O)[O-]",0,""
+767292,"S",-1,2,2,"roche kinase set","","CN1CCN(CC1)c2ccc(Nc3nc(N)c(s3)C(=O)c4ccc5OCCOc5c4)cc2",0,""
+767293,"S",-1,2,1,"roche kinase set","","COc1cccc(c1)C(=O)c2sc(Nc3ccc(cc3)N4CCN(CC4)C(C)C)nc2N",0,""
+767299,"S",-1,2,1,"roche kinase set","","Nc1c(cnn1c2ccc(F)cc2)C(=O)c3cccc(c3)C#CCN4CCOCC4",0,""
+767304,"S",-1,2,1,"roche kinase set","","Fc1ccc(cc1)c2c([nH]c3cccnc23)c4ccncc4",0,""
+767307,"S",-1,2,1,"roche kinase set","","Fc1ccc(cc1)c2c(c3ccncc3)n(CCN4CCOCC4)c5cccnc25",0,""
+767309,"S",-1,2,1,"roche kinase set","","Cc1nn(c(O)c1C(=O)c2ccccc2)c3ccccc3",0,""
+767317,"S",-1,2,2,"roche kinase set","","Nc1c(cnn1c2ccc(F)cc2F)C(=O)c3cccc(c3)c4cccnc4",0,""
+767318,"S",-1,2,1,"roche kinase set","","Nc1c(cnn1c2ccc(F)cc2)C(=O)c3cccc(c3)c4ccncc4",0,""
+767320,"S",-1,2,2,"roche kinase set","","Nc1c(cnn1c2ccc(F)cc2F)C(=O)c3cccc(c3)c4ccncc4",0,""
+767327,"S",-1,2,1,"roche kinase set","","Nc1c(cnn1c2ccc(F)cc2)C(=O)c3ccc(cc3)c4cccnc4",0,""
+767329,"S",-1,2,1,"roche kinase set","","C[C@H](O)CNc1cc(ccn1)c2[nH]c3cccnc3c2c4ccc(F)cc4",0,""
+767330,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cccc(OC[C@@H](O)CO)c3)c4ccccc14",0,""
+767331,"S",-1,2,2,"roche kinase set","","COc1ccc(cc1OC)C2=C(C(=O)NC2=O)c3cn(C)c4ccccc34",0,""
+767332,"S",-1,2,1,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3ccc(OC[C@@H](O)CO)cc3)c4ccccc14",0,""
+767337,"S",-1,2,2,"roche kinase set","","COc1cccc(c1)C2=C(C(=O)NC2=O)c3cn(C)c4cccc(OC)c34",0,""
+767339,"S",-1,2,1,"roche kinase set","","COc1cccc(c1)C2=C(C(=O)NC2=O)c3cn(C)c4c(C)cccc34",0,""
+767344,"S",-1,2,2,"roche kinase set","","Cn1cc(C2=C(C(=O)NC2=O)c3cccc(NCC(O)CO)c3)c4cc(Cl)ccc14",0,""
+767346,"S",-1,2,1,"roche kinase set","","CN1C(=O)C(=Cc2cnc(NC3CCOCC3)nc12)Oc4cccc(F)c4",0,""
+767347,"S",-1,2,1,"roche kinase set","","CN1C(=O)C(=Cc2cnc(NC3CCOCC3)nc12)Oc4ccccc4F",0,""
+767348,"S",-1,2,2,"roche kinase set","","CN1C(=O)C(=Cc2cnc(NC3CCOCC3)nc12)Oc4ccc(F)cc4F",0,""
+767352,"S",-1,2,1,"roche kinase set","","CN1C(=O)C(=Cc2cnc(N[C@@H]3CC[C@@H](O)CC3)nc12)Oc4ccc(F)cc4F",0,""
+767361,"S",-1,2,1,"roche kinase set","","Cc1cc(C)c2c(n1)sc3c(N)ncnc23",0,""
+767364,"S",-1,2,2,"roche kinase set","","COc1ccc(O)c(C(=O)c2ccc(cc2)C(=O)N[C@H]3CCCNC[C@@H]3NC(=O)c4ccncc4)c1F",0,""
+767365,"S",-1,2,2,"roche kinase set","","COc1ccc(cc1)N2Cc3cnc(Nc4ccccc4)nc3N([C@@H]5CC[C@@H](O)C5)C2=O",0,""
+767366,"S",-1,2,2,"roche kinase set","","Fc1ccc(OC2=Cc3cnc(NC4CCOCC4)nc3N(C5CC5)C2=O)c(F)c1",0,""
+767367,"S",-1,2,2,"roche kinase set","","O=C1N=C(NCc2ccccc2)S/C/1=C\c3ccc4ncccc4c3",0,""
+767369,"S",-1,2,2,"roche kinase set","","O=C1N=C(Nc2ccccc2)S/C/1=C\c3ccc4ncccc4c3",0,""
+767373,"S",-1,2,1,"roche kinase set","","Clc1ccc(CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2)cc1",0,""
+767374,"S",-1,2,2,"roche kinase set","","Fc1ccccc1CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767375,"S",-1,2,2,"roche kinase set","","Clc1ccccc1CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767376,"S",-1,2,2,"roche kinase set","","CCOc1ccccc1CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767378,"S",-1,2,1,"roche kinase set","","COc1ccccc1CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767380,"S",-1,2,2,"roche kinase set","","Clc1ccccc1CNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767381,"S",-1,2,2,"roche kinase set","","Brc1ccccc1CNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767384,"S",-1,2,2,"roche kinase set","","Fc1cccc(CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2)c1",0,""
+767385,"S",-1,2,1,"roche kinase set","","O=C1N=C(NCCc2ccccn2)S/C/1=C\c3ccc4ncccc4c3",0,""
+767386,"S",-1,2,1,"roche kinase set","","O=C1N=C(NCCc2cccs2)S/C/1=C\c3ccc4ncccc4c3",0,""
+767387,"S",-1,2,2,"roche kinase set","","Clc1cccc(CCNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2)c1",0,""
+767390,"S",-1,2,2,"roche kinase set","","COc1ccccc1C(=O)c2cnc(NC3CCN(CC3)S(=O)(=O)C)nc2N",0,""
+767391,"S",-1,2,2,"roche kinase set","","COc1ccc(F)cc1C(=O)c2cnc(NC3CCN(CC3)S(=O)(=O)C)nc2N",0,""
+767392,"S",-1,2,1,"roche kinase set","","OC[C@H](NC1=NC(=O)\C(=C\c2ccc3ncccc3c2)\S1)c4ccccc4",0,""
+767395,"S",-1,2,1,"roche kinase set","","COc1cc(F)c(F)cc1C(=O)c2cnc(NC3CCN(CC3)S(=O)(=O)C)nc2N",0,""
+767398,"S",-1,2,1,"roche kinase set","","Clc1cccc(Cl)c1CNC2=NC(=O)\C(=C\c3ccc4ncccc4c3)\S2",0,""
+767399,"S",-1,2,2,"roche kinase set","","COc1cc(F)c(F)c(F)c1C(=O)c2cnc(NC3CCN(CC3)S(=O)(=O)C)nc2N",0,""
+767400,"S",-1,2,2,"roche kinase set","","COc1cccc(F)c1C(=O)c2cnc(NC3CCN(CC3)S(=O)(=O)C)nc2N",0,""
+767401,"S",-1,2,2,"roche kinase set","","O=C1NC(=O)\C(=C\c2ccc3ncccc3c2)\S1",0,""
+767404,"S",-1,2,1,"roche kinase set","","O=C1N=C(NCc2cccs2)O/C/1=C\c3ccc4ncccc4c3",0,""
+767408,"S",-1,2,1,"roche kinase set","","CS(=O)(=O)N1CCC(CC1)Nc2ncc(C(=O)c3c(F)cccc3F)c(N)n2",0,""
+767409,"S",-1,2,2,"roche kinase set","","OC[C@@H](NC1=NC(=O)\C(=C\c2ccc3ncccc3c2)\S1)c4ccccc4",0,""
+767411,"S",-1,2,1,"roche kinase set","","CS(=O)(=O)CCN1C(=O)C(=Cc2cnc(NC3CCOCC3)nc12)Oc4ccc(F)cc4F",0,""
+767416,"S",-1,2,1,"roche kinase set","","CN1C(=O)C(=Cc2cnc(NC3CCN(CC3)C(=O)C)nc12)Oc4ccc(F)cc4F",0,""
+767420,"S",-1,2,2,"roche kinase set","","CC([C@H](N1C(=O)N[C@@H](C1=O)c2ccc(OC[C@H](O)CO)cc2)C(=O)Nc3ccc(I)cc3F)c4ccccc4",0,""
+767441,"S",-1,2,1,"copper(ii) terephthalate 1,10-phenanthroline","","CCO.[O-]C(=O)c1ccc(cc1)C(=O)[O-].O2=C([O-][Cu+2]234([n+]5cccc6ccc7ccc[n+]3c7c56)[n+]8cccc9ccc%10ccc[n+]4c%10c89)c%11ccc(cc%11)C%12=O[Cu+2]%13%14([O-]%12)([n+]%15cccc%16ccc%17ccc[n+]%13c%17c%15%16)[n+]%18cccc%19ccc%20ccc[n+]%14c%20c%18%19",0,""
+767442,"S",-1,2,1,"copper(ii) ocetanedioate 1,10-phenanthroline perchlorate","","CCO.[O-]Cl(=O)(=O)=O.[O-]Cl(=O)(=O)=O.C(CCCC1=O[Cu+2]23([O-]1)([n+]4cccc5ccc6ccc[n+]2c6c45)[n+]7cccc8ccc9ccc[n+]3c9c78)CCC%10=O[Cu+2]%11%12([O-]%10)([n+]%13cccc%14ccc%15ccc[n+]%11c%15c%13%14)[n+]%16cccc%17ccc%18ccc[n+]%12c%18c%16%17",0,""
+767443,"S",-1,1,1,"copper(ii) phthalate 1,10-phenanthroline","","O=C1[O-][Cu+2]2([O-]C(=O)c3ccccc13)[n+]4cccc5ccc6ccc[n+]2c6c45",0,""
+767470,"S",-1,2,2,"MLN-0905","Clinical trial","CN(C)CCCc1cnc(C)c(Nc2ncc3CC(=S)Nc4cc(ccc4c3n2)C(F)(F)F)c1",0,"PK:PLK1"
+767478,"S",-1,2,1,"",NA,"Cc1cc(C)c(c(C)c1)[n+]2ccn(c3c(C)cc(C)cc3C)[c-]2[Ag+][ClH-]",0,NA
+767483,"S",-1,1,1,"",NA,"CCCCCN(CCCCC)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3[C@@H](C[C@@H]4C[C@@H](CC[C@]4(C)[C@H]3C[C@H](OCCCN)[C@]12C)OCCCN)OCCCN",0,NA
+767490,"S",-1,2,1,";3-(2-phenyl-2-((5-phenyl-1,3,4-thiadiazol-2-yl)imino)et...",NA,"O=C1Nc2ccccc2/C/1=C/C(=N/c3nnc(s3)c4ccccc4)/c5ccccc5",0,NA
+767491,"S",-1,1,1,"5'-phenyl-2',4'-dihydrospiro[indoline-3,3'-pyrazol]-2-one","","O=C1Nc2ccccc2C13CC(=NN3)c4ccccc4",0,""
+767494,"S",-1,1,1,";5-bromo-5'-phenyl-2',4'-dihydrospiro[indoline-3,3'-pyra...",NA,"Brc1ccc2NC(=O)C3(CC(=NN3)c4ccccc4)c2c1",0,NA
+767496,"S",-1,2,1,";(Z)-3-((Z)-2-((5-(4-chlorophenyl)-1,3,4-thiadiazol-2-yl...",NA,"Clc1ccc(cc1)c2nnc(\N=C(\C=C\3/C(=O)Nc4ccccc34)/c5ccccc5)s2",0,NA
+767513,"S",-1,2,1,"",NA,"COc1ccc(\C=C\2/N=C3SC=C(N)N3C2=O)cc1",0,NA
+767570,"S",-1,2,2,"",NA,"Clc1ccc(\C=C\2/CN(C\C(=C/c3ccc(Cl)cc3Cl)\C2=O)S(=O)(=O)c4ccccc4)c(Cl)c1",0,NA
+767593,"S",-1,2,2,"reshimunne","","",0,""
+767598,"S",-1,2,2,"Momelotinib","Clinical trial","O=C(NCC#N)c1ccc(cc1)c2ccnc(Nc3ccc(cc3)N4CCOCC4)n2",0,"PK:JAK,JAK1,JAK2,JAK3"
+767599,"S",-1,2,2,"I-BET-151","Clinical trial","COc1cc2c3N([C@H](C)c4ccccn4)C(=O)Nc3cnc2cc1c5c(C)onc5C",0,"BRD"
+767601,"S",-1,2,2,"VX-944","Clinical trial","CC[C@H](CC#N)OC(=O)N[C@@H](C)c1cccc(NC(=O)Nc2ccc(c(OC)c2)c3ocnc3)c1",0,"IMPDH2|IMPDH1|IMPDH"
+767642,"S",-1,1,1,"",NA,"COc1ccc(cc1)c2c3c(N)nc(nc3nc4c2c(C)nn4c5ccccc5)c6ccncc6",0,NA
+767647,"S",-1,1,1,"",NA,"Cc1ccc(cc1)c2c3c(N)nc(nc3nc4c2c(C)nn4c5ccccc5)c6ccncc6",0,NA
+767650,"S",-1,2,2,"",NA,"CSC1=Nc2nc3C(=O)c4ccccc4C(=O)c3nc2C(=O)N1C",0,NA
+767658,"S",-1,2,2,"",NA,"Cc1ccc(cc1)c2c3c(N)c4CCCc4nc3nc5c2c(C)nn5c6ccccc6",0,NA
+767745,"S",-1,2,2,"Pelitrexol","Clinical trial","Cc1cc(sc1CC[C@@H]2CNC3=C(C2)C(=O)NC(=N3)N)C(=O)N[C@@H](CCC(=O)O)C(=O)O",0,"GARTF"
+767746,"S",-1,2,2,"ADW-742","Clinical trial","Nc1ncnc2c1c(cn2[C@@H]3C[C@@H](CN4CCCC4)C3)c5cccc(OCc6ccccc6)c5",0,"PK:IGF1R,KIT"
+767769,"S",-1,1,1,";2-[5-(3,4-Dimethoxyphenyl)-4-phenyl-4H-[1,2,4]triazol-3...",NA,"COc1ccc(cc1OC)c2nnc(SCC(=O)Nc3ccc(cc3)C(=O)\C=C\c4cc(OC)c(OC)c(OC)c4)n2c5ccccc5",0,NA
+767772,"S",-1,1,1,"",NA,"COc1cc2CCN(C(CC3(O)CCCCC3)c2cc1OC)S(=O)(=O)c4ccc(C)cc4",0,NA
+767776,"S",-1,2,1,"",NA,"CC#Cc1nc(Nc2cc(C)[nH]n2)c3ccccc3n1",0,NA
+767781,"S",-1,2,2,"",NA,"CCCCCC1=C(C)\C(=C\c2[nH]c(cc2Oc3ccc(Cl)cc3)c4ccc[nH]4)\N=C1C",0,NA
+767783,"S",-1,2,1,"",NA,"CCCCCC1=C(C)\C(=C\c2[nH]c(cc2Oc3ccc(OC)cc3)c4ccc[nH]4)\N=C1C",0,NA
+767784,"S",-1,2,2,"",NA,"CCCCCC1=C(C)\C(=C\c2[nH]c(cc2OCc3ccccc3)c4ccc[nH]4)\N=C1C",0,NA
+767826,"S",-1,2,1,"",NA,"CCC(C)[C@H](NC(=O)Nc1cc(cc(c1)C(F)(F)F)C(F)(F)F)C(=O)N[C@@H](Cc2cn(C)cn2)C(=O)OC",0,NA
+767838,"S",-1,1,1,";6-Nitro-2-(3-chloropropyl)-1H-benz[de]isoquinoline-1,3-...",NA,"[O-][N+](=O)c1ccc2C(=O)N(CCCCl)C(=O)c3cccc1c23",0,NA
+767874,"S",-1,1,1,"4-chloro-2-[5-(2-chlorophenyl)-1h-pyrazol-3-yl]phenol","","Oc1ccc(Cl)cc1c2cc([nH]n2)c3ccccc3Cl",0,""
+767897,"S",-1,2,2,"BPR1J-097","Clinical trial","CN1CCN(CC1)c2ccc(cc2)C(=O)Nc3cc(n[nH]3)c4cccc(NS(=O)(=O)c5ccccc5)c4",0,"PK:FLT,FLT3"
+767898,"S",-1,2,2,"RG-7440","Clinical trial","CC(C)NC[C@@H](C(=O)N1CCN(CC1)c2ncnc3[C@H](O)C[C@@H](C)c23)c4ccc(Cl)cc4",0,"PK:AKT,AKT1,AKT2,AKT3"
+767952,"S",-1,1,1,"rocilinostat","Clinical trial","ONC(=O)CCCCCCNC(=O)c1cnc(nc1)N(c2ccccc2)c3ccccc3",0,"HDAC"
+767953,"S",-1,1,1,"R-1530","Clinical trial","COc1cc2Nc3n[nH]c(C)c3N=C(c4ccccc4Cl)c2cc1F",0,"PK:PDGFR,CDK,FGFR,VEGFR,KDR,Multikinase"
+767954,"S",-1,2,2,"EMD-1204831","Clinical trial","Cn1cc(cn1)C2=NN(Cc3cccc(c3)c4ncc(OCCN5CCOCC5)cn4)C(=O)C=C2",0,"PK:MET"
+767972,"S",-1,2,2,"",NA,"Nc1c(C#N)c2CCCCn2c1C(=O)c3ccc4OCCOc4c3",0,NA
+767978,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2noc(N)c2c3cc(OC)c4OCOc4c3",0,NA
+767979,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2[nH]nc(N)c2c3cc(OC)c(OC)c(OC)c3",0,NA
+767980,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2[nH]nnc2c3cc(OC)c4OCOc4c3",0,NA
+767985,"S",-1,1,1,"",NA,"COc1ccc(cc1)c2nsc3C(CC(=O)Nc23)c4ccc5OCOc5c4",0,NA
+767986,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2cnnn2c3cc(OC)c4OCOc4c3",0,NA
+767991,"S",-1,1,1,"",NA,"COc1ccc(cc1OC)c2cnnn2c3nonc3n4cccc4",0,NA
+768002,"S",-1,2,2,"",NA,"COc1cccc(c1)C2C(=C(N)Oc3cc(OC)ccc23)C#N",0,NA
+768003,"S",-1,1,1,"",NA,"COc1ccc(cc1)c2nc([nH]c2c3ccc(OC)cc3)c4cc(OC)cc(OC)c4",0,NA
+768012,"S",-1,2,2,"",NA,"CCN(Cc1c(F)cccc1Cl)c2ccc(CO)c(Cl)c2",0,NA
+768013,"S",-1,2,2,"",NA,"CCN(Cc1c(Cl)cccc1Cl)c2ccc(CO)c(Cl)c2",0,NA
+768014,"S",-1,2,2,"",NA,"CCN(Cc1c(F)cccc1C(F)(F)F)c2ccc(CO)c(Cl)c2",0,NA
+768015,"S",-1,2,2,"",NA,"CCN(Cc1c(F)cccc1OC)c2ccc(CO)c(Cl)c2",0,NA
+768016,"S",-1,2,2,"",NA,"OCc1ccc(cc1Cl)N2CCC2c3ccc(F)cc3",0,NA
+768017,"S",-1,2,2,"",NA,"OCc1ccc(cc1Cl)N2CCCC2c3ccccc3",0,NA
+768018,"S",-1,2,2,"",NA,"CCN(Cc1ccccc1C)c2ccc(CO)c(Cl)c2",0,NA
+768019,"S",-1,2,2,"",NA,"CCN(Cc1ccccc1Cl)c2ccc(CO)c(Cl)c2",0,NA
+768020,"S",-1,2,2,"",NA,"CCN(Cc1ccccc1F)c2ccc(CO)c(Cl)c2",0,NA
+768021,"S",-1,2,2,"",NA,"CCN(Cc1ccccc1OC)c2ccc(CO)c(Cl)c2",0,NA
+768022,"S",-1,1,1,"",NA,"CCN(C(C)c1ccc(F)cc1)c2ccc(CO)c(Cl)c2",0,NA
+768023,"S",-1,2,2,"",NA,"OCc1ccc(cc1Cl)N2CCc3ccccc3C2",0,NA
+768025,"S",-1,2,2,"",NA,"OCc1ccc(cc1Cl)N2CCc3cccc(F)c3C2",0,NA
+768051,"S",-1,1,1,"",NA,"FC(F)(F)c1ccc(cc1)c2cnc(nc2NC3CCCCCC3)C#N",0,NA
+768068,"S",-1,2,2,"Cobimetinib (isomer 1)","FDA approved","OC1(CN(C1)C(=O)c2ccc(F)c(F)c2Nc3ccc(I)cc3F)[C@@H]4CCCCN4",0,"PK:MAP2K,MAP2K1"
+768069,"S",-1,2,2,"Cobimetinib (isomer 1)","FDA approved","OC1(CN(C1)C(=O)c2ccc(F)c(F)c2Nc3ccc(I)cc3F)[C@H]4CCCCN4",0,"PK:MAP2K,MAP2K1"
+768070,"S",-1,2,2,"enantiomer of PF-4176340","Clinical trial","CCc1c[nH]c2ncnc(N3CC[C@](N)(CNC(=O)c4ccc(F)cc4F)C3)c12",0,"PK:AKT"
+768072,"S",-1,2,2,"TAK-960","Clinical trial","COc1cc(C(=O)NC2CCN(C)CC2)c(F)cc1Nc3ncc4N(C)C(=O)C(F)(F)CN(C5CCCC5)c4n3",0,"PK:PLK1"
+768073,"S",-1,2,2,"LY-2835219","FDA approved","CCN1CCN(Cc2ccc(Nc3ncc(F)c(n3)c4cc(F)c5nc(C)n(C(C)C)c5c4)nc2)CC1",0,"PK:CDK,CDK4,CDK6"
+768093,"S",-1,2,2,"1,3-diphenylbenzo[e]-[1,2,4]triazin-7(1h)-one","","O=C1C=CC2=NC(=NN(C2=C1)c3ccccc3)c4ccccc4",0,""
+768098,"S",-1,3,3,"stk066211","","O=C(COc1ccccc1)NNc2ccccc2",0,""
+768102,"S",-1,1,1,";Spiro[benzofuran-2(3H),1'-[2]cyclohexene]-3,4'-dione, 7...",NA,"COc1cc(OC)c2C(=O)[C@]3(Oc2c1Cl)[C@H](C)CC(=O)C=C3OCc4ccccc4",0,NA
+768112,"S",-1,2,2,"SAR-402674","Clinical trial","CNCCN1C(=O)c2cc(OC)c(OC)cc2c3cnc4cc5OCOc5cc4c13",0,"T1"
+768123,"S",-1,2,2,";2-methoxy-N-(3-methyl-2-oxo-1,2,3,4-tetrahydroquinazoli...",NA,"COc1ccccc1S(=O)(=O)Nc2ccc3NC(=O)N(C)Cc3c2",0,NA
+768124,"S",-1,1,1,"",NA,"COc1ccc(CCc2nc3cc(ccc3n2CCN4CCOCC4)c5c(C)onc5C)cc1",0,NA
+768126,"S",-1,1,1,"",NA,"CCOC(=O)Nc1cc(nn2c(C)nnc12)c3ccc(C)c(NS(=O)(=O)C)c3",0,NA
+768136,"S",-1,1,1,";(S)-2-[1-(4-Amino-6,7-dimethoxy-quinazolin-2-yl)-piperi...",NA,"COc1cc2nc(nc(N)c2cc1OC)N3CCC[C@H](C3)NC4=CC(=O)c5ccccc5C4=O",0,NA
+768137,"S",-1,2,2,";(R)-2-[1-(4-Amino-6,7-dimethoxy-quinazolin-2-yl)-piperi...",NA,"COc1cc2nc(nc(N)c2cc1OC)N3CCC[C@@H](C3)NC4=CC(=O)c5ccccc5C4=O",0,NA
+768313,"S",-1,2,2,";3-amino-N-(3-methoxyphenyl)-5-oxo-5,6,7,8-tetrahydrothi...",NA,"COc1cccc(NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N)c1",0,NA
+768314,"S",-1,2,2,";3-amino-N-(3-bromophenyl)-5-oxo-5,6,7,8-tetrahydrothien...",NA,"Nc1c(sc2nc3CCCC(=O)c3cc12)C(=O)Nc4cccc(Br)c4",0,NA
+768400,"S",-1,1,1,";2-(3-(3,4,5-trimethoxyphenyl)-1H-pyrazol-5-yl)-1H-benzo...",NA,"COc1cc(cc(OC)c1OC)c2cc([nH]n2)c3nc4ccccc4[nH]3",0,NA
+768407,"S",-1,1,1,";(E)-1-(3,4-dimethoxyphenyl)-3-(3-(4-methoxyphenyl)-1H-p...",NA,"COc1ccc(cc1)c2cc(\C=C\C(=O)c3ccc(OC)c(OC)c3)[nH]n2",0,NA
+768410,"S",-1,2,2,";2-(3-(benzo[d][1,3]dioxol-5-yl)-1H-pyrazol-5-yl)-5-fluo...",NA,"Fc1ccc2[nH]c(nc2c1)c3cc(n[nH]3)c4ccc5OCOc5c4",0,NA
+768465,"S",-1,1,1,"",NA,"CCOC(=O)c1ccc2c(c1)nc(\C=C\c3ccc(Cl)cc3)n2c4cc([nH]n4)C(C)(C)C",0,NA
+768473,"S",-1,1,1,"",NA,"Clc1ccc(\C=C\C(=O)\C=C\C2=Cc3ccccc3NC2=O)cc1",0,NA
+768488,"S",-1,2,2,"",NA,"COc1ccc(cc1)N(Cc2cc(OC)c(OC)c(OC)c2)C3OC(=O)c4ccccc34",0,NA
+768508,"S",-1,2,2,"GSK-2636771","Clinical trial","Cc1c(Cn2c(C)nc3c(cc(cc23)N4CCOCC4)C(=O)O)cccc1C(F)(F)F",0,"PK:PIK3,MTOR"
+768509,"S",-1,2,2,"SNX-5422","Clinical trial","CC1(C)CC(=O)c2c(C1)n(nc2C(F)(F)F)c3ccc(C(=O)N)c(N[C@@H]4CC[C@H](CC4)OC(=O)CN)c3",0,"HSP90"
+768539,"S",-1,1,1,"IDH1-Comp 301","Clinical trial","Cc1ccccc1C(N(C(=O)CNc2ncccc2F)c3cccc(F)c3)C(=O)NC4CCCCC4",0,"IDH1"
+768557,"S",-1,2,2,"",NA,"Cc1ccn2c(c(C)nc2c1)c3csc(Nc4cccc(O)c4)n3",0,NA
+768562,"S",-1,2,2,"",NA,"NC1=C(C#N)C(c2cccs2)c3ccc4ccccc4c3O1",0,NA
+768565,"S",-1,2,1,"",NA,"COc1ccc(cc1)c2cnoc2c3cc(OC)c(OC)c(OC)c3",0,NA
+768567,"S",-1,2,1,"",NA,"COc1c(OC)c(cc2OCOc12)C3CC(=O)Nc4c3cnn4Cc5occc5",0,NA
+768570,"S",-1,1,1,"",NA,"COc1cc(cc(OC)c1OC)C2CC(=O)c3c(C)nn(c3C2)c4nc5ccccc5[nH]4",0,NA
+768571,"S",-1,2,2,"",NA,"COc1ccc(cc1)C2CC(=O)Nc3c2c(C)nn3c4nc5ccccc5[nH]4",0,NA
+768572,"S",-1,2,2,"",NA,"Cc1nn(c2NC(=O)CC(c3ccc4OCOc4c3)c12)c5nc6ccccc6[nH]5",0,NA
+768573,"S",-1,1,1,"",NA,"COc1ccc(cc1OC)C(=O)c2sc3nc(ccc3c2N)c4ccccc4OC",0,NA
+768574,"S",-1,1,1,"",NA,"COc1ccc(cc1OC)C(=O)c2sc3nc4CCCCc4cc3c2N",0,NA
+768584,"S",-1,2,2,"",NA,"COc1cccc(C2CC(=O)Nc3c2c(C)nn3c4nc5ccccc5[nH]4)c1OC",0,NA
+768585,"S",-1,2,2,"",NA,"COc1ccc(cc1OC)C2CC(=O)Nc3c2c(C)nn3c4nc5ccccc5[nH]4",0,NA
+768586,"S",-1,2,2,"",NA,"Cc1ccc(C(=O)c2sc3nc4CCCCc4cc3c2N)c(C)c1",0,NA
+768587,"S",-1,2,2,"",NA,"COc1ccc(OC)c(c1)C(=O)c2oc3ccc(Br)cc3c2N",0,NA
+768591,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2cn[nH]c2c3cc(OC)c4OCOc4c3",0,NA
+768592,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2oncc2c3cc(OC)c(OC)c(OC)c3",0,NA
+768593,"S",-1,1,1,"CEP-9722","Clinical trial","COc1cccc2[nH]c3c4CCCc4c5C(=O)N(CN6CCN(C)CC6)C(=O)c5c3c12",0,"PARP1"
+768600,"S",-1,1,1,";(E)-1-(4-methoxyphenyl)-3-(4-(3,4,5-trimethoxystyryl)ph...",NA,"COc1ccc(cc1)C(=O)\C=C\c2ccc(\C=C\c3cc(OC)c(OC)c(OC)c3)cc2",0,NA
+768637,"S",-1,2,2,";(R)-2-chloro-N-(2-(5-(dimethylamino)naphthalene-1-sulfo...",NA,"CC(C)[C@H](CO)Nc1nc(Nc2ccc(C(=O)NCCNS(=O)(=O)c3cccc4c(cccc34)N(C)C)c(Cl)c2)c5ncn(C(C)C)c5n1",0,NA
+768649,"S",-1,2,2,";2-(3-((4-((4-aminobutyl)amino)butyl)amino)propyl)-7-(3-...",NA,"COc1ccccc1CNCCCN2C(=O)c3ccc4C(=O)N(CCCNCCCCNCCCCN)C(=O)c5ccc(C2=O)c3c45",0,NA
+771426,"S",-1,1,1,";2-(3-(Cyclopentyloxy)-4-methoxyphenyl)-1-cyclopropyl-4,...",NA,"COc1ccc(cc1OC2CCCC2)c3nc(c4ccccc4)c(c5ccccc5)n3C6CC6",0,NA
+771434,"S",-1,1,1,";2-(3-(Cyclopentyloxy)-4-methoxyphenyl)-4,5-diphenyl-1H-...",NA,"COc1ccc(cc1OC2CCCC2)c3nc(c4ccccc4)c([nH]3)c5ccccc5",0,NA
+771442,"S",-1,1,1,"",NA,"COC1=NC2=C(C(C=C(N2)c3ccc(OC)cc3)c4ccc(Oc5ccnc6cc(Cl)ccc56)c(OC)c4)C(=O)N1",0,NA
+771458,"S",-1,1,1,"",NA,"COc1ccc(cc1)C2=NNC(C2)c3sc(Cl)nc3Cl",0,NA
+771480,"S",-1,1,1,"",NA,"COc1cc(\C=C\C(=O)c2ccc(Cl)cc2)ccc1OS(=O)(=O)c3ccc(C)cc3",0,NA
+771483,"S",-1,1,1,"",NA,"COc1cc(ccc1Oc2ccnc3cc(Cl)ccc23)c4cc(nc5N=C(N)NC(=O)c45)c6cc(OC)c(OC)c(OC)c6",0,NA
+771508,"S",-1,1,1,"",NA,"COc1cc(Cl)cc(c1)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc(N6CCOCC6)c(c5)C(F)(F)F)c4",0,NA
+771512,"S",-1,1,1,"",NA,"COc1cc(Cl)cc(c1)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5cccc(c5)C(F)(F)F)c4",0,NA
+771516,"S",-1,1,1,"",NA,"Oc1cc(Cl)cc(c1)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc(N6CCOCC6)c(c5)C(F)(F)F)c4",0,NA
+771531,"S",-1,2,2,"RG-7112","Clinical trial","CCOc1cc(ccc1C2=N[C@@](C)(c3ccc(Cl)cc3)[C@](C)(N2C(=O)N4CCN(CCS(=O)(=O)C)CC4)c5ccc(Cl)cc5)C(C)(C)C",0,"MDM2"
+771532,"S",-1,2,2,"GDC-0349","Clinical trial","CCNC(=O)Nc1ccc(cc1)c2nc3CN(CCc3c(n2)N4CCOC[C@@H]4C)C5COC5",0,"PK:MTOR"
+771536,"S",-1,2,2,";3-amino-5-hydroxy-N-phenyl-5,6,7,8-tetrahydrothieno[2,3...",NA,"Nc1c(sc2nc3CCCC(O)c3cc12)C(=O)Nc4ccccc4",0,NA
+771538,"S",-1,2,2,";3-amino-5-hydroxy-N-(3-methoxyphenyl)-5,6,7,8-tetrahydr...",NA,"COc1cccc(NC(=O)c2sc3nc4CCCC(O)c4cc3c2N)c1",0,NA
+771539,"S",-1,2,2,";3-amino-N-(3-bromophenyl)-5-hydroxy-5,6,7,8-tetrahydrot...",NA,"Nc1c(sc2nc3CCCC(O)c3cc12)C(=O)Nc4cccc(Br)c4",0,NA
+771540,"S",-1,2,2,";3-amino-N-(3-chlorophenyl)-5-hydroxy-5,6,7,8-tetrahydro...",NA,"Nc1c(sc2nc3CCCC(O)c3cc12)C(=O)Nc4cccc(Cl)c4",0,NA
+771546,"S",-1,2,2,";3-amino-N-(3-chloro-2-methylphenyl)-5-oxo-5,6,7,8-tetra...",NA,"Cc1c(Cl)cccc1NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N",0,NA
+771550,"S",-1,2,2,";3-amino-N-(naphthalen-1-yl)-5-oxo-5,6,7,8-tetrahydrothi...",NA,"Nc1c(sc2nc3CCCC(=O)c3cc12)C(=O)Nc4cccc5ccccc45",0,NA
+771556,"S",-1,1,1,";3-amino-N-(2-methoxyphenyl)-5-oxo-5,6,7,8-tetrahydrothi...",NA,"COc1ccccc1NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N",0,NA
+771557,"S",-1,2,2,";3-amino-N-(3-fluorophenyl)-5-oxo-5,6,7,8-tetrahydrothie...",NA,"Nc1c(sc2nc3CCCC(=O)c3cc12)C(=O)Nc4cccc(F)c4",0,NA
+771558,"S",-1,2,2,";3-amino-N-(2-chlorophenyl)-5-oxo-5,6,7,8-tetrahydrothie...",NA,"Nc1c(sc2nc3CCCC(=O)c3cc12)C(=O)Nc4ccccc4Cl",0,NA
+771559,"S",-1,2,2,";3-AMINO-N-PHENYL-5,6,7,8-TETRAHYDROTHIENO(2,3-B)QUINOLI...",NA,"Nc1c(sc2nc3CCCCc3cc12)C(=O)Nc4ccccc4",0,NA
+771598,"S",-1,2,2,"",NA,"NCCCOc1cc2ccccc2cc1C(=O)NCCOc3nc4ccccc4cc3C(=O)Nc5ccc(Cl)cc5O",0,NA
+771644,"S",-1,2,2,"ARQ-621","Clinical trial","NCCCN([C@H](CC#C)C1=Nc2cc(Cl)ccc2C(=O)N1Nc3ccccc3)C(=O)c4cccc(Cl)c4F",0,"CDH16|KIF11"
+771650,"S",-1,3,3,"AT-13148","Clinical trial","NC[C@@](O)(c1ccc(Cl)cc1)c2ccc(cc2)c3cn[nH]c3",0,"PK:AKT"
+771651,"S",-1,1,1,"VX-322","Clinical trial","Nc1nc(Nc2ccc(cc2)[C@@H]3CC[C@H](CC3)N4CCOCC4)nn1c5ccccn5",0,"PK:FLT,KIT,FLT3"
+771652,"S",-1,1,1,"SAR-125844","Clinical trial","Fc1ccc(cc1)c2ccc3nnc(Sc4ccc5nc(NC(=O)NCCN6CCOCC6)sc5c4)n3n2",0,"PK:MET"
+771657,"S",-1,1,1,";N-(1-benzyl-2-methyl-1H-benzimidazol-5-yl)-N'-(4-fluoro...",NA,"Cc1nc2cc(Nc3nc(Nc4ccc(F)cc4)nc(n3)c5cccs5)ccc2n1Cc6ccccc6",0,NA
+771660,"S",-1,1,1,";(1-benzyl-2-methyl-1H-benzimidazol-5-yl)-(4-morpholin-4...",NA,"Cc1nc2cc(Nc3nc(nc(n3)N4CCOCC4)N5CCCCC5)ccc2n1Cc6ccccc6",0,NA
+771717,"S",-1,1,1,";7-(2-chlorophenyl)-2-methoxy-3-(phenylsulfonyl)-6,7-dih...",NA,"COc1nc2c(CCc3c2cnn3c4ccccc4Cl)cc1S(=O)(=O)c5ccccc5",0,NA
+771750,"S",-1,2,2,"LY-2874455","Clinical trial","C[C@@H](Oc1ccc2[nH]nc(\C=C\c3cnn(CCO)c3)c2c1)c4c(Cl)cncc4Cl",0,"PK:FGFR,VEGFR,FGFR1,FGFR2,FGFR3,FGFR4"
+771762,"S",-1,2,2,";{2-[4-(7-chloro-quinolin-4-yl)-piperazin-1-yl]-pyrmidin...",NA,"COc1cc(Nc2ccnc(n2)N3CCN(CC3)c4ccnc5cc(Cl)ccc45)cc(OC)c1",0,NA
+771787,"S",-1,1,1,"",NA,"COc1ccc(cc1OC)C(=O)c2sc3nc(ccc3c2N)c4cccs4",0,NA
+771790,"S",-1,2,1,"",NA,"COc1ccc(cc1)c2[nH]ncc2c3cc(OC)c(OC)c(OC)c3",0,NA
+771791,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2oncc2c3cc(OC)c4OCOc4c3",0,NA
+771795,"S",-1,1,1,"",NA,"Cc1nc2sccn2c1c3csc(Nc4cccc(Cl)c4C)n3",0,NA
+771796,"S",-1,1,1,"",NA,"COc1cc(cc(Br)c1OC)c2c(C#N)c(N)n3c4ccccc4nc3c2C#N",0,NA
+771803,"S",-1,2,2,"",NA,"Cc1ccc(cc1)S(=O)(=O)Nc2cccc3nc([nH]c23)C(F)(F)F",0,NA
+771807,"S",-1,1,1,"",NA,"COc1ccc(cc1OC)c2cc(O)n(n2)c3nc4ccccc4[nH]3",0,NA
+771820,"S",-1,2,2,"",NA,"COc1cc(cc(OC)c1O)C2CC(=O)Nc3c2c(C)nn3c4nc5ccccc5[nH]4",0,NA
+771827,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2nsc3C(CC(=O)Nc23)c4cccc(Cl)c4",0,NA
+771829,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2nsc3C(CC(=O)Nc23)c4ccc(F)cc4",0,NA
+771835,"S",-1,1,1,";2-(3,5-dimethyl-1H-pyrazol-1-yl)-6-propyl-1,4-dihydropy...",NA,"CCCC1=CC(=O)N=C(N1)n2nc(C)cc2C",0,NA
+772197,"S",-1,2,2,"LY-2801653","Clinical trial","CC1=CC=C(C(=O)Nc2ccc(Oc3cc4cnn(C)c4cc3c5cn[nH]c5)c(F)c2)C(=O)N1c6ccc(F)cc6",0,"PK:MET,AXL,FLT3,MERTK,MST1R,Multikinase"
+772198,"S",-1,2,2,"LY-2090314","Clinical trial","Fc1cc2CN(CCn3cc(C4=C(C(=O)NC4=O)c5cnc6ccccn56)c(c1)c23)C(=O)N7CCCCC7",0,"PK:GSK3A,GSK3B"
+772205,"S",-1,1,1,"",NA,"CC(C)C[C@H](NC(=O)CN1C=CC(=CC1=O)Nc2ccccc2)B(O)O",0,NA
+772209,"S",-1,2,2,"",NA,"CC(C)C[C@H](NC(=O)CCN1C=Cc2ncccc2C1=O)B(O)O",0,NA
+772254,"S",-1,2,2,"ARRY-520 Isomer A","Clinical trial","CON(C)C(=O)N1N=C(SC1(CCCN)c2ccccc2)c3cc(F)ccc3F",0,"CDH16"
+772255,"S",-1,2,2,"ARRY-520 Isomer A","Clinical trial","CON(C)C(=O)N1N=C(SC1(CCCN)c2ccccc2)c3cc(F)ccc3F",0,"CDH16"
+772257,"S",-1,2,2,";(Z)-2-(1-Methyl-5-nitroimidazole-2-ylmethylene)-3(2H)-b...",NA,"Cn1c(\C=C\2/Oc3ccccc3C2=O)ncc1[N+](=O)[O-]",0,NA
+772258,"S",-1,2,2,";(Z)-5-Chloro-2-(1-methyl-5-nitroimidazole-2-ylmethylene...",NA,"Cn1c(\C=C\2/Oc3ccc(Cl)cc3C2=O)ncc1[N+](=O)[O-]",0,NA
+772259,"S",-1,2,2,";(Z)-5-Bromo-2-(1-methyl-5-nitroimidazole-2-ylmethylene)...",NA,"Cn1c(\C=C\2/Oc3ccc(Br)cc3C2=O)ncc1[N+](=O)[O-]",0,NA
+772260,"S",-1,2,2,";(Z)-7-Methoxy-2-(1-methyl-5-nitroimidazole-2-ylmethylen...",NA,"COc1cccc2C(=O)\C(=C\c3ncc([N+](=O)[O-])n3C)\Oc12",0,NA
+772261,"S",-1,2,2,";(Z)-5-Methoxy-2-(1-methyl-5-nitroimidazole-2-ylmethylen...",NA,"COc1ccc2O\C(=C/c3ncc([N+](=O)[O-])n3C)\C(=O)c2c1",0,NA
+772262,"S",-1,2,2,";(Z)-7-Methyl-2-(5-nitrofuran-2-ylmethylene)-3(2H)-benzo...",NA,"Cc1cccc2C(=O)\C(=C\c3oc(cc3)[N+](=O)[O-])\Oc12",0,NA
+772264,"S",-1,2,2,";(Z)-5-Methyl-2-(1-methyl-4-nitroimidazole-5-ylmethylene...",NA,"Cc1ccc2O\C(=C/c3ncc([N+](=O)[O-])n3C)\C(=O)c2c1",0,NA
+772265,"S",-1,2,2,";(Z)-6-Chloro-2-(1-methyl-4-nitroimidazole-5-ylmethylene...",NA,"Cn1c(\C=C\2/Oc3cc(Cl)ccc3C2=O)ncc1[N+](=O)[O-]",0,NA
+772266,"S",-1,2,2,";(Z)-6,7-Dimethoxy-2-(1-methyl-5-nitroimidazole-2-ylmeth...",NA,"COc1ccc2C(=O)\C(=C\c3ncc([N+](=O)[O-])n3C)\Oc2c1OC",0,NA
+772268,"S",-1,2,2,";(Z)-7-Methyl-2-(1-methyl-4-nitroimidazole-5-ylmethylene...",NA,"Cc1cccc2C(=O)\C(=C\c3ncc([N+](=O)[O-])n3C)\Oc12",0,NA
+772271,"S",-1,1,1,";(Z)-5-Bromo-2-(5-nitrofuran-2-ylmethylene)-3(2H)-benzof...",NA,"[O-][N+](=O)c1oc(\C=C\2/Oc3ccc(Br)cc3C2=O)cc1",0,NA
+772274,"S",-1,2,2,";(Z)-6-Methoxy-2-(1-methyl-5-nitroimidazole-2-ylmethylen...",NA,"COc1ccc2C(=O)\C(=C\c3ncc([N+](=O)[O-])n3C)\Oc2c1",0,NA
+772277,"S",-1,2,2,";(Z)-5-Methoxy-2-(5-nitrofuran-2-ylmethylene)-3(2H)-benz...",NA,"COc1ccc2O\C(=C/c3oc(cc3)[N+](=O)[O-])\C(=O)c2c1",0,NA
+772278,"S",-1,2,2,";(Z)-6-Methoxy-2-(5-nitrofuran-2-ylmethylene)-3(2H)-benz...",NA,"COc1ccc2C(=O)\C(=C\c3oc(cc3)[N+](=O)[O-])\Oc2c1",0,NA
+772279,"S",-1,1,1,";(Z)-6-Methyl-2-(5-nitrofuran-2-ylmethylene)-3(2H)-benzo...",NA,"Cc1ccc2C(=O)\C(=C\c3oc(cc3)[N+](=O)[O-])\Oc2c1",0,NA
+772280,"S",-1,2,2,";(Z)-5-Chloro-2-(5-nitrofuran-2-ylmethylene)-3(2H)-benzo...",NA,"[O-][N+](=O)c1oc(\C=C\2/Oc3ccc(Cl)cc3C2=O)cc1",0,NA
+772281,"S",-1,2,2,"(z)-2-(5-nitrofuran-2-ylmethylene)-3(2h)-benzofuranone","","[O-][N+](=O)c1oc(\C=C\2/Oc3ccccc3C2=O)cc1",0,""
+772282,"S",-1,2,2,"(z)-2-(5-nitrothiophene-2-ylmethylene)-3(2h)-benzofuranone","","[O-][N+](=O)c1ccc(\C=C\2/Oc3ccccc3C2=O)s1",0,""
+772283,"S",-1,2,2,";(Z)-5-Chloro-2-(5-nitrothiophene-2-ylmethylene)-3(2H)-b...",NA,"[O-][N+](=O)c1ccc(\C=C\2/Oc3ccc(Cl)cc3C2=O)s1",0,NA
+772284,"S",-1,2,2,";(Z)-7-Methoxy-2-(5-nitrothiophene-2-ylmethylene)-3(2H)-...",NA,"COc1cccc2C(=O)\C(=C\c3ccc(s3)[N+](=O)[O-])\Oc12",0,NA
+772285,"S",-1,2,2,";(Z)-6-Chloro-2-(5-nitrothiophene-2-ylmethylene)-3(2H)-b...",NA,"[O-][N+](=O)c1ccc(\C=C\2/Oc3cc(Cl)ccc3C2=O)s1",0,NA
+772286,"S",-1,2,2,";(Z)-6-Methoxy-2-(5-nitrothiophene-2-ylmethylene)-3(2H)-...",NA,"COc1ccc2C(=O)\C(=C\c3ccc(s3)[N+](=O)[O-])\Oc2c1",0,NA
+772287,"S",-1,2,2,";(Z)-5-Bromo-2-(5-nitrothiophene-2-ylmethylene)-3(2H)-be...",NA,"[O-][N+](=O)c1ccc(\C=C\2/Oc3ccc(Br)cc3C2=O)s1",0,NA
+772288,"S",-1,2,2,";(Z)-5-Methoxy-2-(5-nitrothiophene-2-ylmethylene)-3(2H)-...",NA,"COc1ccc2O\C(=C/c3ccc(s3)[N+](=O)[O-])\C(=O)c2c1",0,NA
+772289,"S",-1,2,1,";2-(3-aminopropyl)-7-(3-((2-methoxybenzyl)amino)propyl)b...",NA,"COc1ccccc1CNCCCN2C(=O)c3ccc4C(=O)N(CCCN)C(=O)c5ccc(C2=O)c3c45",0,NA
+772290,"S",-1,2,2,"Pelitrexol isomer A","Clinical trial","Cc1cc(sc1CCC2CNC3=C(C2)C(=O)NC(=N3)N)C(=O)NC(CCC(=O)O)C(=O)O",0,"GARTF"
+772291,"S",-1,2,2,"Pelitrexol isomer B","Clinical trial","Cc1cc(sc1CCC2CNC3=C(C2)C(=O)NC(=N3)N)C(=O)NC(CCC(=O)O)C(=O)O",0,"GARTF"
+772296,"S",-1,1,1,"imap","","Fc1ccc(cc1)C(CCCN2CCC3(CC2)N(CNC3=O)c4ccccc4)c5ccc(F)cc5",0,""
+772317,"S",-1,1,1,"",NA,"CC1=CC(=O)N2N=Nc3c(ccc4ccccc34)N12",0,NA
+772330,"S",-1,1,1,"",NA,"Fc1ccc(Nc2c(cnc3ccc(NCc4c[nH]cn4)cc23)C#N)cc1Cl",0,NA
+772341,"S",-1,1,1,"",NA,"c1cccc2c1cc1c([N]3=Cc4cc(ccc4[O-][Ni+2]43[N]1=Cc1c(ccc(c1)C[N+](CC)(CC)CC)[O-]4)C[N+](CC)(CC)CC)c2.[Cl](=O)(=O)(=O)[O-].[Cl](=O)(=O)(=O)[O-]",0,NA
+772344,"S",-1,1,1,"",NA,"Fc1ccc(cc1Cl)N2N=Nc3c(sc4ccccc34)C2=O",0,NA
+772345,"S",-1,1,1,"",NA,"Cc1ccc(cc1)N2N=Nc3c(sc4ccccc34)C2=O",0,NA
+772351,"S",-1,2,2,"XL-888","Clinical trial","CC[C@@H](C)Nc1cc(C(=O)NC2CC3CCC(C2)N3c4ccc(cn4)C(=O)C5CC5)c(C)cc1C(=O)N",0,"HSP90"
+772438,"S",-1,2,2,"",NA,"NC(=N)c1ccc(cc1F)c2ccc(s2)c3cccs3",0,NA
+772451,"S",-1,1,1,"(r)-methyl 2-cinnamamido-3-(1h-indol-3-yl)propanoate","","COC(=O)[C@@H](Cc1c[nH]c2ccccc12)NC(=O)\C=C\c3ccccc3",0,""
+772469,"S",-1,2,2,"IPI-145","FDA approved","C[C@H](Nc1ncnc2[nH]cnc12)C3=Cc4cccc(Cl)c4C(=O)N3c5ccccc5",0,"PK:PIK3"
+772488,"S",-1,2,2,";3-amino-5-hydroxy-N-(3-nitrophenyl)-5,6,7,8-tetrahydrot...",NA,"Nc1c(sc2nc3CCCC(O)c3cc12)C(=O)Nc4cccc(c4)[N+](=O)[O-]",0,NA
+772489,"S",-1,2,2,";3-amino-5-hydroxy-N-(3-(trifluoromethyl)phenyl)-5,6,7,8...",NA,"Nc1c(sc2nc3CCCC(O)c3cc12)C(=O)Nc4cccc(c4)C(F)(F)F",0,NA
+772490,"S",-1,2,2,";3-amino-N-(3,4-dimethylphenyl)-5-oxo-5,6,7,8-tetrahydro...",NA,"Cc1ccc(NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N)cc1C",0,NA
+772491,"S",-1,2,2,";3-amino-N-(2-ethylphenyl)-5-oxo-5,6,7,8-tetrahydrothien...",NA,"CCc1ccccc1NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N",0,NA
+772494,"S",-1,2,2,";3-amino-N-(2-ethyl-6-methylphenyl)-5-oxo-5,6,7,8-tetrah...",NA,"CCc1cccc(C)c1NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N",0,NA
+772496,"S",-1,1,1,";3-amino-N-(2,3-dichlorophenyl)-5-oxo-5,6,7,8-tetrahydro...",NA,"Nc1c(sc2nc3CCCC(=O)c3cc12)C(=O)Nc4cccc(Cl)c4Cl",0,NA
+772533,"S",-1,2,2,"",NA,"COc1cccc(c1)n2cc(nn2)c3nc(Nc4cc(C)[nH]n4)c5ccccc5n3",0,NA
+772536,"S",-1,1,1,"",NA,"CC#CC1=Nc2ccccc2C(=O)N1",0,NA
+772537,"S",-1,2,1,"",NA,"Cc1cc(Nc2nc(nc3ccccc23)C#C)n[nH]1",0,NA
+772538,"S",-1,2,2,"",NA,"O=C1NC(=Nc2ccccc12)C#C",0,NA
+772541,"S",-1,2,2,"",NA,"Cc1cc(Nc2nc(nc3ccccc23)c4cccnc4)n[nH]1",0,NA
+772542,"S",-1,1,1,"",NA,"Cc1cc(Nc2nc(nc3ccccc23)c4ccncc4)n[nH]1",0,NA
+772544,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2nc(Nc3cc(C)[nH]n3)c4ccccc4n2",0,NA
+772545,"S",-1,1,1,"",NA,"CCOC(=O)N1CCN(CC1)c2nc(Nc3cc(C)[nH]n3)c4ccccc4n2",0,NA
+772548,"S",-1,1,1,"",NA,"Cc1cc(Nc2nc(nc3ccccc23)C(=O)Nc4ccccc4)n[nH]1",0,NA
+772555,"S",-1,1,1,"",NA,"Cc1cc(Nc2nc(nc3ccccc23)N4CCOCC4)n[nH]1",0,NA
+772557,"S",-1,1,1,"",NA,"Cc1cc(Nc2nc(nc3ccccc23)c4cn(nn4)c5ccc(Cl)cc5)n[nH]1",0,NA
+772561,"S",-1,1,1,";3-(3,5-dimethylisoxazol-4-yl)-5-(hydroxy(phenyl)methyl)...",NA,"Cc1onc(C)c1c2cc(O)cc(c2)C(O)c3ccccc3",0,NA
+772563,"S",-1,2,2,"ARRY-704","Clinical trial","CN1C(=O)C(=CC(=C1Nc2ccc(I)cc2F)C(=O)NOCCO)C",0,"PK:MAP2K,MAP2K1,MAP2K2"
+772564,"S",-1,1,1,"IDH-C227","Clinical trial","Cc1ccccc1C(N(C(=O)CNc2ccc(cc2)C#N)c3cccc(F)c3)C(=O)NC4CCCCC4",0,"IDH1"
+772595,"S",-1,2,2,"KPT-185","Clinical trial","COc1cc(cc(c1)C(F)(F)F)c2ncn(\C=C/C(=O)OC(C)C)n2",0,"XPO1"
+772637,"S",-1,1,1,"",NA,"COc1ccc(cc1)c2nsc3C(CC(=O)Nc23)c4cccc(F)c4",0,NA
+772643,"S",-1,1,1,"",NA,"Nc1nonc1c2nc3ccccc3n2Cc4ccccc4Cl",0,NA
+772654,"S",-1,1,1,"",NA,"Nc1nonc1c2nc3ccccc3n2CC(=O)Nc4ccc(F)cc4F",0,NA
+772664,"S",-1,1,1,"",NA,"Nc1nonc1c2nc3ccccc3n2Cc4ccc(F)cc4",0,NA
+772665,"S",-1,1,1,"",NA,"COc1cc(NC(=O)Cn2c(nc3ccccc23)c4nonc4N)cc(OC)c1OC",0,NA
+772666,"S",-1,1,1,"",NA,"COc1cccc(Cn2c(nc3ccccc23)c4nonc4NC(=O)C)c1",0,NA
+772801,"S",-1,2,1,"",NA,"COc1ccc(\C=C\C(=N\OCC(=O)Nc2ccc(Cl)cc2)\C)cc1",0,NA
+772810,"S",-1,1,1,"",NA,"COc1ccc(cc1)S(=O)(=O)NCCCNc2nccc(n2)c3c(nc4sccn34)c5ccc(F)cc5",0,NA
+772811,"S",-1,1,1,"",NA,"Cc1ccc(cc1)S(=O)(=O)NCCNc2nccc(n2)c3c(nc4sccn34)c5ccc(F)cc5",0,NA
+772812,"S",-1,1,1,"",NA,"Fc1ccc(cc1)c2nc3sccn3c2c4ccnc(NCCCNS(=O)(=O)c5ccc6ccccc6c5)n4",0,NA
+772813,"S",-1,1,1,"",NA,"Oc1ccc(cc1)S(=O)(=O)NCCNc2nccc(n2)c3c(nc4sccn34)c5ccc(F)cc5",0,NA
+772816,"S",-1,1,1,"",NA,"Fc1ccc(cc1)c2nc3sccn3c2c4ccnc(NCCCNS(=O)(=O)c5ccc(F)cc5)n4",0,NA
+772821,"S",-1,2,1,"",NA,"COc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)Nc5cc(cc(c5)C(F)(F)F)C(F)(F)F)c4",0,NA
+772823,"S",-1,1,1,"",NA,"COc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc6OCCOc6c5)c4",0,NA
+772825,"S",-1,1,1,"",NA,"COc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc(N6CCOCC6)c(c5)C(F)(F)F)c4",0,NA
+772827,"S",-1,1,1,"",NA,"COc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5cccc(c5)C(F)(F)F)c4",0,NA
+772828,"S",-1,1,1,"",NA,"COc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)Nc5cccc(c5)C(F)(F)F)c4",0,NA
+772839,"S",-1,1,1,"",NA,"Oc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5cc(cc(c5)C(F)(F)F)C(F)(F)F)c4",0,NA
+772840,"S",-1,1,1,"",NA,"Oc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc6OCCOc6c5)c4",0,NA
+772842,"S",-1,1,1,"",NA,"Oc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc(Cl)c(Cl)c5)c4",0,NA
+772843,"S",-1,1,1,"",NA,"Oc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5ccc(N6CCOCC6)c(c5)C(F)(F)F)c4",0,NA
+772844,"S",-1,1,1,"",NA,"Oc1ccc(cc1Cl)c2nn(cc2c3ccncc3)c4cccc(NC(=O)c5cccc(c5)C(F)(F)F)c4",0,NA
+772847,"S",-1,1,1,"",NA,"O=C1Oc2cc(OS(=O)(=O)c3ccccc3)ccc2C4=C1CCCCC4",0,NA
+772850,"S",-1,1,1,"",NA,"Cc1ccc(cc1)S(=O)(=O)Oc2ccc3C4=C(CCCCC4)C(=O)Oc3c2",0,NA
+772852,"S",-1,1,1,"",NA,"O=C(Nc1ccc(OS(=O)(=O)c2ccccc2)cc1)C34CC5CC(CC(C5)C3)C4",0,NA
+772868,"S",-1,2,2,"LCL-161","Clinical trial","CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N2CCC[C@H]2c3nc(cs3)C(=O)c4ccc(F)cc4",0,"IAP"
+772885,"S",-1,2,2,"PF-4942847","Clinical trial","Cc1cc(Cl)cc(OCCn2cc(F)cn2)c1c3nc(N)nc4CN(Cc34)C(=O)NCC(C)(F)F",0,"HSP90"
+772887,"S",-1,1,1,"XL-019","Clinical trial","O=C(Nc1ccc(cc1)c2ccnc(Nc3ccc(cc3)N4CCOCC4)n2)C5CCCN5",0,"PK:JAK,JAK2"
+772991,"S",-1,1,1,"8-Quinolinesulfonamide","Clinical trial","COc1ccccc1N2CCN(CC2)C(=O)c3ccc(NS(=O)(=O)c4cccc5cccnc45)cc3",0,"PKM"
+772992,"S",-1,1,1,"Fostamatinib","Clinical trial","COc1cc(Nc2ncc(F)c(Nc3ccc4OC(C)(C)C(=O)N(COP(=O)(O)O)c4n3)n2)cc(OC)c1OC",0,"Ds|Rs|PK:YK,SYK"
+773076,"S",-1,1,1,"",NA,"COc1ccc(Nc2nccc(n2)N3CCN(CC3)c4c5ccc(Cl)cc5nc6ccc(OC)cc46)cc1",0,NA
+773094,"S",-1,2,2,"R-547","Clinical trial","COc1ccc(F)c(F)c1C(=O)c2cnc(NC3CCN(CC3)S(=O)(=O)C)nc2N",0,"PK:CDK,CDK1,CDK2,CDK4"
+773097,"S",-1,2,2,"(thiophene-2,5-diylbis(furan-5,2-diyl))dimethanol","","OCc1oc(cc1)c2ccc(s2)c3oc(CO)cc3",0,""
+773102,"S",-1,2,2,";8-Ethoxy-4-hydroxy-3-[1,3,4]oxadiazol-2-yl-6-phenyl-2H-...",NA,"CCOc1nc(cc2C(=C(NC(=O)c12)c3ocnn3)O)c4ccccc4",0,NA
+773148,"S",-1,2,2,";2-ethyl-7-(3-((2-methoxybenzyl)amino)propyl)benzo[lmn][...",NA,"CCN1C(=O)c2ccc3C(=O)N(CCCNCc4ccccc4OC)C(=O)c5ccc(C1=O)c2c35",0,NA
+773177,"S",-1,1,1,";(E)-N-((E)-3-((1-methyl-1H-pyrrol-2-yl)methylene)-2-oxo...",NA,"COc1cc(\C=C\C(=O)Nc2ccc3NC(=O)\C(=C\c4cccn4C)\c3c2)cc(OC)c1OC",0,NA
+773187,"S",-1,1,1,";(E)-1-(6-(4-chlorophenyl)-2-methylimidazo[2,1-b][1,3,4]...",NA,"COc1cc(\C=C\C(=O)c2c(nc3sc(C)nn23)c4ccc(Cl)cc4)cc(OC)c1OC",0,NA
+773189,"S",-1,1,1,";(E)-3-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl)phenylam...",NA,"COc1cc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc(N\C=C/C(=O)c3ccc(OC(F)(F)F)cc3)c1OC",0,NA
+773195,"S",-1,1,1,";9,10-dimethoxy-7-oxo-6-phenyl-6,7-dihydroisoindolo[1,2-...",NA,"COc1cc2c(C#N)n3c4ccccc4OC(C(=O)c3c2cc1OC)c5ccccc5",0,NA
+773201,"S",-1,2,2,"",NA,"COc1cc(C2=NN(C(O2)c3ccc(OC(=O)C)cc3OC(=O)C)C(=O)C)c(OC(=O)C)c4ccccc14",0,NA
+773204,"S",-1,1,1,"3,4,5-trihydroxy-n-(4-phenyl-thiazol-2-yl)-benzamide","","Oc1cc(cc(O)c1O)C(=O)Nc2nc(cs2)c3ccccc3",0,""
+773205,"S",-1,1,1,";3,4,5-Trihydroxy-N-[4-(4-methoxy-phenyl)-thiazol-2-yl]-...",NA,"COc1ccc(cc1)c2csc(NC(=O)c3cc(O)c(O)c(O)c3)n2",0,NA
+773206,"S",-1,1,1,";N-[4-(4-Chloro-phenyl)-thiazol-2-yl]-3,4,5-trihydroxy-b...",NA,"Oc1cc(cc(O)c1O)C(=O)Nc2nc(cs2)c3ccc(Cl)cc3",0,NA
+773228,"S",-1,2,2,"",NA,"COc1ccccc1c2c(C)nn3c(NCc4ccccn4)cc(C)nc23",0,NA
+773241,"S",-1,2,1,"",NA,"COc1cc2C(=CC(=O)Oc2c(C)c1OC)c3nc4cc(Cl)c(F)cc4s3",0,NA
+773242,"S",-1,2,2,"",NA,"COc1c(Cl)ccc2C(=CC(=O)Oc12)c3nc4cc(Cl)c(F)cc4s3",0,NA
+773260,"S",-1,2,2,"KPT-251","Clinical trial","FC(F)(F)c1cc(cc(c1)C(F)(F)F)c2ncn(\C=C/c3ocnn3)n2",0,"XPO1"
+773261,"S",-1,2,2,"GSK-921","Clinical trial","CC(C)C(N(CCCN)C(=O)c1ccc(C)cc1)C2=C(Cc3ccccc3)C(=O)c4ccc(Cl)cc4O2",0,"CDH16|KIF11"
+773262,"S",-1,1,1,"VX-689","Clinical trial","OC(=O)[C@@]1(Cc2cccc(Nc3nccs3)n2)CC[C@@H](CC1)Oc4cccc(Cl)c4F",0,"PK:AURK"
+773263,"S",-1,2,2,"Bafetinib","Clinical trial","CN(C)[C@H]1CCN(Cc2ccc(cc2C(F)(F)F)C(=O)Nc3ccc(C)c(Nc4ncc(cn4)c5cncnc5)c3)C1",0,"BCR-ABL|PK:YK,FYN,LYN"
+773264,"S",-1,2,2,"R-306465","Clinical trial","ONC(=O)c1cnc(nc1)N2CCN(CC2)S(=O)(=O)c3ccc4ccccc4c3",0,"HDAC"
+773265,"S",-1,2,2,"B-7100","Clinical trial","COc1c(C)cnc(Cn2cnc3c(Cl)nc(N)nc23)c1C",0,"HSP90"
+773277,"S",-1,1,1,"5-chloro-2-(2-phenoxyacetamido)benzamide","","NC(=O)c1cc(Cl)ccc1NC(=O)COc2ccccc2",0,""
+773278,"S",-1,2,2,"5-iodo-2-(2-phenoxyacetamido)benzamide","","NC(=O)c1cc(I)ccc1NC(=O)COc2ccccc2",0,""
+773279,"S",-1,2,2,"5-methoxy-2-(2-phenoxyacetamido)benzamide","","COc1ccc(NC(=O)COc2ccccc2)c(c1)C(=O)N",0,""
+773280,"S",-1,1,1,"4,5-dimethoxy-2-(2-phenoxyacetamido)benzamide","","COc1cc(NC(=O)COc2ccccc2)c(cc1OC)C(=O)N",0,""
+773315,"S",-1,2,2,"4-bromo-n'-butylbenzohydrazide","","CCCCNNC(=O)c1ccc(Br)cc1",0,""
+773319,"S",-1,2,1,"",NA,"Oc1ccccc1NC(=O)c2ccc(NS(=O)(=O)c3cccc4cccnc34)cc2",0,NA
+773381,"S",-1,2,1,"",NA,"CN1CCc2c(Sc3ccc(cc3)C(=O)NO)c4ccccc4n2C1",0,NA
+773382,"S",-1,2,1,"",NA,"CN1CCc2c(Sc3ccc(cc3)C(=O)NO)c4cc(C)ccc4n2C1",0,NA
+773383,"S",-1,2,1,"",NA,"CN1CCn2c(C1=O)c(Sc3ccc(cc3)C(=O)NO)c4ccccc24",0,NA
+773385,"S",-1,2,2,"",NA,"C[C@@H](Oc1cc(cnc1N)c2cnn(c2)C3CC4(CNC4)C3)c5c(Cl)ccc(F)c5Cl",0,NA
+773386,"S",-1,2,2,"",NA,"C[C@@H](Oc1cc(cnc1N)c2cnn(c2)C3CC4(CCNCC4)C3)c5c(F)ccc(Cl)c5Cl",0,NA
+773388,"S",-1,2,2,"",NA,"Nc1ncnc2c1c(nn2C3CCC4(CC3)CN(C4)C(=O)C=C)c5ccc(Oc6ccccc6)cc5",0,NA
+773389,"S",-1,2,2,"",NA,"C[C@@H](Oc1cc(cnc1N)c2cnn(c2)C3CC4(CCCNC4)C3)c5c(Cl)ccc(F)c5Cl",0,NA
+773392,"S",-1,2,2,"(selenophene-2,5-diylbis(furan-5,2-diyl))dimethanol","","OCc1oc(cc1)c2ccc([se]2)c3oc(CO)cc3",0,""
+773393,"S",-1,2,2,"5,5'-(selenophene-2,5-diyl)bis(furan-2-carbaldehyde)","","O=Cc1oc(cc1)c2ccc([se]2)c3oc(C=O)cc3",0,""
+773409,"S",-1,1,1,"",NA,"CCCCCCCCCCCCCC(=S)NCCCC[C@H](NC(=O)OCc1ccccc1)C(=O)Nc2ccccc2",0,NA
+774651,"S",-1,2,2,"Cilengitide","Clinical trial","CC(C)[C@@H]1N(C)C(=O)[C@@H](Cc2ccccc2)NC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@H](CCCN=C(N)N)NC1=O",0,"Ang|ITG"
+774702,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2cn[nH]c2c3cc(OC)c4OCCOc4c3",0,NA
+774714,"S",-1,2,2,"",NA,"Nc1nonc1c2nc3ccccc3n2Cc4cccc(Br)c4",0,NA
+774719,"S",-1,2,2,"",NA,"COc1cc(Cn2c(nc3ccccc23)c4nonc4N)ccc1C",0,NA
+774730,"S",-1,1,1,"",NA,"COc1ccc(OC)c(Nc2nc(cs2)c3c(C)nc4sccn34)c1",0,NA
+774736,"S",-1,1,1,"",NA,"COc1ccc(cc1)c2cnc3ccnn3c2c4cc(OC)c(OC)c(OC)c4",0,NA
+774769,"S",-1,2,2,"NMS-E628","FDA approved","CN1CCN(CC1)c2ccc(C(=O)Nc3n[nH]c4ccc(Cc5cc(F)cc(F)c5)cc34)c(NC6CCOCC6)c2",0,"PK:ALK"
+774788,"S",-1,1,1,"",NA,"Cc1ccc(cc1)S(=O)(=O)Oc2ccc3C4=C(CCCCCC4)C(=O)Oc3c2",0,NA
+774790,"S",-1,2,2,"",NA,"Fc1ccc(cc1)S(=O)(=O)Oc2ccc(NC(=O)C34CC5CC(CC(C5)C3)C4)cc2",0,NA
+774816,"S",-1,2,1,"mito-chromanol acetate","","CC(=O)Oc1c(C)c(C)c2OC(C)(CC(=O)OCCCCCCCCCCC[P+](c3ccccc3)(c4ccccc4)c5ccccc5)CCc2c1C",0,""
+774818,"S",-1,1,1,"",NA,"CCC(C)CC(C)C(=O)C1=C(O)C=CN(O)C1=O",0,NA
+774830,"S",-1,2,2,"Milciclib","Clinical trial","CNC(=O)c1nn(C)c2c3nc(Nc4cccc(c4)N5CCN(C)CC5)ncc3CC(C)(C)c12",0,"PK:CDK,Multikinase"
+774831,"S",-1,2,2,"Rebastinib","Clinical trial","CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3cc(nn3c4ccc5ncccc5c4)C(C)(C)C)c(F)c2)ccn1",0,"BCR-ABL|PK:LYN,FGFR,SRC,VEGFR,TEK"
+774841,"S",-1,1,1,"",NA,"COc1ccc(\C=C\2/CN(Cc3cn(CCCNc4ccnc5cc(Cl)ccc45)nn3)C\C(=C/c6ccc(OC)cc6)\C2=O)cc1",0,NA
+774842,"S",-1,1,1,"",NA,"COc1ccc(\C=C\2/CN(Cc3cn(CCCNc4ccnc5cc(Cl)ccc45)nn3)C\C(=C/c6ccc(OC)c(OC)c6)\C2=O)cc1OC",0,NA
+774861,"S",-1,1,1,";N-(1-Benzyl-2-methyl-1H-benzoimidazol-5-yl)-6-(4-chloro...",NA,"Cc1nc2cc(Nc3nc(Nc4ccc(F)cc4)nc(n3)c5ccc(Cl)cc5)ccc2n1Cc6ccccc6",0,NA
+774862,"S",-1,1,1,";N-(1-Benzyl-2-methyl-1H-benzoimidazol-5-yl)-N'-(4-fluor...",NA,"COc1ccc(cc1)c2nc(Nc3ccc(F)cc3)nc(Nc4ccc5c(c4)nc(C)n5Cc6ccccc6)n2",0,NA
+774901,"S",-1,2,2,"AZD-2858","Clinical trial","c1(cnccc1)NC(=O)c1c(ncc(n1)c1ccc(cc1)S(=O)(=O)N1CCN(CC1)C)N.C(C)S(=O)(=O)O.C(C)S(=O)(=O)O",0,"Wnt|PK:GSK3A"
+774912,"S",-1,2,2,";(Z)-N1-(3-((1H-pyrrol-2-yl)methylene)-2-oxoindolin-5-yl...",NA,"ONC(=O)CCCCCCC(=O)Nc1ccc2NC(=O)\C(=C/c3ccc[nH]3)\c2c1",0,NA
+774913,"S",-1,2,2,";(Z)-N1-(3-((3,5-dimethyl-1H-pyrrol-2-yl)methylene)-2-ox...",NA,"Cc1cc(C)c(\C=C\2/C(=O)Nc3ccc(NC(=O)CCCCCCC(=O)NO)cc23)[nH]1",0,NA
+774914,"S",-1,1,1,";(Z)-3-((3,5-dimethyl-1H-pyrrol-2-yl)methylene)-N-(3-(me...",NA,"CSCCCNC(=O)c1ccc2NC(=O)\C(=C/c3[nH]c(C)cc3C)\c2c1",0,NA
+774918,"S",-1,1,1,";(Z)-N1-(3-((1H-pyrrol-2-yl)methylene)-2-oxoindolin-5-yl...",NA,"Nc1ccccc1NC(=O)CCCCCCC(=O)Nc2ccc3NC(=O)\C(=C/c4ccc[nH]4)\c3c2",0,NA
+774933,"S",-1,1,1,";2-(3-((2-methoxybenzyl)amino)propyl)-7-(3-((3-(methylam...",NA,"CNCCCNCCCN1C(=O)c2ccc3C(=O)N(CCCNCc4ccccc4OC)C(=O)c5ccc(C1=O)c2c35",0,NA
+774934,"S",-1,1,1,";2-(3-((2-methoxybenzyl)amino)propyl)-7-(3-((4-((3-(meth...",NA,"CNCCCNCCCCNCCCN1C(=O)c2ccc3C(=O)N(CCCNCc4ccccc4OC)C(=O)c5ccc(C1=O)c2c35",0,NA
+774952,"S",-1,1,1,";3-phenyl-1-(6-(trifluoromethyl)-1H-benzo[d]imidazol-2-y...",NA,"FC(F)(F)c1ccc2nc([nH]c2c1)c3nc(c4ccccc4)n5ccccc35",0,NA
+774957,"S",-1,1,1,";5,6-dichloro-2-(3-(4-(trifluoromethyl)phenyl)imidazo[1,...",NA,"FC(F)(F)c1ccc(cc1)c2nc(c3nc4cc(Cl)c(Cl)cc4[nH]3)c5ccccn25",0,NA
+774958,"S",-1,1,1,";(Z)-6-chloro-3-((3-(4-methoxyphenyl)-1H-pyrazol-5-yl)me...",NA,"COc1ccc(cc1)c2cc(\C=C\3/C(=O)Nc4cc(Cl)ccc34)[nH]n2",0,NA
+774959,"S",-1,1,1,";(Z)-5-methoxy-3-((3-(4-methoxyphenyl)-1H-pyrazol-5-yl)m...",NA,"COc1ccc(cc1)c2cc(\C=C\3/C(=O)Nc4ccc(OC)cc34)[nH]n2",0,NA
+774960,"S",-1,1,1,";(Z)-5-chloro-3-((3-(3,4,5-trimethoxyphenyl)-1H-pyrazol-...",NA,"COc1cc(cc(OC)c1OC)c2cc(\C=C\3/C(=O)Nc4ccc(Cl)cc34)[nH]n2",0,NA
+774979,"S",-1,1,1,";(E)-1-(3,4-dimethoxyphenyl)-3-(3-(3,4-dimethoxyphenyl)-...",NA,"COc1ccc(cc1OC)C(=O)\C=C\c2cc(n[nH]2)c3ccc(OC)c(OC)c3",0,NA
+774980,"S",-1,1,1,";(E)-3-(3-(3,4-dimethoxyphenyl)-1H-pyrazol-5-yl)-1-(3,4,...",NA,"COc1ccc(cc1OC)c2cc(\C=C\C(=O)c3cc(OC)c(OC)c(OC)c3)[nH]n2",0,NA
+774981,"S",-1,1,1,";(E)-1-(4-aminophenyl)-3-(3-(3,4-dimethoxyphenyl)-1H-pyr...",NA,"COc1ccc(cc1OC)c2cc(\C=C\C(=O)c3ccc(N)cc3)[nH]n2",0,NA
+774982,"S",-1,1,1,";(E)-5-fluoro-3-((6-(4-methoxyphenyl)-2-(3,4,5-trimethox...",NA,"COc1ccc(cc1)c2nc3sc(nn3c2\C=C/4\C(=O)Nc5ccc(F)cc45)c6cc(OC)c(OC)c(OC)c6",0,NA
+774989,"S",-1,1,1,";(E)-5-chloro-3-((6-(4-chlorophenyl)-2-cyclopropylimidaz...",NA,"Clc1ccc(cc1)c2nc3sc(nn3c2\C=C/4\C(=O)Nc5ccc(Cl)cc45)C6CC6",0,NA
+774998,"S",-1,1,1,";(Z)-4-methoxy-N-(2-methoxy-5-(3,4,5-trimethoxystyryl)ph...",NA,"COc1ccc(cc1)S(=O)(=O)Nc2cc(\C=C/c3cc(OC)c(OC)c(OC)c3)ccc2OC",0,NA
+775002,"S",-1,1,1,";2-cyclopropyl-5-(3,4-dimethoxyphenyl)-6-(3,4,5-trimetho...",NA,"COc1ccc(cc1OC)c2c(nc3sc(nn23)C4CC4)c5cc(OC)c(OC)c(OC)c5",0,NA
+775003,"S",-1,1,1,";(E)-3-((6-p-tolyl-2-(3,4,5-trimethoxyphenyl)imidazo[2,1...",NA,"COc1cc(cc(OC)c1OC)c2nn3c(\C=C/4\C(=O)Nc5ccccc45)c(nc3s2)c6ccc(C)cc6",0,NA
+775010,"S",-1,1,1,";(Z)-N-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl)phenyl)-...",NA,"COc1ccc(cc1)S(=O)(=O)Nc2cc(\C=C/c3cc(OC)c(OC)c(OC)c3)cc(OC)c2OC",0,NA
+775011,"S",-1,1,1,";(Z)-4-chloro-N-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl...",NA,"COc1cc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc(NS(=O)(=O)c3ccc(Cl)cc3)c1OC",0,NA
+775014,"S",-1,1,1,";(Z)-N-(2-hydroxy-3-methoxy-6-(3,4,5-trimethoxystyryl)ph...",NA,"COc1ccc(cc1)S(=O)(=O)Nc2c(O)c(OC)ccc2\C=C/c3cc(OC)c(OC)c(OC)c3",0,NA
+775015,"S",-1,1,1,";(Z)-4-chloro-N-(2-hydroxy-3-methoxy-6-(3,4,5-trimethoxy...",NA,"COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)c(NS(=O)(=O)c3ccc(Cl)cc3)c1O",0,NA
+775029,"S",-1,1,1,";3-(benzylthio)-5-(pyridin-3-yl)-8,9,10,11,12,13-hexahyd...",NA,"C(Sc1nnc2c3c4CCCCCCc4sc3nc(c5cccnc5)n12)c6ccccc6",0,NA
+775293,"S",-1,1,1,";N2-(3-((7-chloroquinolin-4-yl)amino)propyl)-N4-(4-metho...",NA,"COc1ccc(Nc2ccnc(NCCCNc3ccnc4cc(Cl)ccc34)n2)cc1",0,NA
+775294,"S",-1,1,1,";N2-(2-((7-chloroquinolin-4-yl)amino)ethyl)-N4-(3,5-dime...",NA,"COc1cc(Nc2ccnc(NCCNc3ccnc4cc(Cl)ccc34)n2)cc(OC)c1",0,NA
+775296,"S",-1,1,1,";N4-(4-chlorophenyl)-N2-(2-((7-chloroquinolin-4-yl)amino...",NA,"Clc1ccc(Nc2ccnc(NCCNc3ccnc4cc(Cl)ccc34)n2)cc1",0,NA
+775306,"S",-1,1,1,"P-529","Clinical trial","COc1ccc(COc2cc3OC(=O)c4cc(ccc4c3cc2OC)C(C)O)cc1",0,"PK:PIK3,AKT,FGFR,MTOR,VEGFR"
+775353,"S",-1,2,2,"e/z-norendoxifen","","CC\C(=C(\c1ccc(O)cc1)/c2ccc(OCCN)cc2)\c3ccccc3",0,""
+775429,"S",-1,1,1,"4-chloro-2-[5-(4-chlorophenyl)-1h-pyrazol-3-yl]phenol","","Oc1ccc(Cl)cc1c2cc([nH]n2)c3ccc(Cl)cc3",0,""
+775437,"S",-1,1,1,";3-amino-N-(3-methylphenyl)-5,6,7,8-tetrahydrothieno[2,3...",NA,"Cc1cccc(NC(=O)c2sc3nc4CCCCc4cc3c2N)c1",0,NA
+775440,"S",-1,1,1,";3-amino-N-(2,3-dimethylphenyl)-6,7-dihydro-5H-cyclopent...",NA,"Cc1cccc(NC(=O)c2sc3nc4CCCc4cc3c2N)c1C",0,NA
+775441,"S",-1,1,1,";3-amino-N-phenyl-6,7,8,9-tetrahydro-5H-cyclohepta[b]thi...",NA,"Nc1c(sc2nc3CCCCCc3cc12)C(=O)Nc4ccccc4",0,NA
+775443,"S",-1,1,1,";3-amino-6-ethyl-N-(2-methylphenyl)-5,6,7,8-tetrahydroth...",NA,"CCC1CCc2nc3sc(C(=O)Nc4ccccc4C)c(N)c3cc2C1",0,NA
+775444,"S",-1,1,1,";3-amino-6-ethyl-N-(3-fluorophenyl)-5,6,7,8-tetrahydroth...",NA,"CCC1CCc2nc3sc(C(=O)Nc4cccc(F)c4)c(N)c3cc2C1",0,NA
+775445,"S",-1,1,1,";3-amino-N-(3-methoxyphenyl)-5,6,7,8-tetrahydrothieno[2,...",NA,"COc1cccc(NC(=O)c2sc3nc4CCCCc4cc3c2N)c1",0,NA
+775446,"S",-1,1,1,"b]quinoline-2-carboxamide","","CCC1CCc2nc3sc(C(=O)Nc4ccccc4F)c(N)c3cc2C1",0,""
+775460,"S",-1,1,1,"",NA,"CCN(CC)c1cc(\C=C\c2ccc(OC)c(OC)c2)nc3cc(F)c(F)cc13",0,NA
+775463,"S",-1,2,2,"",NA,"Clc1ccc(\C=C\c2cc(N3CCOCC3)c4cc(Cl)c(Cl)cc4n2)cc1",0,NA
+775467,"S",-1,1,1,"",NA,"COc1ccc(\C=C\c2nc(N3CCOCC3)c4cc(F)c(F)cc4n2)cc1OC",0,NA
+775507,"S",-1,2,2,"14,15-cyclopropano-1-n-formyl-vinorelbine-sulfate","","CCC1=C[C@@H]2CN(C1)Cc3c([nH]c4ccccc34)[C@@](C2)(C(=O)OC)c5cc6c(cc5OC)N(C=O)[C@H]7[C@](O)([C@H](OC(=O)C)[C@]8(CC)[C@@H]9C[C@@H]9CN%10CC[C@]67[C@H]8%10)C(=O)OC",0,""
+775548,"S",-1,1,1,"1,1-bis(p-hydroxyphenyl)-2-ferrocenyl-5-hydroxy-pent-1-ene","","C(=C(CCCO)[C-]12C3=C4C5=C1[Fe+2]16782345[C-]2C1=C6C7=C82)(c1ccc(cc1)O)c1ccc(cc1)O",0,""
+775609,"S",-1,2,2,"14,15-cyclopropano-8'-desmethylene-vinblastine-sulfate","","CC[C@]1(O)C[C@@H]2CN(Cc3c([nH]c4ccccc34)[C@@](C2)(C(=O)OC)c5cc6c(cc5OC)N(C)[C@H]7[C@](O)([C@H](OC(=O)C)[C@]8(CC)[C@@H]9C[C@@H]9CN%10CC[C@]67[C@H]8%10)C(=O)OC)C1",0,""
+775632,"S",-1,1,1,"636339","","Oc1c(CC=C)cccc1C=O",0,""
+775636,"S",-1,2,2,"SCH-772984","Clinical trial","O=C(CN1CC[C@H](C1)C(=O)Nc2ccc3[nH]nc(c4ccncc4)c3c2)N5CCN(CC5)c6ccc(cc6)c7ncccn7",0,"PK:ERK,MAP3K,MAPK1"
+775637,"S",-1,1,1,"AMD-070","Clinical trial","NCCCCN(Cc1nc2ccccc2[nH]1)[C@H]3CCCc4cccnc34",0,"CXCR4"
+775664,"S",-1,2,2,"hemolysin bl proteins","","",0,""
+775723,"S",-1,1,1,";3,7-dimethyl-5-(3,4,5-trimethoxyphenyl)-5H-thiazolo[3,2...",NA,"COc1cc(cc(OC)c1OC)C2C=C(C)N=C3SC=C(C)N23",0,NA
+775733,"S",-1,1,1,"",NA,"COc1cc(CN2C(=Nc3ccccc3C2=O)SCC(=O)Nc4ccc(Cl)cc4)cc(OC)c1OC",0,NA
+775739,"S",-1,1,1,"",NA,"COc1cc(CNC(=O)CCSC2=Nc3ccccc3C(=O)N2Cc4cc(OC)c(OC)c(OC)c4)cc(OC)c1OC",0,NA
+775760,"S",-1,1,1,"",NA,"COc1cc([nH]c1\C=C\2/N=C(C)C(=C2C)C(=O)CCCCC(=O)Oc3ccc4C5CC[C@]6(C)[C@@H](O)CC[C@H]6C5CCc4c3)c7ccc[nH]7",0,NA
+775761,"S",-1,1,1,"",NA,"COc1cc([nH]c1\C=C\2/N=C(C)C(=C2C)C(=O)CCC(=O)Oc3ccc4C5CC[C@]6(C)[C@@H](O)CC[C@H]6C5CCc4c3)c7ccc[nH]7",0,NA
+775762,"S",-1,1,1,"",NA,"c12=Cc3[n-]4c(cc3OC)c3[n-](c5c(c3)cccc5)[Sn+4]4([n]2c(c(c1C)CCCCC)C)([CH-]CCC)[CH-]CCC",0,NA
+775763,"S",-1,1,1,"",NA,"CCCCCC1=C(C)\C(=C\c2[nH]c(cc2OC)c3cc4ccccc4[nH]3)\N=C1C",0,NA
+775771,"S",-1,2,2,"BMS-863233","Clinical trial","Clc1ccc2oc3C(=O)NC(=Nc3c2c1)C4CCCN4",0,"PK:CDC7,CDK9"
+775877,"S",-1,1,1,";2-(4-Methoxyphenyl)-5,6,7,8,9,10-hexahydrocycloocta[4,5...",NA,"COc1ccc(cc1)C2=Nc3sc4CCCCCCc4c3C(=O)N2",0,NA
+775878,"S",-1,1,1,";2-(3,4,5-Trimethoxyphenyl)-5,6,7,8,9,10-hexahydrocycloo...",NA,"COc1cc(cc(OC)c1OC)C2=Nc3sc4CCCCCCc4c3C(=O)N2",0,NA
+775905,"S",-1,1,1,"",NA,"CC(C)C[C@H](NC(=O)\C=C\CN1C=Cc2ccccc2C1=O)B(O)O",0,NA
+775913,"S",-1,1,1,";4-((4E,8E)-11-(furan-3-yl)-4,8-dimethylundeca-4,8-dien-...",NA,"C\C(=C/CC\C(=C\CCc1cocc1)\C)\CCCC2=CC(=O)OC2",0,NA
+775951,"S",-1,1,1,";N-cyclohexyl-4-((1-phenyl-1H-pyrazolo[3,4-d]pyrimidin-4...",NA,"O=C(NC1CCCCC1)c2ccc(Nc3ncnc4c3cnn4c5ccccc5)cc2",0,NA
+775978,"S",-1,2,2,"",NA,"COc1ccc(cc1)c2cnoc2c3cc(OC)c4OCCOc4c3",0,NA
+776002,"S",-1,1,1,"",NA,"Fc1cc(Br)ccc1C(=O)Nc2cccc3[nH]c(nc23)C(F)(F)F",0,NA
+776008,"S",-1,1,1,"",NA,"CCOc1ccc(Nc2nc(cs2)c3c(C)nc4ncccn34)cc1",0,NA
+776015,"S",-1,1,1,"",NA,"Oc1cc(nn1c2nc3ccccc3[nH]2)c4ccccc4",0,NA
+776017,"S",-1,1,1,"Telatinib","Clinical trial","CNC(=O)c1cc(COc2nnc(Nc3ccc(Cl)cc3)c4ccoc24)ccn1",0,"PK:PDGFR,KIT,VEGFR"
+776043,"S",-1,2,2,"CEP-32496","Clinical trial","COc1cc2ncnc(Oc3cccc(NC(=O)Nc4cc(on4)C(C)(C)C(F)(F)F)c3)c2cc1OC",0,"PK:BRAF"
+776053,"S",-1,1,1,";(3-Benzyl-2-methyl-3H-benzoimidazol-5-yl)-(4-chloro-6-m...",NA,"Cc1nc2ccc(Nc3nc(Cl)nc(n3)N4CCOCC4)cc2n1Cc5ccccc5",0,NA
+776066,"S",-1,2,1,"AZD-1208","Clinical trial","N[C@@H]1CCCN(C1)c2c(\C=C\3/SC(=O)NC3=O)cccc2c4ccccc4",0,"PK:PIM1,PIM2,PIM3"
+776415,"S",-1,1,1,";[Chlorido(eta6-p-cymene)(N-{4-fluorophenyl}-2-pyridinec...",NA,"[Ru+2]1([S]=C(c2cccc[n]12)Nc1ccc(cc1)F)([Cl-])c1c(ccc(c1)C(C)C)C.[Cl-]",0,NA
+776445,"S",-1,1,1,"",NA,"COc1ccc(cc1)C2=NN(C=O)C(C2)c3ccc(OS(=O)(=O)c4ccc(C)cc4)c(OC)c3",0,NA
+776452,"S",-1,1,1,"",NA,"COc1ccc(cc1)C2CC(=NN2c3ccccc3)c4cccc(Nc5ccnc6cc(Cl)ccc56)c4",0,NA
+776453,"S",-1,1,1,"",NA,"COc1cc(cc(OC)c1OC)C2CC(=NN2c3ccccc3)c4cccc(Nc5ccnc6cc(Cl)ccc56)c4",0,NA
+776455,"S",-1,1,1,"",NA,"COc1ccc(cc1)C2CC(=NN2c3ccc(Cl)cc3)c4cccc(Nc5ccnc6cc(Cl)ccc56)c4",0,NA
+776456,"S",-1,1,1,"",NA,"COc1cc(cc(OC)c1OC)C2CC(=NN2c3ccc(Cl)cc3)c4cccc(Nc5ccnc6cc(Cl)ccc56)c4",0,NA
+776469,"S",-1,1,1,"",NA,"Nc1nc(N)c2N=C(CC(Nc2n1)c3sc(Cl)nc3Cl)c4ccc5OCOc5c4",0,NA
+776480,"S",-1,1,1,"",NA,"COc1cc(cc(OC)c1OC)C2CC(=NN2c3ccc(Cl)cc3)c4ccc(Nc5ccnc6cc(Cl)ccc56)cc4",0,NA
+776678,"S",-1,2,2,"",NA,"Cc1cc(C)c2c(n1)sc3c(Nc4ccc(Cl)cc4)ncnc23",0,NA
+776733,"S",-1,1,1,";(E)-9-(3,4-dimethoxybenzylidene)-5-(3,4-dimethoxyphenyl...",NA,"COc1ccc(\C=C\2/CCCC3=C2N=C4SC(=NN4C3c5ccc(OC)c(OC)c5)C)cc1OC",0,NA
+776744,"S",-1,1,1,";(E)-9-(3,4-dimethoxybenzylidene)-5-(3,4-dimethoxyphenyl...",NA,"COc1ccc(\C=C\2/CCCC3=C2N=C4SC=NN4C3c5ccc(OC)c(OC)c5)cc1OC",0,NA
+776751,"S",-1,1,1,";2-(phenylamino)-10-methyl-5,6,7,10-tetrahydropyrrolo[3'...",NA,"Cn1c(cc2CCCc3cnc(Nc4ccccc4)nc3c12)C(=O)N",0,NA
+776762,"S",-1,2,2,"EXEL-7647","Clinical trial","COc1cc2c(Nc3ccc(Cl)c(Cl)c3F)ncnc2cc1OCC4C[C@H]5CN(C)C[C@H]5C4",0,"PK:EGFR,ERBB2,SRC,VEGFR"
+776763,"S",-1,2,2,"Ariad Alk/EGFR inhibitor related to AP-26113","","COc1cc(ccc1Nc2ncc(Cl)c(Nc3ccccc3P(=O)(C)C)n2)N4CCC(CC4)N(C)C",0,"PK:ALK,EGFR"
+776787,"S",-1,2,2,"AZD-3463","Clinical trial","COc1cc(ccc1Nc2ncc(Cl)c(n2)c3c[nH]c4ccccc34)N5CCC(N)CC5",0,"PK:IGF1R,ALK"
+776790,"S",-1,2,2,"MK-0429","Clinical trial","COc1ccc(cn1)[C@H](CC(=O)O)N2CCN(CCCc3ccc4CCCNc4n3)C2=O",0,"ITG"
+776800,"S",-1,1,1,";4-[5-(1,3-diphenyl-1H-pyrazol-4-yl)-3-(4-methylphenyl)-...",NA,"Cc1ccc(cc1)C2=NN(C(C2)c3cn(nc3c4ccccc4)c5ccccc5)c6ccc(cc6)S(=O)(=O)N",0,NA
+776817,"S",-1,2,2,"",NA,"CC(=O)Nc1ccc(cc1)S(=O)(=O)N2C(CCC2=O)C(=O)Nc3ccccc3",0,NA
+776825,"S",-1,1,1,";methyl (1S,15R,17S,18S,19R,20S)-6,18-dimethoxy-17- {[(2...",NA,"CCC(=O)Oc1cc(\C=C\C(=O)O[C@H]2C[C@H]3CN4CCc5c([nH]c6cc(OC)ccc56)[C@@H]4C[C@@H]3[C@H]([C@@H]2OC)C(=O)OC)ccc1OC",0,NA
+776877,"S",-1,1,1,"",NA,"Cc1cc(nc(NC2CCCCC2)n1)N3CCN(CC3)c4ccnc5cc(Cl)ccc45",0,NA
+776878,"S",-1,2,2,"",NA,"COc1cc(Nc2cc(C)nc(n2)N3CCN(CC3)c4ccnc5cc(Cl)ccc45)cc(OC)c1",0,NA
+776879,"S",-1,1,1,"",NA,"COc1ccc(Nc2cc(C)nc(n2)N3CCN(CC3)c4ccnc5cc(Cl)ccc45)cc1",0,NA
+776928,"S",-1,1,1,";N-{4-[(1e)-N-Carbamimidoylbutanehydrazonoyl]phenyl}-5-M...",NA,"CCC\C(=N\NC(=N)N)\c1ccc(NC(=O)c2cc3cc(OC)ccc3[nH]2)cc1",0,NA
+776971,"S",-1,1,1,";3-[5-(2-Phenoxymethyl-benzoimidazol-1-ylmethyl)-[1,3,4]...",NA,"Cc1ccc(Oc2nc3ccccc3cc2c4oc(Cn5c(COc6ccccc6)nc7ccccc57)nn4)cc1",0,NA
+776999,"S",-1,1,1,"",NA,"CC(C)C[C@H](NC(=O)[C@@H](Cc1ccccc1)N2C=CC(=CC2=O)Nc3ccccc3)B(O)O",0,NA
+777000,"S",-1,2,2,"",NA,"CC(C)C[C@H](NC(=O)CN1C=CC=C(CNC(=O)c2ccccc2)C1=O)B(O)O",0,NA
+777001,"S",-1,1,1,"",NA,"CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)N2C=CC(=CC2=O)N3CCCCC3)B(O)O",0,NA
+777002,"S",-1,2,2,"",NA,"CC(C)C[C@H](NC(=O)CN1C=CC(=CC1=O)NCc2ccccc2)B(O)O",0,NA
+777081,"S",-1,1,1,";3-amino-6-benzyl-N-phenyl-5,6,7,8-tetrahydrothieno[2,3-...",NA,"Nc1c(sc2nc3CCN(Cc4ccccc4)Cc3cc12)C(=O)Nc5ccccc5",0,NA
+777084,"S",-1,1,1,";3-amino-6-benzyl-N-(3-methoxyphenyl)-5,6,7,8-tetrahydro...",NA,"COc1cccc(NC(=O)c2sc3nc4CCN(Cc5ccccc5)Cc4cc3c2N)c1",0,NA
+777085,"S",-1,2,2,";3-amino-5-oxo-N-(m-tolyl)-5,6,7,8-tetrahydrothieno[2,3-...",NA,"Cc1cccc(NC(=O)c2sc3nc4CCCC(=O)c4cc3c2N)c1",0,NA
+777095,"S",-1,1,1,";4,4'-((1E,4E)-3-oxopenta-1,4-diene-1,5-diyl)bis(4,1-phe...",NA,"OB(O)c1ccc(\C=C\C(=O)\C=C\c2ccc(cc2)B(O)O)cc1",0,NA
+777096,"S",-1,2,1,";(E)-4-(3-(3-hydroxy-4-methoxyphenyl)acryloyl)phenylboro...",NA,"COc1ccc(\C=C\C(=O)c2ccc(cc2)B(O)O)cc1O",0,NA
+777174,"S",-1,1,1,";(Z)-1-(1H-indol-3-yl)-3-(2-methoxy-5-(3,4,5-trimethoxys...",NA,"COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc1N\C=C/C(=O)c3c[nH]c4ccccc34",0,NA
+777176,"S",-1,1,1,";(3-amino-5-ethynyl-6-methoxy-1H-indol-2-yl)(3,4,5-trime...",NA,"COc1cc(cc(OC)c1OC)C(=O)c2[nH]c3cc(OC)c(cc3c2N)C#C",0,NA
+777178,"S",-1,1,1,";(3-amino-5-(3-hydroxyprop-1-ynyl)-6-methoxy-1H-indol-2-...",NA,"COc1cc(cc(OC)c1OC)C(=O)c2[nH]c3cc(OC)c(cc3c2N)C#CCO",0,NA
+777179,"S",-1,1,1,";(3-amino-5-(cyclopropylethynyl)-6-methoxy-1H-indol-2-yl...",NA,"COc1cc(cc(OC)c1OC)C(=O)c2[nH]c3cc(OC)c(cc3c2N)C#CC4CC4",0,NA
+777180,"S",-1,1,1,";(Z)-3-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl)phenylam...",NA,"COc1cc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc(N\C=C/C(=O)c3cc(OC)c(OC)c(OC)c3)c1OC",0,NA
+777183,"S",-1,1,1,";Z)-3-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl)phenylami...",NA,"COc1cc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc(N\C=C/C(=O)c3c[nH]c4ccccc34)c1OC",0,NA
+777185,"S",-1,1,1,";(E)-1-(3,4-dimethoxyphenyl)-3-(2-methoxy-5-(3,4,5-trime...",NA,"COc1ccc(cc1OC)C(=O)\C=C\c2cc(ccc2OC)C(=O)c3cc(OC)c(OC)c(OC)c3",0,NA
+777187,"S",-1,1,1,";(E)-1-(benzo[d][1,3]dioxol-5-yl)-3-(2-methoxy-5-(3,4,5-...",NA,"COc1ccc(cc1\C=C\C(=O)c2ccc3OCOc3c2)C(=O)c4cc(OC)c(OC)c(OC)c4",0,NA
+777194,"S",-1,2,2,"Daporinad","Clinical trial","O=C(NCCCCC1CCN(CC1)C(=O)c2ccccc2)\C=C\c3cccnc3",0,"NAMPT|PK:YK"
+777195,"S",-1,2,1,"aurantimycin a","","COC[C@@H]1N(O)C(=O)[C@H]2CCCNN2C(=O)[C@@H](NC(=O)[C@](C)(O)[C@]3(O)CC[C@@H](CC(C)C)[C@H](C)O3)[C@@H](OC(=O)[C@@H](C)N(O)C(=O)[C@@H]4CCCNN4C(=O)CNC1=O)C(C)C",0,""
+777196,"S",-1,2,2,";(5-(5'-(hydroxymethyl)-[2,2'-bifuran]-5-yl)thiophen-2-y...",NA,"OCc1oc(cc1)c2oc(cc2)c3ccc(CO)s3",0,NA
+777306,"S",-1,1,1,"",NA,"CC(C)(C)c1ccc(cc1)S(=O)(=O)Oc2ccc3C4=C(CCCCC4)C(=O)Oc3c2",0,NA
+777312,"S",-1,1,1,"",NA,"Fc1ccc(cc1)S(=O)(=O)Oc2ccc3C4=C(CCCCC4)C(=O)Oc3c2",0,NA
+777323,"S",-1,1,1,"",NA,"Fc1cc(NC(=O)Nc2cccc(c2)C(F)(F)F)ccc1OCc3oc(nn3)c4ccccc4",0,NA
+777334,"S",-1,1,1,"",NA,"Fc1ccc(cc1)c2nc3sccn3c2c4ccnc(NCCNS(=O)(=O)c5ccccc5)n4",0,NA
+777380,"S",-1,2,2,"e/z-endoxifen","","CC\C(=C(/c1ccc(O)cc1)\c2ccc(OCCNC)cc2)\c3ccccc3",0,""
+777389,"S",-1,2,2,"5'-hydroxy-5-nitro indirubin oxime","","O\N=C\1/C(=C\2/C(=O)Nc3ccc(cc23)[N+](=O)[O-])/Nc4ccc(O)cc14",0,""
+777407,"S",-1,1,1,";5-(2,3-dihydrobenzo[b][1,4]dioxin-6-yl)-4-(3,4,5-trimet...",NA,"COc1cc(cc(OC)c1OC)c2nn[nH]c2c3ccc4OCCOc4c3",0,NA
+777408,"S",-1,1,1,";5-(benzo[d][1,3]dioxol-5-yl)-4-(3,5-dimethoxyphenyl)-1H...",NA,"COc1cc(OC)cc(c1)c2nn[nH]c2c3ccc4OCOc4c3",0,NA
+777422,"S",-1,2,2,"(thiophene-3,4-diylbis(furan-5,2-diyl))dimethanol","","OCc1oc(cc1)c2cscc2c3oc(CO)cc3",0,""
+777425,"S",-1,2,2,"GDC-0032","Clinical trial","CC(C)n1nc(C)nc1c2cn3CCOc4cc(ccc4c3n2)c5cnn(c5)C(C)(C)C(=O)N",0,"PK:PIK3"
+777486,"S",-1,2,2,"",NA,"COc1ccc(c2nc(O)c3c4CCCCc4sc3n2)c5ccccc15",0,NA
+777571,"S",-1,1,1,"BIX-01294","Clinical trial","COc1cc2nc(nc(NC3CCN(Cc4ccccc4)CC3)c2cc1OC)N5CCCN(C)CC5",0,"EHMT2|EHMT1/2"
+777572,"S",-1,2,2,"AZD-8186","Clinical trial","C[C@@H](Nc1cc(F)cc(F)c1)c2cc(cc3C(=O)C=C(Oc23)N4CCOCC4)C(=O)N(C)C",0,"PI3KB|PK:PIK3"
+777573,"S",-1,2,2,"E-7820","Clinical trial","Cc1ccc(NS(=O)(=O)c2cccc(c2)C#N)c3[nH]cc(C#N)c13",0,"Ang|ITG"
+777574,"S",-1,1,1,"tx262","","CS(=O)(=O)O[C@@H]1[C@H](N(C1=O)c2cc3c4ccccc4ccc3c5ccccc25)c6ccccn6",0,""
+777638,"S",-1,1,1,"AZD-6738","Clinical trial","C[C@@H]1COCCN1c2cc(nc(n2)c3ccnc4[nH]ccc34)C5(CC5)S(=N)(=O)C",0,"PK:ATR"
+777639,"S",-1,1,1,"LGK-974","Clinical trial","Cc1cc(ccn1)c2ncc(CC(=O)Nc3ccc(cn3)c4cnccn4)cc2C",0,"Wnt|PORCN"
+777718,"S",-1,2,2,"VE-822","Clinical trial","CNCc1ccc(cc1)c2cc(on2)c3nc(cnc3N)c4ccc(cc4)S(=O)(=O)C(C)C",0,"PK:ATR"
+777877,"S",-1,1,1,"PF-4989216","Clinical trial","Fc1cc(ccc1c2c(C#N)c(sc2c3nnc[nH]3)N4CCOCC4)C#N",0,"PK:PIK3"
+777879,"S",-1,2,2,"AM-5992","Clinical trial","CN(CCO)C1CCN(CC1)c2ccc(Nc3ncc4c5ccnc(F)c5n(C6CCCC6)c4n3)nc2",0,"PK:CDK,FLT,FLT3"
+777886,"S",-1,1,1,"",NA,"CC(C)C[C@H](NC(=O)CCN1C=Cc2ccccc2C1=O)B(O)O",0,NA
+777944,"S",-1,1,1,"",NA,"COc1cc(\C=C\c2cc(\C=C\c3ccc(O)c(OC)c3)n(n2)C(=O)c4ccc(Cl)cc4)ccc1O",0,NA
+777946,"S",-1,1,1,"",NA,"COc1ccc(cc1)C(=O)n2nc(\C=C\c3ccc(O)c(OC)c3)cc2\C=C\c4ccc(O)c(OC)c4",0,NA
+777947,"S",-1,1,1,"",NA,"COc1cc(\C=C\c2cc(\C=C\c3ccc(O)c(OC)c3)n(n2)C(=O)N)ccc1O",0,NA
+778252,"S",-1,2,2,";Ethyl 3-((5H-pyrrolo[3,2-d]pyrimidin-4-yl)disulfanyl)-2...",NA,"CCOC(=O)[C@H](CSSc1ncnc2cc[nH]c12)NC(=O)[C@@H](C)c3ccc4cc(OC)ccc4c3",0,NA
+778301,"S",-1,2,2,"",NA,"Cc1sc(C)c(c2oc(CO)cc2)c1c3oc(CO)cc3",0,NA
+778304,"S",-1,2,2,"Encorafenib","FDA approved","COC(=O)N[C@@H](C)CNc1nccc(n1)c2cn(nc2c3cc(Cl)cc(NS(=O)(=O)C)c3F)C(C)C",0,"PK:BRAF"
+778305,"S",-1,2,2,"Afuresertib","Clinical trial","Cn1ncc(Cl)c1c2cc(sc2Cl)C(=O)N[C@H](CN)Cc3cccc(F)c3",0,"PK:AKT,AKT1,AKT2,AKT3"
+778314,"S",-1,1,1,";3-amino-N-(3-(trifluoromethyl)phenyl)-6,7,8,9-tetrahydr...",NA,"Nc1c(sc2nc3CCCCCc3cc12)C(=O)Nc4cccc(c4)C(F)(F)F",0,NA
+778317,"S",-1,1,1,";3-amino-N-(2-chlorophenyl)-5,6,7,8,9,10-hexahydrocycloo...",NA,"Nc1c(sc2nc3CCCCCCc3cc12)C(=O)Nc4ccccc4Cl",0,NA
+778318,"S",-1,2,2,";3-amino-N-phenyl-5,6,7,8,9,10-hexahydrocycloocta[b]thie...",NA,"Nc1c(sc2nc3CCCCCCc3cc12)C(=O)Nc4ccccc4",0,NA
+778351,"S",-1,2,1,"",NA,"CCCCCCC[C@@H](O)CC(=O)N[C@H](CCCCN)C(=O)N[C@H](Cc1c[nH]c2ccccc12)C(=O)NC(CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](Cc3ccccc3)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N4CCCC4C(=O)N[C@H](CCCCN)C(=O)N[C@H](Cc5ccccc5)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](Cc6c[nH]cn6)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCCCN)C(=O)N[C@H](Cc7ccccc7)C(=O)O",0,NA
+778364,"S",-1,2,2,"Defactinib","Clinical trial","CNC(=O)c1ccc(Nc2ncc(c(NCc3nccnc3N(C)S(=O)(=O)C)n2)C(F)(F)F)cc1",0,"PK:FAK"
+778366,"S",-1,2,2,"EXEL-2280","Clinical trial","CC(C)c1cc(CNc2nc(Nc3cc([nH]n3)C4CC4)cc(n2)N5CCN(C)CC5)on1",0,"PK:IGF1R,AURK,FGFR,SRC"
+778367,"S",-1,2,2,"ARRY-614","Clinical trial","Cc1ccc(cc1)n2nc(cc2NC(=O)NCc3cc(F)ccc3Oc4ccc5c(cnn5CCO)c4)C(C)(C)C",0,"PK:MAPK14"
+778368,"S",-1,2,2,"GSK-2141795","Clinical trial","Cn1ncc(Cl)c1c2cc(oc2Cl)C(=O)N[C@H](CN)Cc3ccc(F)c(F)c3",0,"PK:AKT"
+778406,"S",-1,2,2,";1-methyl-3-[4-(1-methyl-1H-indol-3-yl)-1,3-thiazol-2-yl...",NA,"Cn1cc(c2csc(n2)c3cn(C)c4ncccc34)c5ccccc15",0,NA
+778407,"S",-1,2,2,";3-[4-(1H-indol-3-yl)-1,3-thiazol-2-yl]-1-methyl-1H-pyrr...",NA,"Cn1cc(c2nc(cs2)c3c[nH]c4ccccc34)c5cccnc15",0,NA
+778410,"S",-1,2,2,";3,3'-(1H-pyrrole-2,5-diyl)bis(1-methyl-1H-pyrrolo[2,3-b...",NA,"Cn1cc(c2ccc([nH]2)c3cn(C)c4ncccc34)c5cccnc15",0,NA
+778436,"S",-1,1,1,"",NA,"CN(C)CC(=O)Nc1ccc(Cn2nnc3C(=O)c4c(nnn4Cc5ccc(NC(=O)CN(C)C)cc5)C(=O)c23)cc1",0,NA
+778437,"S",-1,2,2,"",NA,"O=C(CCN1CCOCC1)Nc2ccc(Cn3nnc4C(=O)c5c(nnn5Cc6ccc(NC(=O)CCN7CCOCC7)cc6)C(=O)c34)cc2",0,NA
+778438,"S",-1,2,2,"",NA,"CCN(CC)CCC(=O)Nc1ccc(Cn2nnc3C(=O)c4c(nnn4Cc5ccc(NC(=O)CCN(CC)CC)cc5)C(=O)c23)cc1",0,NA
+778439,"S",-1,2,2,"",NA,"O=C(CN1CCOCC1)Nc2ccc(Cn3nnc4C(=O)c5c(nnn5Cc6ccc(NC(=O)CN7CCOCC7)cc6)C(=O)c34)cc2",0,NA
+778440,"S",-1,1,1,"",NA,"O=C(CCCN1CCOCC1)Nc2ccc(Cn3nnc4C(=O)c5c(nnn5Cc6ccc(NC(=O)CCCN7CCOCC7)cc6)C(=O)c34)cc2",0,NA
+778441,"S",-1,2,2,"",NA,"O=C(CCCCN1CCOCC1)Nc2ccc(Cn3nnc4C(=O)c5c(nnn5Cc6ccc(NC(=O)CCCCN7CCOCC7)cc6)C(=O)c34)cc2",0,NA
+778442,"S",-1,1,1,"",NA,"CN(C)CCCC(=O)Nc1ccc(Cn2nnc3C(=O)c4c(nnn4Cc5ccc(NC(=O)CCCN(C)C)cc5)C(=O)c23)cc1",0,NA
+778448,"S",-1,2,2,"Ombrabulin","Clinical trial","COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc1NC(=O)[C@@H](N)CO",0,"Tu|Tu-frag"
+778538,"S",-1,1,1,"",NA,"COc1ccc2nc3cc(Cl)ccc3c(N4CCN(CC4)c5ccnc(n5)N6CCOCC6)c2c1",0,NA
+778540,"S",-1,1,1,"",NA,"COc1ccc2nc3cc(Cl)ccc3c(N4CCN(CC4)c5ccnc(n5)N6CCN(C)CC6)c2c1",0,NA
+778566,"S",-1,1,1,"",NA,"CC(=O)N1CC(=CC1=O)Nc2ccc(OC(F)(F)F)cc2",0,NA
+778590,"S",-1,2,2,"Cobimetinib (isomer 1)","FDA approved","OCCONC(=O)c1ccc2cncn2c1Nc3ccc(I)cc3F",0,"PK:MAP2K,MAP2K1"
+778653,"S",-1,1,1,";(1,3-Dibenzyl-4,5-diphenyl-imidazol-2-ylidene) gold(I) ...",NA,"Cl[Au]C1N(Cc2ccccc2)C(=C(c2ccccc2)N1Cc1ccccc1)c1ccccc1",0,NA
+778746,"S",-1,2,1,"FH-535","Clinical trial","Cc1cc(ccc1NS(=O)(=O)c2cc(Cl)ccc2Cl)[N+](=O)[O-]",0,"PPARG"
+778747,"S",-1,2,2,"OTX-015","Clinical trial","Cc1sc2c(C(=N[C@@H](CC(=O)Nc3ccc(O)cc3)c4nnc(C)n24)c5ccc(Cl)cc5)c1C",0,"BRD"
+778770,"S",-1,2,2,"",NA,"Clc1ccc(Nc2ncnc3c4cccnc4sc23)c(Cl)c1",0,NA
+778776,"S",-1,2,2,"",NA,"Oc1ccc(Nc2ncnc3c4cccnc4sc23)cc1",0,NA
+778809,"S",-1,2,2,"TAK-632","Clinical trial","Fc1ccc(Oc2ccc3nc(NC(=O)C4CC4)sc3c2C#N)cc1NC(=O)Cc5cccc(c5)C(F)(F)F",0,"PK:BRAF"
+778810,"S",-1,2,2,"VS-5584","Clinical trial","CC(C)n1c(C)nc2c(nc(nc12)N3CCOCC3)c4cnc(N)nc4",0,"PK:PIK3,MTOR"
+778843,"S",-1,1,1,";N-(2-carbamoyl-4-chlorophenyl)biphenyl-2-carboxamide",NA,"NC(=O)c1cc(Cl)ccc1NC(=O)c2ccccc2c3ccccc3",0,NA
+778871,"S",-1,1,1,";NCGC00350716-01",NA,"COc1cccc(c1)c2oc3ccc(NC(=O)c4ccc(Cl)c(c4)C#N)cc3n2",0,NA
+778909,"S",-1,1,1,"LEE-011","FDA approved","CN(C)C(=O)c1cc2cnc(Nc3ccc(cn3)N4CCNCC4)nc2n1C5CCCC5",0,"PK:CDK,CDK4,CDK6"
+779185,"S",-1,1,1,"",NA,"c1(cc2c(cc1)c1cc[n+](c(c1n2CCC)C)CCC(C)C)OCCC(C)C.[Br-]",0,NA
+779217,"S",-1,2,2,"AZD-9291","FDA approved","COc1cc(N(C)CCN(C)C)c(NC(=O)C=C)cc1Nc2nccc(n2)c3cn(C)c4ccccc34",0,"PK:EGFR"
+779218,"S",-1,2,2,"CEP-28122","Clinical trial","COc1c2CC[C@H](CCc2ccc1Nc3ncc(Cl)c(N[C@@H]4[C@@H]5CC(C=C5)[C@@H]4C(=O)N)n3)N6CCOCC6",0,"PK:ALK"
+779374,"S",-1,2,2,";4-(3, 5-dimethoxyphenyl)-N-(7-fluoro-3-methoxyquinoxali...",NA,"COc1cc(OC)cc(c1)N2CCN(CC2)C(=O)Nc3nc4cc(F)ccc4nc3OC",0,NA
+779401,"S",-1,1,1,"",NA,"Cc1ccc(cc1)S(=O)(=O)NC(CCC(=O)Nc2ccc(Cl)cc2)C(=O)Nc3ccc(Cl)cc3",0,NA
+779404,"S",-1,2,2,"RG-7388","Clinical trial","COc1cc(ccc1NC(=O)[C@@H]2N[C@@H](CC(C)(C)C)[C@@](C#N)([C@H]2c3cccc(Cl)c3F)c4ccc(Cl)cc4F)C(=O)O",0,"MDM2"
+779405,"S",-1,2,2,"CO-1686","Clinical trial","COc1cc(ccc1Nc2ncc(c(Nc3cccc(NC(=O)C=C)c3)n2)C(F)(F)F)N4CCN(CC4)C(=O)C",0,"PK:EGFR"
+779407,"S",-1,2,2,"GNE-617","Clinical trial","Fc1cc(F)cc(c1)S(=O)(=O)c2ccc(CNC(=O)c3ccc4nccn4c3)cc2",0,"NAMPT"
+779704,"S",-1,2,2,";K287;Lovastatin",NA,"CC[C@H](C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@@H]12",0,NA
+779705,"S",-1,2,2,"Mevastatin",NA,"CC[C@H](C)C(=O)O[C@H]1CCC=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@@H]12",0,NA
+779706,"S",-1,2,2,"Pitavastatin calcium",NA,"O[C@H](C[C@H](O)\C=C\c1c(nc2ccccc2c1c3ccc(F)cc3)C4CC4)CC(=O)O",0,NA
+779708,"S",-1,2,2,";70360;Rosuvastatin calcium",NA,"CC(C)c1nc(nc(c2ccc(F)cc2)c1\C=C\[C@@H](O)C[C@@H](O)CC(=O)O)N(C)S(=O)(=O)C",0,NA
+779709,"S",-1,2,2,";H004;Atorvastatin calcium",NA,"CC(C)c1c(C(=O)Nc2ccccc2)c(c3ccccc3)c(c4ccc(F)cc4)n1CC[C@@H](O)C[C@@H](O)CC(=O)O",0,NA
+780019,"S",-1,2,2,"PD183805","Clinical trial","Fc1ccc(Nc2ncnc3cc(OCCCN4CCOCC4)c(NC(=O)C=C)cc23)cc1Cl",0,"PK:EGFR,ERBB2"
+780020,"S",-1,2,2,"","Clinical trial","COCCOc1ccc(Nc2ncc(F)c(Nc3cccc(NC(=O)C=C)c3)n2)cc1",0,"PK:BTK"
+780022,"S",-1,1,1,";4-fluoro-N-(3-(4-(6-(4-hydroxyphenyl)imidazo[2,1-b]thia...",NA,"Oc1ccc(cc1)c2nc3sccn3c2c4ccnc(NCCCNS(=O)(=O)c5ccc(F)cc5)n4",0,NA
+780027,"S",-1,1,1,";4-methoxy-N-(2-((4-(6-phenylimidazo[2,1-b]thiazol-5-yl)...",NA,"COc1ccc(cc1)S(=O)(=O)NCCNc2nccc(n2)c3c(nc4sccn34)c5ccccc5",0,NA
+780035,"S",-1,1,1,";N-(2-((4-(6-(4-methoxyphenyl)imidazo[2,1-b]thiazol-5-yl...",NA,"COc1ccc(cc1)c2nc3sccn3c2c4ccnc(NCCNS(=O)(=O)c5ccc(cc5)C(F)(F)F)n4",0,NA
+780042,"S",-1,2,2,"","Clinical trial","COCC(=O)NC\C=C\c1ccc2ncnc(Nc3ccc(Oc4ccc(C)nc4)c(C)c3)c2c1",0,"PK:ERBB2"
+780108,"S",-1,2,2,"PF-06463922","FDA approved","C[C@H]1Oc2cc(cnc2N)c3c(CN(C)C(=O)c4ccc(F)cc14)nn(C)c3C#N",0,"PK:ROS1,ALK"
+780163,"S",-1,2,2,"SOMCL-12-81","Clinical trial","CC(C)S(=O)(=O)c1ccccc1Nc2nc(Nc3cccc(NC(=O)CN)c3)ncc2Cl",0,"PK:ALK"
+780167,"S",-1,2,2,";N-[4-(1,3-benzothiazol-2-yl)phenyl]-2-[(4-chlorophenyl)...",NA,"Clc1ccc(NCC(=O)Nc2ccc(cc2)c3nc4ccccc4s3)cc1",0,NA
+780168,"S",-1,2,2,";N-[4-(1,3-benzothiazol-2-yl)phenyl]-2-[(2,6-dichlorophe...",NA,"Clc1cccc(Cl)c1NCC(=O)Nc2ccc(cc2)c3nc4ccccc4s3",0,NA
+780175,"S",-1,1,1,";(E)-1-(4-hydroxyphenyl)-3-(2-methoxy-5-(3,4,5-trimethox...",NA,"COc1ccc(cc1\C=C\C(=O)c2ccc(O)cc2)C(=O)c3cc(OC)c(OC)c(OC)c3",0,NA
+780176,"S",-1,1,1,";(Z)-4-tert-butyl-N-(2-hydroxy-3-methoxy-6-(3,4,5-trimet...",NA,"COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)c(NS(=O)(=O)c3ccc(cc3)C(C)(C)C)c1O",0,NA
+780182,"S",-1,2,2,";(Z)-N-(2-hydroxy-3-methoxy-6-(3,4,5-trimethoxystyryl)ph...",NA,"COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)c(NS(=O)(=O)c3ccc(OC)c(OC)c3)c1O",0,NA
+780183,"S",-1,2,2,";(Z)-4-fluoro-N-(2-hydroxy-3-methoxy-6-(3,4,5-trimethoxy...",NA,"COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)c(NS(=O)(=O)c3ccc(F)cc3)c1O",0,NA
+780184,"S",-1,2,2,";(Z)-N-(2-hydroxy-3-methoxy-6-(3,4,5-trimethoxystyryl)ph...",NA,"COc1ccc(\C=C/c2cc(OC)c(OC)c(OC)c2)c(NS(=O)(=O)c3ccc(C)cc3)c1O",0,NA
+780185,"S",-1,1,1,";(Z)-3-chloro-N-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl...",NA,"COc1cc(\C=C/c2cc(OC)c(OC)c(OC)c2)cc(NS(=O)(=O)c3cccc(Cl)c3)c1OC",0,NA
+780186,"S",-1,1,1,";(Z)-N-(2,3-dimethoxy-5-(3,4,5-trimethoxystyryl)phenyl)-...",NA,"COc1ccc(cc1OC)S(=O)(=O)Nc2cc(\C=C/c3cc(OC)c(OC)c(OC)c3)cc(OC)c2OC",0,NA
+780198,"S",-1,1,1,";(E)-1-(benzo[d][1,3]dioxol-5-yl)-3-(2-methoxy-5-(1-(3,4...",NA,"COc1ccc(cc1\C=C\C(=O)c2ccc3OCOc3c2)C(=C)c4cc(OC)c(OC)c(OC)c4",0,NA
+780203,"S",-1,1,1,"","Clinical trial","FC(F)(F)c1cc(cc(c1)C(F)(F)F)c2ncn(\C=C/C(=O)NNc3cnccn3)n2",0,"XPO1"
+780204,"S",-1,2,2,"TAS-116","Clinical trial","CCc1cc(ccc1n2nc(C(C)C)c3c(ccnc23)n4cnc(c4)c5cnn(C)c5)C(=O)N",0,"HSP90"
+780205,"S",-1,2,2,"","Clinical trial","C[C@H]1CNCCCN1S(=O)(=O)c2cccc3cncc(C)c23",0,"RHO"
+780249,"S",-1,2,2,"AZD-6738","Clinical trial","C[C@@H]1COCCN1c2cc(nc(n2)c3ccnc4[nH]ccc34)C5(CC5)[S@](=N)(=O)C",0,"PK:ATR"
+780250,"S",-1,2,2,"","Clinical trial","C[C@@H]1COCCN1c2cc(nc(n2)c3ccnc4[nH]ccc34)C5(CC5)[S@@](=N)(=O)C",0,"PK:ATR"
+780290,"S",-1,2,2,"","Clinical trial","CC1Cc2ccccc2N1C(=O)CC3=NC(=CC(=O)N3)N4CCOCC4",0,"PI3KB"
+780291,"S",-1,2,2,"","Clinical trial","CC1Cc2ccccc2N1C(=O)CC3=NC(=CC(=O)N3)N4CCOCC4",0,"PI3KB"
+780404,"S",-1,2,2,"AZ-505","Clinical trial","Oc1ccc(CCNCCN(C2CCCCC2)C(=O)CCNCCc3ccc(Cl)c(Cl)c3)c4OCC(=O)Nc14",0,"SETD8|SMYD2"
+780965,"S",-1,2,2,"MK-0731","Clinical trial","CN([C@H]1CCN(C)C[C@H]1F)C(=O)N2CC(=C[C@@]2(CO)c3ccccc3)c4cc(F)ccc4F",0,"CDH16|KIF11"
+781008,"S",-1,1,1,"maritoclax","Clinical trial","Oc1ccccc1C(=O)c2[nH]c(Cl)c(Cl)c2n3c(Cl)c(Cl)cc3C(=O)c4ccccc4O",0,"MCL1"
+781009,"S",-1,1,1,"","Clinical trial","CC(C)(C)C[C@H]1N[C@H]([C@H](c2cccc(Cl)c2F)[C@@]13C(=O)Nc4cc(Cl)ccc34)C(=O)N[C@@H]5CC[C@@H](O)CC5",0,"MDM2"
+781016,"S",-1,2,2,"","Clinical trial","Cc1cc(nn1Cc2ccnc(c2)N3CCN(CC3)C4CC4)c5onc(n5)c6ccc(OC(F)(F)F)cc6",0,"HIF1"
+781148,"S",-1,1,1,"","Clinical trial","CNC(=O)c1ccccc1Nc2nc(Nc3ccc4C[C@H](CCCc4c3OC)N5CCN(CCO)CC5)ncc2Cl",0,"PK:ALK,FAK"
+781343,"S",-1,2,2,"","Clinical trial","Cn1nccc1Nc2nccc(n2)C3=CC(=O)N(C=C3)[C@H](CO)c4ccc(Cl)c(F)c4",0,"PK:ERK,MAP3K,MAPK1"
+781344,"S",-1,2,2,"NMS-1286937","Clinical trial","CN1CCN(CC1)c2ccc(OC(F)(F)F)c(Nc3ncc4CCc5c(nn(CCO)c5c4n3)C(=O)N)c2",0,"PK:PLK1"
+781468,"S",-1,2,2,"","Clinical trial","CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N2CCC[C@H]2C(=O)Nc3sc(nc3c4ccccc4)c5occn5",0,"IAP"
+781470,"S",-1,2,2,"PF-03758309","Clinical trial","CN(C)C[C@@H](NC(=O)N1Cc2c(Nc3nc(C)nc4ccsc34)n[nH]c2C1(C)C)c5ccccc5",0,"PK:PAK4"
+781515,"S",-1,2,2,"","Clinical trial","CC(C)[C@@H](CS(=O)(=O)C(C)C)N1[C@@H]([C@H](C[C@](C)(CC(=O)O)C1=O)c2cccc(Cl)c2)c3ccc(Cl)cc3",0,"MDM2"
+781516,"S",-1,1,1,"","Clinical trial","C1CN(CCO1)c2ccc(Nc3nc(cn4ccnc34)c5ccc6cn[nH]c6c5)cc2",0,"PK:SYK"
+781556,"S",-1,1,1,"","FDA approved","COc1cc(OC)cc(c1)N(CCNC(C)C)c2ccc3ncc(nc3c2)c4cnn(C)c4",0,"PK:FGFR,FGFR1,FGFR2,FGFR3,FGFR4"
+781627,"S",-1,1,1,"","Clinical trial","Cn1cc(c2ccc3N(CCc3c2)C(=O)Cc4cccc(c4)C(F)(F)F)c5c(N)ncnc15",0,"PK:EIF2AK3"
+781761,"S",-1,2,2,"","Clinical trial","CNc1ncc2cc(c(C)nc2n1)c3cc(NC(=O)NCCC(C)(C)C)c(F)cc3C",0,"PK:BRAF"
+782006,"S",-1,2,2,"","Clinical trial","FC(F)(F)c1ccc(Nc2nc(cs2)c3c(nc4ccccn34)C(F)(F)F)cc1",0,"PK:RET"
+782007,"S",-1,2,2,"","Clinical trial","CN1C=Nc2ccc(Nc3cc(NC(=O)c4cccc(c4)C(C)(C)C#N)ccc3C)cc2C1=O",0,"PK:BRAF"
+782121,"S",-1,1,1,"","Clinical trial","C[C@@H](c1ccc2nccn2c1)n3nnc4ncc(nc34)c5cnn(C)c5",0,"PK:MET"
+782122,"S",-1,2,2,"","Clinical trial","COc1ncc(Nc2ncc(cc2c3nc(C)nc(N)n3)[C@@H](C)N4CCN(CC4)S(=O)(=O)C)cc1F",0,"PK:PIK3"
+782125,"S",-1,1,1,"","Clinical trial","Cn1cc(cn1)c2ccc(cc2)c3ccc(cc3)C4=NC5(CC5)C(=O)N4C[C@@H]6CCN(C6)C(=O)C7CC7",0,"FASN"
+782153,"S",-1,1,1,"","Clinical trial","CC(C)C[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCc1ccccc1)C=O",0,"PSM"
+782164,"S",-1,2,2,"","Clinical trial","CN1CCCN(CC1)c2ccc3C(=O)C(=C4Sc5ccccc5N4c3n2)C(=O)NCc6cnc(C)cn6",0,"RNA polymerase I"
+782362,"S",-1,2,2,"","Clinical trial","COc1cccc2c1nc(C(F)F)n2c3nc(nc(n3)c4ccc(NS(=O)(=O)CCN(C)C)cc4)N5CCOCC5",0,"PK:PIK3,MTOR"
+782363,"S",-1,1,1,"","Clinical trial","Cc1nc2cc(ccc2[nH]1)n3ncc(C(=O)c4cc5ccccc5[nH]4)c3N",0,"PK:PDGFR,FGFR,VEGFR,FGFR1,FGFR2,FGFR3"
+782549,"S",-1,2,2,"Defactinib","Clinical trial","CNC(=O)c1ccc(Nc2ncc(c(NCc3nccnc3N(C)S(=O)(=O)C)n2)C(F)(F)F)cc1",0,"PK:FAK"
+782762,"S",-1,2,2,"E-3810","Clinical trial","CNC(=O)c1cccc2cc(Oc3ccnc4cc(OCC5(N)CC5)c(OC)cc34)ccc12",0,"PK:PDGFR,FGFR,VEGFR"
+782763,"S",-1,2,2,"","Clinical trial","C[C@H]1C[C@@H](Nc2ccc(Cl)cc2)c3cc(ccc3N1C(=O)C)c4ccc(cc4)C(=O)O",0,"BRD"
+783015,"S",-1,2,2,"","Clinical trial","COc1cc2CC(=O)N([C@@H](c3ccc(Cl)cc3)c2cc1OC(C)C)c4ccc(cc4)N(C)C[C@@H]5CC[C@H](CC5)N6CCN(C)C(=O)C6",0,"MDM2"
+783102,"S",-1,2,2,"","Clinical trial","CNC(=O)c1ccccc1Nc2cc(Nc3ccc(cc3OC)N4CCOCC4)ncc2C(F)(F)F",0,"PK:FAK"
+783107,"S",-1,1,1,"","Clinical trial","O=C1NNc2nc(CN3Cc4ccccc4C3)nc5cccc1c25",0,"PARP1|PARP2"
+783249,"S",-1,1,1,"JNJ-26483327","Clinical trial","COc1cc2ncnc3Nc4cc(Br)ccc4CN(C)CCCCCOc1cc23",0,"PK:EGFR,ERBB2,SRC,VEGFR,RET,Multikinase"
+783272,"S",-1,1,1,"","Clinical trial","c1(ccc(c(c1)OC)C(=O)Nc1ccc2c(c1)CCNCC2)c1cn[nH]c1",0,"PK:MELK"
+783294,"S",-1,1,1,"","Clinical trial","CC(C)[C@](O)(c1ccc2cc(OC(F)F)c(OC(F)F)cc2c1)c3c[nH]nn3",0,"CYP17A1"
+783296,"S",-1,2,2,"","Clinical trial","COc1cc2ncnc(Nc3ccc(Cl)c(Cl)c3F)c2cc1OC4CCN(CC4)C(=O)C=C",0,"PK:EGFR,ERBB2,Multikinase"
+783333,"S",-1,1,1,"","Clinical trial","Cc1cc(Nc2ccc(NC(=O)c3ccc(Nc4ccnc5ccccc45)cc3)cc2)nc(N)n1",0,"DNMT"
+783415,"S",-1,1,1,"","Clinical trial","FC(F)(F)Oc1cccc(CC(=O)Nc2ccc(CCCCc3nnc(NC(=O)Cc4ccccn4)s3)nn2)c1",0,"GLS"
+783538,"S",-1,2,2,"silvestrol","","CO[C@@H]1OC[C@@H](O[C@H]1Oc2cc(OC)c3c(O[C@]4([C@@H]([C@H]([C@@H](O)[C@@]34O)C(=O)OC)c5ccccc5)c6ccc(OC)cc6)c2)[C@H](O)CO",0,""
+783916,"S",-1,2,1,"","Clinical trial","Cc1cc(cnc1c2cccnc2)c3ncc(cc3\C=C\c4ccccc4)c5cccnc5",0,"MCL1"
+784415,"S",-1,2,2,"Danusertib","Clinical trial","CO[C@@H](C(=O)N1Cc2[nH]nc(NC(=O)c3ccc(cc3)N4CCN(C)CC4)c2C1)c5ccccc5",0,"BCR-ABL|PK:YK,AURK,FGFR,RET"
+784590,"S",-1,2,2,"","Clinical trial","Fc1ccc(NC(=O)C2(CC2)C(=O)Nc3cc(F)c(Oc4ccnc(NC(=O)C5CC5)c4)cc3F)cc1",0,"PK:MET,NTRK,VEGFR,TEK"
+784591,"S",-1,1,1,"","Clinical trial","Cn1cc(cn1)c2ccc(cc2)c3cncc(Cl)c3N4CCC5(CCNC5=O)CC4",0,"Wnt"
+784722,"S",-1,2,2,"","Clinical trial","COc1cccc2C(=O)c3c(O)c4C[C@](O)(C[C@H](O[C@H]5C[C@H](N)[C@H](O)[C@H](C)O5)c4c(O)c3C(=O)c12)\C(=N\NC(=O)CCCCCN6C(=O)C=CC6=O)\CO",0,"T2"
+784815,"S",-1,2,2,"","Clinical trial","C[C@H]1COCCN1c2cc(nc(n2)c3ccc(NC(=S)NCCO)cc3)C4(CC4)S(=O)(=O)C5CC5",0,"PK:MTOR"
+784817,"S",-1,1,1,"","Clinical trial","CN(C)S(=O)(=O)N1CCN(CC1)c2ccc(OCc3c(c(C)nn3C)c4cccc5c(CCCOc6cccc7ccccc67)c(C(=O)O)n(CCN8CCOCC8)c45)cc2",0,"MCL1"
+784856,"S",-1,2,2,"","Clinical trial","Cc1noc2[C@H](CC(=O)N)N=C(c3ccc(Cl)cc3)c4ccccc4c12",0,"BRD"
+785004,"S",-1,2,2,"","Clinical trial","NS(=O)(=O)OC[C@H]1C[C@@H](Nc2ccnc3cc(nn23)c4cccc(SC(F)(F)F)c4)[C@H](O)[C@@H]1O",0,"UB-activating"
+785117,"S",-1,2,2,"","Clinical trial","Nc1cc(c(cn1)c2nc(nc(n2)N3CCOCC3)N4CCOCC4)C(F)(F)F",0,"PK:PIK3,MTOR"
+785299,"S",-1,1,1,"","Clinical trial","O[C@@H](CNC(=O)c1cc(NC2COC2)ncn1)CN3CCc4ccccc4C3",0,"PRMT5"
+785306,"S",-1,2,2,"","Clinical trial","CNC(=O)c1cc2c(Oc3ccc(NC(=S)NC(=O)Cc4ccccc4)cc3F)ccnc2cc1OC",0,"PK:MET,VEGFR"
+785345,"S",-1,2,2,"","Clinical trial","Cc1oc(C[C@@H]2C=C(c3ccc(Cl)cc3)c4ccccc4n5c(C)nnc25)nn1",0,"BRD"
+785570,"S",-1,1,1,"","FDA approved","O[C@H]1CCN(C1)C(=O)Nc2cnn3ccc(nc23)N4CCC[C@@H]4c5cc(F)ccc5F",0,"PK:NTRK"
+785657,"S",-1,1,1,"RX-3117","Clinical trial","NC1=NC(=O)N(C=C1)[C@H]2[C@H](O)[C@H](O)C(=C2F)CO",0,"DNMT"
+786098,"S",-1,1,1,"","Clinical trial","COc1cc(F)ccc1c2ncnc(Nc3cccc(CS(=N)(=O)C)c3)n2",0,"PK:CDK,CDK9"
+786099,"S",-1,2,2,"","Clinical trial","CCn1nc(nc1c2cnc(N)c(n2)c3oc(nn3)C(C)(C)C)C4CCN(CC4)C(=O)CCO",0,"PK:PIK3"
+786959,"S",-1,2,2,"","Clinical trial","C[C@@H]1Cc2c([nH]c3ccccc23)[C@H](N1CC(C)(C)F)c4c(F)cc(\C=C\C(=O)O)cc4F",0,"SERD"
+787025,"S",-1,2,2,"","Clinical trial","COc1cc(ccc1Nc2nc3ccc(cn3n2)c4ccc(NC(=O)[C@H](C)c5ccc(F)cc5)cc4)S(=O)(=O)C",0,"IDUA"
+787026,"S",-1,2,2,"","Clinical trial","COc1ccc(Oc2cc(NCCC(F)(F)F)c3ncc(c4ccc(C(=O)NC5CC5)c(C)c4)n3n2)c(F)c1F",0,"IDUA"
+787027,"S",-1,2,2,"","Clinical trial","CN(C)C\C=C\C(=O)N1CCCC[C@H](C1)n2c(NC(=O)c3ccnc(C)c3)nc4cccc(Cl)c24",0,"PK:EGFR"
+787039,"S",-1,2,2,"","Clinical trial","Cc1c(CN2CCC(CC2)Nc3ncnc4sc(CC(F)(F)F)cc34)ccc5c1cc(C#N)n5Cc6cn[nH]c6",0,"KMT2A"
+787047,"S",-1,1,1,"","Clinical trial","CC(C)N1C(=O)N(C)C(=O)c2c1sc(Cc3c(C)[nH]nc3C(F)(F)F)c2C(=O)N4C[C@](C)(O)CO4",0,"SLC16A1|SLC16A7"
+787048,"S",-1,2,2,"azd5582","Clinical trial","CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N2CCC[C@H]2C(=O)N[C@@H]3[C@@H](Cc4ccccc34)OCC#CC#CCO[C@@H]5Cc6ccccc6[C@@H]5NC(=O)[C@@H]7CCCN7C(=O)[C@@H](NC(=O)[C@H](C)NC)C8CCCCC8",0,"IAP"
+787137,"S",-1,2,2,"","Clinical trial","C[C@H](Nc1ncnc2[nH]cnc12)c3cc4ccc(F)cc4nc3c5ccccn5",0,"PK:PIK3"
+787252,"S",-1,2,2,"","Clinical trial","CNC(=O)c1ccccc1Nc2nc(Nc3ccc(cc3OC)N4CCOCC4)ncc2Cl",0,"PK:IGF1R,FAK"
+787326,"S",-1,2,2,"","Clinical trial","CC\C(=C(\c1ccc(\C=C\C(=O)O)cc1)/c2ccc3[nH]ncc3c2)\c4ccc(F)cc4Cl",0,"SERD"
+787457,"S",-1,2,2,"AP-26113","FDA approved","COc1cc(ccc1Nc2ncc(Cl)c(Nc3ccccc3P(=O)(C)C)n2)N4CCC(CC4)N5CCN(C)CC5",0,"PK:YK,ALK,EGFR"
+787780,"S",-1,2,2,"","Clinical trial","C[C@@H](CNC(=O)c1c(O)c(O)cc2c(O)c(c(C)cc12)c3c(C)cc4c(C(=O)NC[C@H](C)c5ccccc5)c(O)c(O)cc4c3O)c6ccccc6",0,"MCL1"
+787846,"S",-1,2,2,"","FDA approved","CCc1nc(C(=O)N)c(Nc2ccc(N3CCC(CC3)N4CCN(C)CC4)c(OC)c2)nc1NC5CCOCC5",0,"PK:AXL,FLT3"
+787880,"S",-1,4,4,"","Clinical trial","C[C@@H](CN(C)C)c1ccc(cc1)c2c(O)cc(C)c3NC(=O)c4sccc4c23",0,"PK:PBK"
+787960,"S",-1,2,1,"","Clinical trial","OC(=O)CSc1cc(NS(=O)(=O)c2ccc(Br)cc2)c3ccccc3c1O",0,"MCL1"
+787962,"S",-1,2,1,"","Clinical trial","O=C1C=C(OC(=C1)c2cccc3Sc4ccccc4Sc23)N5CCOCC5",0,"PK:ATM"
+788121,"S",-1,2,2,"","Clinical trial","COc1cc2ncnc(Nc3cccc(Cl)c3F)c2cc1OC(=O)N4CCN(C)C[C@H]4C",0,"PK:EGFR"
+788186,"S",-1,2,2,"Bafetinib","Clinical trial","CN(C)[C@H]1CCN(Cc2ccc(cc2C(F)(F)F)C(=O)Nc3ccc(C)c(Nc4nccc(n4)c5cncnc5)c3)C1",0,"BCR-ABL|PK:YK,FYN,LYN"
+788203,"S",-1,2,2,"","Clinical trial","COCCNCc1ccc(nc1)c2cc3nccc(Oc4ccc(NC(=O)C5(CC5)C(=O)Nc6ccc(F)cc6)cc4F)c3s2",0,"PK:PDGFR,AXL,NTRK,RET"
+788365,"S",-1,2,2,"","Clinical trial","COc1nn(C)cc1Nc2nc(nc3c2ncn3C)N4C[C@@H](F)[C@@H](C4)NC(=O)C=C",0,"PK:EGFR"
+788794,"S",-1,1,1,"","Clinical trial","COc1ccc(F)cc1c2ccnc3[nH]c(cc23)C4=CCN(CC4)[C@@H]5CC[C@@H](CC(=O)O)CC5",0,"PK:CDK,CDK9"
+788900,"S",-1,2,2,"","Clinical trial","CC(=O)c1oc2C(=O)c3ccccc3C(=O)c2c1",0,"CTNNB1|STAT3"
+789041,"S",-1,1,1,"GSK-295","Clinical trial","CC(C)Oc1ccc(cc1Cl)C(=O)N[C@H](CNC(=O)CN(C)C)Cc2ccc(cc2)c3cn4cccc([C@H](C)O)c4n3",0,"CENP"
+789042,"S",-1,2,2,"LOR-253","Clinical trial","Cc1[nH]c2ccc(F)cc2c1c3nc4c5cccnc5c6ncccc6c4[nH]3",0,"KLF4|MTF1"
+789043,"S",-1,2,2,"","Clinical trial","Cc1sc2c(C(=N[C@@H](CC(=O)Nc3ccc(OCCOCCOCCOCCNc4cccc5C(=O)N(C6CCC(=O)NC6=O)C(=O)c45)cc3)c7nnc(C)n27)c8ccc(Cl)cc8)c1C",0,"BRD"
+789044,"S",-1,2,2,"","Clinical trial","COc1cc(ccc1Nc2ncc3ccnc(N[C@@H](C)C(C)(C)C)c3n2)c4cnn(C)c4",0,"IDUA"
+789099,"S",-1,2,2,"","Clinical trial","CC(C)(O)CS(=O)(=O)Nc1ccc2CN(CCc2c1)C(=O)COc3cccnc3",0,"NAMPT"
+789722,"S",-1,2,2,"Litronesib","Clinical trial","CCNCCS(=O)(=O)NC[C@]1(SC(=NN1C(=O)C(C)(C)C)NC(=O)C(C)(C)C)c2ccccc2",0,"Tu|CDH16|KIF11"
+789797,"S",-1,2,2,"","Clinical trial","CCC(Sc1nnc2c3ccccc3n(CC)c2n1)C(=O)Nc4ccccc4OC",0,"T1"
+789925,"S",-1,1,1,"","Clinical trial","O[C@@H]1CCN(C1)c2ncc(cc2c3ccn[nH]3)C(=O)Nc4ccc(OC(F)(F)Cl)cc4",0,"BCR-ABL"
+789968,"S",-1,1,1,"","Clinical trial","CO[C@@H](C)CN1C(=O)N(C)c2cnc3ccc(cc3c12)c4cncc(c4)C(C)(C)O",0,"PK:PIK3,MTOR"
+789969,"S",-1,1,1,"","Clinical trial","Oc1ccc(cc1)c2nc(c3ccc(F)cc3)c([nH]2)c4ccncc4",0,"PK:MAPK14"
+790865,"S",-1,2,1,"","Clinical trial","CNCCN(C)Cc1c[nH]nc1c2ccc(O[C@@H]3C[C@H](C3)OCCC4CCOCC4)cc2",0,"PRMT6"
+791059,"S",-1,2,2,"MGCD-265","Clinical trial","COCCNCc1ccc(nc1)c2cc3nccc(Oc4ccc(NC(=S)NC(=O)Cc5ccc(F)cc5)cc4F)c3s2",0,"PK:VEGFR"
+791163,"S",-1,1,1,"","Clinical trial","CCN1CCC(CC1)Oc2c(ncc3[nH]c4ncccc4c23)C#N",0,"PK:CHEK1"
+791164,"S",-1,2,2,"","FDA approved","CC#CC(=O)N1CCC[C@H]1c2nc(c3ccc(cc3)C(=O)Nc4ccccn4)c5c(N)nccn25",0,"PK:BTK"
+791226,"S",-1,1,1,"SAR-245409","Clinical trial","CCN1C(=O)C(=Cc2c(C)nc(N)nc12)c3ccn[nH]3",0,"PK:PIK3"
+791227,"S",-1,1,1,"XL-147","Clinical trial","COc1ccc(Cl)c(Nc2nc3ccccc3nc2NS(=O)(=O)c4cccc(NC(=O)C(C)(C)N)c4)c1",0,"PK:PIK3"
+791328,"S",-1,2,2,"","Clinical trial","Nc1ncccc1c2nc3ccc(nc3n2c4ccc(cc4)C5(N)CCC5)c6ccccc6",0,"PK:AKT"
+791495,"S",-1,2,2,"","Clinical trial","Cn1ncc(NC(=O)c2nc(sc2N)c3c(F)cccc3F)c1N4CC[C@@H](N)[C@H](F)CC4",0,""
+791496,"S",-1,2,1,"APR-246","Clinical trial","COCC1(CO)N2CCC(CC2)C1=O",0,"Apo"
+791648,"S",-1,2,2,"","Clinical trial","CC(C)Oc1ccc(cc1Cl)C(=O)N[C@H](CNC(=O)CN(C)C)Cc2ccc(cc2)c3cn(C)c(n3)C(=O)C",0,"CENP"
+791785,"S",-1,2,2,"Sapacitabine","Clinical trial","CCCCCCCCCCCCCCCC(=O)NC1=NC(=O)N(C=C1)[C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2C#N",0,"Ds"
+791966,"S",-1,2,2,"","Clinical trial","COc1ccc2NC(=O)[C@@]3(C[C@H]3c4ccc5c(\C=C\c6ccc(CN7C[C@@H](C)O[C@@H](C)C7)cc6)n[nH]c5c4)c2c1",0,"PK:PLK1"
+791967,"S",-1,2,2,"","Clinical trial","Cn1cc(cn1)c2nc(N[C@@H]3CCCC[C@@H]3N)c(F)c4CNC(=O)c24",0,"PK:SYK"
+791968,"S",-1,2,2,"","Clinical trial","Cn1cc(cn1)c2nc(N[C@@H]3CCCC[C@@H]3N)c(F)c4CNC(=O)c24",0,"PK:SYK"
+792847,"S",-1,2,2,"","Clinical trial","Cn1ncc(C#N)c1c2ccc3C(=O)N(Cc3c2)[C@H](CN)Cc4cccc(F)c4",0,"PK:AKT"
+792848,"S",-1,1,1,"","Clinical trial","CN1CCN(CC1)c2ccc(Nc3nc(Oc4cccc(NC(=O)C=C)c4)c5sccc5n3)cc2",0,"PK:EGFR,BTK"
+792955,"S",-1,2,2,"","Clinical trial","O=C(C1CC1)N2CC[C@@H](CC3=NNC(=O)N3c4ccc(cc4)c5ccc6occc6c5)C2",0,"FAS|FASN"
+792956,"S",-1,2,2,"","Clinical trial","CN(C)CCCOc1ccc(cn1)c2ccc3ncc4N(C)C(=O)N(C5CCOCC5)c4c3c2",0,"PK:ATM"
+792970,"S",-1,2,2,"","Clinical trial","Nc1ccc(\C=C\C(=O)NCc2oc3c(cc(cc3c2)c4ccc(cc4)C(=O)N5CCC(F)(F)CC5)c6ccc(F)cc6)cn1",0,"PK:PAK4"
+792971,"S",-1,2,2,"","Clinical trial","CO[C@@H]1CC[C@H](CC1)N2C(=O)CNc3ncc(nc23)c4ccc(nc4)C(C)(C)O",0,"PK:MTOR"
+792987,"S",-1,2,2,"","Clinical trial","CC1(C)OCCn2c1nc3c(nc(nc23)c4cnc(N)nc4)N5CCOCC5",0,"PK:PIK3,MTOR"
+793103,"S",-1,2,2,"","Clinical trial","CCS(=O)(=O)Nc1ccc(Oc2ccc(F)cc2F)c(c1)C3=CN(C)C(=O)c4[nH]ccc34",0,"BRD"
+793148,"S",-1,2,2,"","Clinical trial","COc1cc(OC)cc(c1)N2CCN(CC2)C(=O)Nc3nc4cc(F)ccc4nc3OC",0,""
+793149,"S",-1,2,2,"","Clinical trial","Cc1c(NC(=O)c2cc(nc3cc(F)ccc23)C(=O)N)c(nn1Cc4ccc(cc4)C#N)C(F)(F)F",0,"SLC2A1"
+793150,"S",-1,1,1,"","Clinical trial","C[C@@H](Oc1cc(nnc1N)C(=O)Nc2ccc(cc2)C(=O)N3C[C@@H](C)N[C@@H](C)C3)c4c(Cl)ccc(F)c4Cl",0,"PK:ALK"
+793151,"S",-1,2,2,"","Clinical trial","CCN1C(=O)CNc2ncc(nc12)c3ccc(nc3C)c4ncn[nH]4",0,"PK:MTOR"
+793323,"S",-1,2,2,"","Clinical trial","FC(F)(F)c1ccc2nc([nH]c2c1)[C@H]3[C@@H]4Oc5ccc(OC6=C7CCC(=O)N=C7NC=C6)cc5[C@H]34",0,"PK:BRAF"
+793324,"S",-1,2,2,"","Clinical trial","NC(=O)c1ccc2nc(c3ccc(cc3)C4(N)CCC4)c(c5ccccc5)n2n1",0,"PK:AKT"
+793677,"S",-1,2,2,"","Clinical trial","COc1cc(OC)c(F)c(COc2cnc(Nc3cnn(CCO)c3)nc2)c1F",0,"PK:FGFR"
+793679,"S",-1,2,2,"CNDAC","Clinical trial","NC1=NC(=O)N(C=C1)C2O[C@H](CO)[C@@H](O)[C@@H]2C#N",0,""
+793726,"S",-1,1,1,"","Clinical trial","FC(F)(F)c1cnc(Nc2cnc(cn2)C#N)cc1NC[C@H]3CNCCO3",0,"PK:CHEK1"
+794109,"S",-1,1,1,"","Clinical trial","C[C@@H]1C[C@H](N)C[C@@H](C1)c2ccncc2NC(=O)c3ccc(F)c(n3)c4c(F)cccc4F",0,"PK:PIM1"
+794442,"S",-1,2,2,"","Clinical trial","Nc1cc(C(F)F)c(cn1)c2nc(nc(n2)N3[C@@H]4CC[C@H]3COC4)N5[C@@H]6CC[C@H]5COC6",0,"PK:MTOR"
+794443,"S",-1,2,2,"","Clinical trial","NC(=O)\C(=C\n1cnc(n1)c2cc(cc(c2)C(F)(F)F)C(F)(F)F)\c3cncnc3",0,"XPO1"
+794589,"S",-1,1,1,"","Clinical trial","CCc1cccc(CC)c1NC(=O)c2ccn3c2CCc4cnc(Nc5ccc(cc5OC)N6CCN(C)CC6)nc34",0,"PK:TTK"
+794590,"S",-1,2,2,"","Clinical trial","COc1c(OC[C@H](O)CN2CCOCC2)ccc3C4=NCCN4C(=Nc13)NC(=O)c5cccnc5C",0,"PK:PIK3"
+794646,"S",-1,2,2,"","Clinical trial","COc1cc2c(Oc3ccc(cc3F)C4=CN=C(Nc5ccc(F)cc5)N(C)C4=O)ccnc2cc1OCCCN6CCOCC6",0,""
+795067,"S",-1,1,1,"","Clinical trial","C[C@H](NC(=O)c1c(N)nn2cccnc12)C3=Cc4cccc(C#Cc5cnn(C)c5)c4C(=O)N3c6ccccc6",0,""
+795142,"S",-1,2,2,"","Clinical trial","NC(=O)c1cccc2c(N[C@H](CN3CCC3)c4ccc(Cl)c(c4)C(F)(F)F)ncnc12",0,"PK:AKT"
+795384,"S",-1,1,1,"","Clinical trial","Nc1oc2ccc(cc2n1)c3ccc4ncc(C(=O)N5CCOCC5)n4c3",0,""
+797653,"S",-1,1,1,"","Clinical trial","ONC(=O)CCCCCCC(=O)N\N=C\c1ccc(cc1)N(c2ccccc2)c3ccccc3",0,"HDAC"
+797769,"S",-1,2,2,"","Clinical trial","Cc1ccc(Nc2nc(N)c(s2)C(=O)c3ccc(cc3)C#N)cc1",0,""
+797770,"S",-1,2,2,"","Clinical trial","COc1cc2nccc(Oc3ccc(NC(=O)C4=CN(C(C)C)C(=O)N(C4=O)c5ccc(F)cc5)cc3F)c2cc1OC",0,""
+797771,"S",-1,1,1,"","Clinical trial","CC(C)Nc1cc(c(Cl)cn1)c2c[nH]c(c2)C(=O)N[C@H](CO)c3cccc(Cl)c3",0,"PK:ERK"
+797772,"S",-1,1,1,"","Clinical trial","CC(C)n1cnnc1c2cccc(NC(=O)c3cc(c(C)cc3F)n4cnc(c4)C5CC5)n2",0,""
+797932,"S",-1,2,2,"","Clinical trial","F[C@@H]1CCN(C1)S(=O)(=O)Nc2ccc(F)c(C(=O)c3c[nH]c4ncc(cc34)c5cnc(nc5)C6CC6)c2F",0,"PK:BRAF"
+797937,"S",-1,1,1,"Sulfatinib","FDA approved","CN(C)CCNS(=O)(=O)Cc1cccc(Nc2nccc(Oc3ccc4[nH]c(C)cc4c3)n2)c1",0,"PK:YK,FGFR"
+797938,"S",-1,2,2,"","Clinical trial","COc1nnc2ccc(nn12)N3CCC(CC3)c4ccc(OCCN5CCN(C)C(=O)[C@H]5C)cc4",0,""
+798200,"S",-1,2,2,"","Clinical trial","CN(C)S(=O)(=O)c1ccccc1Nc2nc(Nc3ccc(CN4CCN(C)CC4)cc3)ncc2Cl",0,"PK:AXL"
+798303,"S",-1,1,1,"","Clinical trial","O=C(Cc1ccccc1)Nc2nnc(CCSCCc3nnc(NC(=O)Cc4ccccc4)s3)s2",0,""
+798304,"S",-1,3,3,"","Clinical trial","C[C@]12C[C@@H](C3=C4CCC(=O)C=C4CC[C@H]3[C@@H]1CC[C@@]2(O)C(F)(F)C#C)c5ccc(cc5)C6CC6",0,"MDM2"
+4962,"S",-1,1,1,"p-Toluhydroquinol",NA,"Cc1cc(O)ccc1O",0,NA
+37896,"S",-1,2,1,"",NA,"CC(CN(C)C)Oc1ccccc1NC2=C(Cl)C(=O)C(=C(Cl)C2=O)Nc3ccccc3OC(C)CN(C)C",0,NA
+89400,"S",-1,2,1,"",NA,"O=C1C=C(Nc2ccccc2)c3ncccc3C1=O",0,NA
+99300,"S",-1,1,1,"",NA,"CCCCc1cc(O)ccc1O",0,NA
+99310,"S",-1,1,1,"Hydroquinone, octyl-",NA,"CCCCCCCCc1cc(O)ccc1O",0,NA
+293856,"S",-1,1,1,"B704949F149",NA,"",0,NA
+407959,"S",-1,1,1,"",NA,"Oc1ccc(O)c(CC=C)c1",0,NA
+797172,"S",-1,2,2,"","Clinical trial","Cc1c(cnn1CC23CC4CC(CC(C4)C2)C3)c5ccc(nc5C(=O)O)N6CCc7cccc(C(=O)Nc8nc9ccccc9s8)c7C6",0,""
+797934,"S",-1,3,2,"Plinabulin","Clinical trial","CC(C)(C)c1[nH]cnc1\C=C\2/NC(=O)\C(=C\c3ccccc3)\NC2=O",0,""
+798517,"S",-1,1,1,"","Clinical trial","NC(=O)c1nc(oc1Nc2ccc(cc2)C(=O)N3CCOCC3)c4c(F)cccc4Cl",0,"PK:TYK2"
+798799,"S",-1,1,1,"","Clinical trial","Nc1nc(N)c(C#N)c(N[C@@H](C2CC2)C3=Nc4c(F)ccc(Cl)c4C(=O)N3c5cccnc5)n1",0,""
+798846,"S",-1,3,3,"","Clinical trial","CN1CCN(CCOc2ccc(c(C)c2Cl)c3c(sc4ncnc(O[C@H](Cc5ccccc5OCc6ccnn6CC(F)(F)F)C(=O)O)c34)c7oc(F)cc7)CC1",0,""
+799318,"S",-1,1,1,"","Clinical trial","NC(=O)c1c2NCCC(C3CCN(CC3)C(=O)C=C)n2nc1c4ccc(Oc5ccccc5)cc4",0,"PK:BTK"
+799908,"S",-1,1,1,"","Clinical trial","Clc1ccccc1SC2C(=O)CC(NC2=O)(c3ccc(cc3)N4CCOCC4)c5ccsc5",0,"LDHA"
+800030,"S",-1,1,1,"","Clinical trial","CC1(N)CCN(CC1)c2cccnc2NC(=O)c3nc(cnc3N)c4ncccc4C(F)(F)F",0,""
+800405,"S",-1,1,1,"","Clinical trial","CC(C)Oc1ccc(cc1F)c2nn([C@@H](C)C3=C(C(=O)c4cc(F)ccc4O3)c5cccc(F)c5)c6ncnc(N)c26",0,""
+800522,"S",-1,2,2,"","Clinical trial","C[C@H]1CNC(=O)c2cnn3ccc(N[C@H](C)c4cc(F)ccc4O1)nc23",0,"PK:ROS1,ALK"
+800525,"S",-1,2,2,"","Clinical trial","C[C@@H]1COCCN1c2cc(c3ccnn3C)c4ccnc(c5ccn[nH]5)c4n2",0,"PK:ATR"
+800729,"S",-1,2,2,"","Clinical trial","C[C@H](Nc1ccc2c(OCCn3cc(nc23)N4[C@@H](COC4=O)C(F)F)c1)C(=O)N",0,""
+800888,"S",-1,2,2,"","Clinical trial","Cc1cc(ccc1C(=O)NC2CC2)c3cnn4c(NC[C@@H]5C[C@](C)(O)C5)cc(Oc6cccnc6)nc34",0,"PK:TTK"
+800893,"S",-1,2,2,"","Clinical trial","CC1(C)CCC2(CC1)N[C@H]([C@H](c3ccnc(Cl)c3F)[C@]24C(=O)Nc5cc(Cl)ccc45)C(=O)N[C@@H]6CC[C@H](OC6)C(=O)N",0,"MDM2"
+801082,"S",-1,1,1,"","Clinical trial","Cn1cc(cn1)c2cc3c(ncnn3c2)N4CCN(CC4)c5ncc(cn5)[C@@](C)(N)c6ccc(F)cc6",0,""
+801089,"S",-1,1,1,"","Clinical trial","CNc1ncc2C=C(C(=O)N(CCCN3CCN(CC3)C(=O)C=C)c2n1)c4c(Cl)c(OC)cc(OC)c4Cl",0,"PK:FGFR"
+801230,"S",-1,2,2,"","Clinical trial","Cc1nnn(C)c1c2cnc3c4ccc(cc4n([C@@H](C5CCOCC5)c6ccccc6)c3c2)C(C)(C)O",0,""
+801661,"S",-1,1,1,"","Clinical trial","Cc1n[nH]cc1c2cc3N=C(NC(=O)c3s2)C4CC5CCN4CC5",0,"PK:CDC7"
+802100,"S",-1,2,2,"","Clinical trial","CN1CCN(CC1)c2ccc(Nc3ncc4C=C(C#N)C(=O)N(C5CCCC5)c4n3)cc2",0,"PK:CDK"
+802450,"S",-1,2,2,"","Clinical trial","COc1cc(F)ccc1c2cc(Nc3cc(CS(=N)(=O)C)ccn3)ncc2F",0,""
+802820,"S",-1,2,2,"","Clinical trial","CCC(CC)n1cnc2c(nc(nc12)N3CC4CCC(C3)O4)c5cnc(N)cn5",0,"PK:MTOR"
+802821,"S",-1,2,2,"","Clinical trial","C[C@H]1COCCN1c2nc(nc(n2)c3cnc(N)cc3C(F)F)N4CCOCC4",0,"PK:MTOR"
+802822,"S",-1,1,1,"","Clinical trial","COc1ccc(nn1)[C@@H](O)c2cc(c(F)cc2Cl)c3ncnc4cc(ccc34)N5CCOCC5",0,""
+803248,"S",-1,2,2,"","Clinical trial","CS(=O)(=O)Nc1cc(cnc1Cl)c2ccc3ncnc(Nc4ccc(F)c(Cl)c4)c3c2",0,"PK:EGFR"
+803409,"S",-1,1,1,"","Clinical trial","COc1cnccc1Nc2nc(ncc2OC)c3nn(Cc4c(F)cc(OCCO)cc4F)c5ccccc35",0,"PK:BUB1"
+803410,"S",-1,2,2,"","Clinical trial","Cn1nccc1Nc2nccc(n2)c3cc4C(=O)N(CCN5CCOCC5)C(C)(C)c4s3",0,"PK:ERK"
+803789,"S",-1,1,1,"","Clinical trial","CC(C)N1C(=O)N(C)c2cnc3cc(F)c(cc3c12)c4ccc(OCCCN5CCCCC5)nc4",0,"PK:ATM"
+804041,"S",-1,1,1,"","Clinical trial","CO[C@H]1\C=C\C[C@H](C)[C@@H](C)S(=O)(=O)NC(=O)c2ccc3OC[C@]4(CCCc5cc(Cl)ccc45)CN(C[C@@H]6CC[C@@H]16)c3c2",0,""
+804254,"S",-1,1,1,"","Clinical trial","CC1(N)CCN(CC1)c2cnc(c(N)n2)c3cccc(Cl)c3Cl",0,""
+804518,"S",-1,1,1,"","Clinical trial","COCc1c(CN2CCNC(=O)C2)n3ncnc(N)c3c1c4cc5cc(C)cc(OC)c5s4",0,"PK:FGFR"
+804520,"S",-1,1,1,"","Clinical trial","COc1ncc(c(OC)n1)c2nc3C(=O)N([C@@H](c4ccc(Cl)cc4)c3n2C(C)C)C5=CC(=CN(C)C5=O)Cl",0,"MDM2"
+804521,"S",-1,1,1,"S-222611","Clinical trial","CC#C\C(=N/OC[C@H]1COCCN1)\c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2",0,"PK:EGFR,ERBB2"
+804861,"S",-1,1,1,"","Clinical trial","C[C@@H]1CN(CC(=O)N2CC(C)(C)c3nc(CO)c(Cc4ccc(F)cc4)cc23)[C@@H](CN5CCOC[C@H]5C)CN1",0,"IAP"
+804962,"S",-1,1,1,"","Clinical trial","COCCNc1cc(NC(=O)N2CCCc3cc(CN4CCN(C)CC4=O)c(C=O)nc23)ncc1C#N",0,"PK:FGFR"
+805149,"S",-1,1,1,"","Clinical trial","CC(C)(O)[C@@H]1CC[C@H](CC1)Nc2ccc3ncc(c4cccc(c4)C(F)(F)F)n3n2",0,""
+805500,"S",-1,1,1,"","Clinical trial","Cc1c(Br)c(Br)c2CCCn3c(nc1c23)N4CCNCC4",0,"PK:CDK"
+805596,"S",-1,1,1,"","Clinical trial","CN1CCN(CC1)C(=O)COc2ccc(cc2)[C@@]34C[C@@H]5C[C@@H](C[C@@H](C5)C3)C4",0,""
+805746,"S",-1,2,2,"","Clinical trial","CNC(=O)c1ccc(Nc2nc(OC3CCCC3)c4c(c[nH]c4n2)c5ccc6nc(C)oc6c5)c(OC)c1",0,"PK:TTK"
