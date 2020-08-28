@@ -132,12 +132,12 @@ test_that("numeric data is properly loaded into data matrices", {
   #expect_identical(drugAct["782785", "RE:UO-31"], 0.03)
 
   # drugRepAct --------------------------------------------------------------------------
-  expect_identical(rownames(drugRepAct)[1], "1_0809RS22")
+  expect_identical(rownames(drugRepAct)[1], "1_0807NS58")
 
   # No longer applicable with corrected NSC set.
   #expect_identical(rownames(drugRepAct)[nrow(drugRepAct)], "782763_1503RS50")
-  expect_identical(drugRepAct["1_0809RS22", "BR:MCF7"], 4.76)
-  expect_identical(drugRepAct["1_0809RS22", "RE:UO-31"], 4.96)
+  expect_identical(drugRepAct["1_0807NS58", "BR:MCF7"], 4.83)
+  expect_identical(drugRepAct["1_0807NS58", "RE:UO-31"], 4.9)
   #expect_identical(drugRepAct["782763_1503RS50", "BR:MCF7"], 7.55)
   #expect_identical(drugRepAct["782763_1503RS50", "RE:UO-31"], 8)
 })
