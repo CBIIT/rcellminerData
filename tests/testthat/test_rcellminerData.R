@@ -126,8 +126,8 @@ test_that("numeric data is properly loaded into data matrices", {
 
   # No longer applicable with corrected NSC set.
   #expect_identical(rownames(drugAct)[nrow(drugAct)], "782785")
-  expect_identical(drugAct["1", "BR:MCF7"], -0.27)
-  expect_identical(drugAct["1", "RE:UO-31"], 1.06)
+  expect_identical(round(drugAct["1", "BR:MCF7"],2), -0.27)
+  expect_identical(round(drugAct["1", "RE:UO-31"],2), 1.06)
   #expect_identical(drugAct["782785", "BR:MCF7"], 1.15)
   #expect_identical(drugAct["782785", "RE:UO-31"], 0.03)
 
@@ -136,8 +136,8 @@ test_that("numeric data is properly loaded into data matrices", {
 
   # No longer applicable with corrected NSC set.
   #expect_identical(rownames(drugRepAct)[nrow(drugRepAct)], "782763_1503RS50")
-  expect_identical(drugRepAct["1_0809RS22", "BR:MCF7"], 4.76)
-  expect_identical(drugRepAct["1_0809RS22", "RE:UO-31"], 4.96)
+  expect_identical(round(drugRepAct["1_0809RS22", "BR:MCF7"],2), 4.76)
+  expect_identical(round(drugRepAct["1_0809RS22", "RE:UO-31"],2), 4.96)
   #expect_identical(drugRepAct["782763_1503RS50", "BR:MCF7"], 7.55)
   #expect_identical(drugRepAct["782763_1503RS50", "RE:UO-31"], 8)
 })
