@@ -1,0 +1,71 @@
+	ID	Name	Parameter	Reference
+APM	APM	Antigen Presentation Machinery (APM) transcript expression	Antigen presentation machinery signature	"Wang et al, eLIFE, 2019. PMID: 31767055"
+DOUBLING_TIME	DOUBLING_TIME	Doubling time	Cell line phenotype	Doubling times described at NCI/DTP site.
+gammaH2AX	gammaH2AX	gammaH2AX	DNA damage marker	PMID 28158293
+Total_H2AX	Total_H2AX	Total_H2AX	DNA damage marker	PMID 28158293
+Ratio_gX_TotX	Ratio_gX_TotX	Ratio_gX_TotX	DNA damage marker	PMID 28158293
+BRAF_mutation	BRAF_mutation	BRAF mutational status.	Drug response	"Data is from CellMiner \ Genetic variant summation \ protein function affecting, (https://discover.nci.nih.gov/cellminer/)."
+Pan_compound_response	Pan_compound_response	Pan compound response	Drug response phenotype	"Reinhold et al, 2014, PLOS ONE (figure 4B)"
+H_K_NRAS_activation_pattern	H_K_NRAS_activation_pattern	"H, K, and NRAS composite activation pattern."	Drug response phenotype	"Reinhold et al, Clinical Cancer Res, 2015 (Figure 4)"
+MDR	MDR	Multi-drug resistance (mdr) functional assay	Drug response phenotype	"MDR Function: from DTP site (Lee JS etal., Mol Pharmacol. 1994 Oct;46(4):627-38)."
+EGFR_ERBB2_pathway	EGFR_ERBB2_pathway	EGFR-ERBB2 pathway	Drug response phenotype	"Reinhold et al, PLOS One, 2014 (Figure 7)"
+SLFN11_transcript_expression	SLFN11_transcript_expression	SLFN11 transcript expression	Drug response phenotype	SLFN11 transcript expression is associated with increased drug activity for DNA damaging agents.
+ATAD5_mutation	ATAD5_mutation	ATAD5 mutation	Drug response phenotype	ATAD5 mutation  is associated with increased drug activity for DNA damaging agents.
+CDH1_transcript_expression	CDH1_transcript_expression	E-cadherin (CDH1) transcript expression.	Epithelial marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+CLDN3_transcript_expression	CLDN3_transcript_expression	Claudin 3 (CLDN3) transcript expression.	Epithelial marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+CLDN4_transcript_expression	CLDN4_transcript_expression	Claudin 4 (CLDN4) transcript expression.	Epithelial marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+CDH1_protein_expression	CDH1_protein_expression	E-cadherin (CDH1) protein expression measured by antibody CDH1_21.	Epithelial marker	protein mean values from cellminer http://discover.nci.nih.gov/cellminer
+EMT	EMT	Composite epithelial mesenchymal. 	Epithelial mesenchymal status	"1st Principal Component of Non-Hematopoietic Cell Line Expression Data Matrix for ~38 EMT Genes; For EMT gene set details, see PMID: 24940735."
+Modal_chromosomal_number	Modal_chromosomal_number	Cytogenetics; Modal chromosomal number	Genomic instability	"Roschke et al, 2003 Cancer Res (table1)"
+Number_structurally_rearanged_chromosomes	Number_structurally_rearanged_chromosomes	Cytogenetics; # of structurally rearanged chromosomes	Genomic instability	"Roschke et al, 2003 Cancer Res (figure2)"
+Numerical_complexity	Numerical_complexity	Cytogenetics; Numerical complexity	Genomic instability	"Roschke et al, 2003 Cancer Res (figure1)"
+Numerical_heterogeneity	Numerical_heterogeneity	Cytogenetics; Numerical heterogeneity	Genomic instability	"Roschke et al, 2003 Cancer Res (figure2)"
+Fraction_normal_chromosomes_with_numerical_heterogeneity	Fraction_normal_chromosomes_with_numerical_heterogeneity	Cytogenetics; Fraction of normal chromosomes that experience numerical heterogeneity	Genomic instability	"Roschke et al, 2003 Cancer Res (table2)"
+Fraction_abnormal_chromosomes_with_numerical_heterogeneity	Fraction_abnormal_chromosomes_with_numerical_heterogeneity	Cytogenetics; Fraction of abnormal chromosomes that experience numerical heterogeneity.	Genomic instability	"Roschke et al, 2003 Cancer Res (table2)"
+Structural_heterogeneity	Structural_heterogeneity	Cytogenetics; Structural heterogeneity	Genomic instability	"Roschke et al, 2003 Cancer Res (figure2B)"
+proportion_genomic_gains	proportion_genomic_gains	aCGH; proportion of genomic gains.	Genomic instability	"Varma et al, 2014, PLOS ONE, Table 1"
+proportion_genomic_losses	proportion_genomic_losses	aCGH; proportion of genomic losses.	Genomic instability	"Varma et al, 2014, PLOS ONE, Table 1"
+proportion_genomic_gain_and_losses	proportion_genomic_gain_and_losses	aCGH; proportion of genomic gains and losses.	Genomic instability	"Varma et al, 2014, PLOS ONE, Table 1"
+number_genomic_gains	number_genomic_gains	aCGH; number of genomic gains.	Genomic instability	"Varma et al, 2014, PLOS ONE, Table 1"
+number_genomic_losses	number_genomic_losses	aCGH; number of genomic losses.	Genomic instability	"Varma et al, 2014, PLOS ONE, Table 1"
+number_genomic_gains_or_losses	number_genomic_gains_or_losses	aCGH; number of genomic gains or losses.	Genomic instability	"Varma et al, 2014, PLOS ONE, Table 1"
+number_amino_acid_changing_genetic_variants_not_in_either_ESP5400_or_1000G	number_amino_acid_changing_genetic_variants_not_in_either_ESP5400_or_1000G	Exome sequencing; Total number of amino acid changing genetic variants not in either the ESP5400 or 1000 Genomes	Genomic instability	"Reinhold et al, 2014, PLOS ONE"
+number_amino_acid_changing_genetic_variants_present_in_either_ESP5400_or_1000G	number_amino_acid_changing_genetic_variants_present_in_either_ESP5400_or_1000G	Exome sequencing; Total number of amino acid changing genetic variants present in either the ESP5400 or 1000 Genomes	Genomic instability	"Reinhold et al, 2014, PLOS ONE"
+Microsatellite_instability	Microsatellite_instability	Microsatellite instability	Genomic instability	"Abaan et al, 2013, Cancer Res (Figure 1A)"
+MutSig1_age	MutSig1_age	"Mutational signature 1, age."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig2_APOBEC	MutSig2_APOBEC	"Mutational signature 2, APOBEC enzyme."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig13_APOBEC	MutSig13_APOBEC	"Mutational signature 13, APOBEC enzyme."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig3_HRD	MutSig3_HRD	"Mutational signature 3, homologous recombination deficiency."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig4_tobacco_smoking	MutSig4_tobacco_smoking	"Mutational signature 4, tobacco smoking."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig29_tobacco_chewing	MutSig29_tobacco_chewing	"Mutational signature 29, tobacco chewing."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig6_MMR_MSI	MutSig6_MMR_MSI	"Mutational signature 6, MMR-deficiency and MSI unstable tumors."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig7_UV-exposure	MutSig7_UV-exposure	"Mutational signature 7, UV-exposure."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig10_polymerase_epsilon	MutSig10_polymerase_epsilon	"Mutational signature 10, polymerase epsilon."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig11_Alkylating_agent	MutSig11_Alkylating_agent	"Mutational signature 11, Alkylating agent."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig15_MMR	MutSig15_MMR	"Mutational signature 15, DNA mismatch repair."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig20_MMR	MutSig20_MMR	"Mutational signature 20, DNA mismatch repair."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+MutSig26_MMR	MutSig26_MMR	"Mutational signature 26, DNA mismatch repair."	Genomic instability	mutational signatures contribution (PMID: 23945592)
+TMEM173_mutation	TMEM173_mutation	TMEM173 mutation. Gene is a a major regulator of the innate immune responseand signals activating type I interferon responses 	Immune response	Molecular outputs obtained from and  as described in CellMiner Cell line signatures.
+TMEM173_transcript_expression	TMEM173_transcript_expression	TMEM173 transcript expression (by microarray).  Gene is a a major regulator of the innate immune responseand signals activating type I interferon responses 	Immune response	Molecular outputs obtained from and  as described in CellMiner Cell line signatures.
+MB21D1_transcript_expression	MB21D1_transcript_expression	"MB21D1 (CGAS) transcript expression (by microarray). Gene is a key cytosolic DNA sensor, a danger signal that triggers immune responses. Acts as an innate immune sensor of infection by retroviruses."	Immune response	Molecular outputs obtained from and as described in CellMiner Cell line signatures. Functional description available at GeneCards
+Vimentin_protein_expression	Vimentin_protein_expression	Vimentin protein expression.	Mesenchymal marker	"Stinson and Boyd et al., Anticancer Res. 1992 (table III)"
+Vimentin_transcript_expression	Vimentin_transcript_expression	Vimentin (VIM) transcript expression.	Mesenchymal marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+MSN_transcript_expression	MSN_transcript_expression	Moesin (MSN) transcript expression.	Mesenchymal marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+CDH2_transcript_expression	CDH2_transcript_expression	N-cadherin (CDH2) transcript expression	Mesenchymal marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+FN1_transcript_expression	FN1_transcript_expression	Fibronectin 1 (FN1)  transcript expression	Mesenchymal marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+SMAD4_transcript_expression	SMAD4_transcript_expression	SMAD4 transcript expression	Mesenchymal marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+SNAI1_transcript_expression	SNAI1_transcript_expression	SNAI1 transcript expression	Mesenchymal marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+AXL_transcript_expression	AXL_transcript_expression	AXL receptor tyrosine kinase (AXL) transcript expression (pro-migration). 	Migration marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+CAV1_transcript_expression	CAV1_transcript_expression	Caveolin 1 (CAV1) transcript expression (pro-migration). 	Migration marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+ADAM9_transcript_expression	ADAM9_transcript_expression	ADAM9 transcript expression. Involved in degradation of extracellular matrix 19	Migration marker	Gene transcript z-scores from cellminer http://discover.nci.nih.gov/cellminer
+NE	NE	Neuroendocrine transcript expression	Neuroendocrine signature	"Gazdar et al, Translational Lung Cancer Research, 2018. PMID:29535911"
+MEDIAN_PROBES_METHYLATION	MEDIAN_PROBES_METHYLATION	All probes median methylation levels	Omic methylation levels	"All probes median methylation levels (Reinhold WC et al, Cancer Res. 2017 Feb 1;77(3):601-612)"
+H_K_NRAS_activation_status	H_K_NRAS_activation_status	"H,K, and NRAS composite activation status. "	Oncogene	"Status determined by a combination of aCGH, transcript, and variant information. Reinhold et al, Clinical Cancer Research,   2015 (Figure 4D). 1 is activated. 0 is not activated."
+AGE	AGE	Patient age	Patient information	"Information from Stinson, et al., (Anticancer Res. 1992 Jul-Aug;12(4):1035-53), DTP, ATCC, and other sources."
+SF2	SF2	SF2	Radiation response phenotype	"Survival fraction following 2 gray as measured by clonagenic survival assay (SF2). Amundson, 2008, Cancer Research."
+SF5	SF5	SF5	Radiation response phenotype	"Survival fraction following 5 gray as measured by clonagenic survival assay (SF5). Amundson, 2008, Cancer Research."
+SF8	SF8	SF8	Radiation response phenotype	"Survival fraction following 8 gray as measured by clonagenic survival assay (SF8). Amundson, 2008, Cancer Research."
+D0	D0	D0	Radiation response phenotype	"The dose required to reduce survival by 37%. as measured by clonagenic survival assay (Do). Amundson, 2008, Cancer Research."
+Casp8	Casp8	Casp 8	Radiation response phenotype	"Caspase activation 24 hours after 8 gray (Casp 8) as measured by CaspSCREEN Flow Cytometric Apoptosis Detection Kit (BioVision).   Amundson, 2008, Cancer Research."
+Casp16	Casp16	Casp 16	Radiation response phenotype	"Caspase activation 24 hours after 16 gray (Casp 16) as measured by CaspSCREEN Flow Cytometric Apoptosis Detection Kit (BioVision).   Amundson, 2008, Cancer Research."
+IS_P53_MUT	IS_P53_MUT	TP53 wild type versus mutant status. 	Tumor suppressor	"Status determined by sa combination of results from three studies, PM O'Conner, et al. Cancer Res. 1997;, O. Ikediobi, MCT,   2006; Reinhold et al, PLOS, 2014. 1 is wild type. 0 is mutant."
